@@ -32,7 +32,7 @@ class ArffBuilder():
 	def GetNumClass(self):
 		return len(self.__classes)
 
-	def __isListContain(list, tgt):
+	def __isListContain(self, list, tgt):
 
 		for e in list:
 			if e == tgt:
@@ -49,7 +49,7 @@ class ArffBuilder():
 
 
 	def __isValidType(self, type):
-		return __isListContain(self.__validTypes, type)
+		return self.__isListContain(self.__validTypes, type)
 
 	def WriteRelation(self, relName):
 		if self.__isRelationWrote == True:
