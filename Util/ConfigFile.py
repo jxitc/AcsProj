@@ -35,19 +35,20 @@ class ConfigFile():
 
 		fr = open(self.__configFilePath, 'r')
 		
-		line = fr.readline().strip()
 
-		while(line):
+		for line in fr.readlines():
+			line = line.strip()
+			if line == "":
+				continue
+			
 			if line[0] != '#': # ignore lines start by #
 				sp = line.split('=')
 				if len(sp) == 2:
-					key = sp[0]
-					val = sp[1]
+					key = sp[0].strip()
+					val = sp[1].strip()
 					self.__configDict[key] = val
 				else:
 					self.__print("Ignore config line: " + line)
-				
-			line = fr.readline().strip()
 
 		self.__print("Read configs from: %s\n%d configs read!" \
 								 % (self.__configFilePath, len(self.__configDict)) \
@@ -68,8 +69,17 @@ class ConfigFile():
 
 		return rsltStr.strip()
 
-	def __print(self, msg):
+	def __print(self, msg):  
 		print("[ConfigFile] " + msg)
+
+	def GetConfig(self, confKey):
+		confKey = confKey.strip()
+		if not self.__configDict.has_key(confKey):
+			return None
+		else:
+			return self.__configDict[confKey]
+
+				
 
 
 

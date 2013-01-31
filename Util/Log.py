@@ -4,6 +4,7 @@ Created on 30 Jan 2013
 @author: xj229
 '''
 
+
 class Log:
 	"""
 	Log class, use to log files 
@@ -14,11 +15,13 @@ class Log:
 
 
 	def __init__(self):
-		import os
+		
 		if self.RunLogFilePath == "":
 			# TODO or read log path from config file?
-			self.RunLogFilePath = os.path.join(os.path.dirname(__file__), \
-																				'../Run.log',)
+			from ConfigFile import ConfigFile
+			cf = ConfigFile()
+			self.RunLogFilePath = cf.GetConfig("RUNLOGFILE")
+			
 		else:
 			pass
 
@@ -73,4 +76,3 @@ if __name__ == '__main__':
 	lg.WriteLog("This is another log message")
 	lg.WriteLog("This is another log message")
 	lg.WriteLog("This is another log message")
-

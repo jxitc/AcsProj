@@ -3,8 +3,6 @@
 # WritingId MemberId  Essay DateSubmitted Grade Comment topicId correctedWritin
 # 1 18428834  Let's arrange an area of 8 metres by 3 metres as the "bowling all
 #
-import sys,os
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from var import *
 import operator
@@ -90,61 +88,58 @@ class WritingData:
 
 		return vals.keys()
 
-	  
 
-def ShrinkFile(wrtFile, outFile = ""):
-	f = open(wrtFile, 'r')
-	
-	if outFile == "":
-		outFile = wrtFile + ".srk"
-	
-	fw = open(outFile, 'w')
-	
-	#assuming first line is
-	firstLine = f.readline().strip()
-	cols = firstLine.split('\t')
-	print cols
+#def ShrinkFile(wrtFile, outFile = ""):
+#	f = open(wrtFile, 'r')
+#	
+#	if outFile == "":
+#		outFile = wrtFile + ".srk"
+#	
+#	fw = open(outFile, 'w')
+#	
+#	#assuming first line is
+#	firstLine = f.readline().strip()
+#	cols = firstLine.split('\t')
+#	print cols
+#
+#	print "Now Shrink to following columns:\n"
+#
+#	cIds = [0,1,3,4,6,8,9,10,11,13]
+#	print(cIds)
+#	outStr = ""
+#	for id in cIds:
+#		outStr =  outStr + str(cols[id]) + '\t'
+#	outStr = outStr.strip() + '\n'
+#	fw.write(outStr)
+#	
+#
+#	# initialize column names
+#	idx = 0
+#	for col in cols:
+#		colName[col] = idx
+#		idx += 1
+#	
+#	line = f.readline()
+#	times = 0
+#	while line:
+#		line = line.strip()
+#		vals = line.split('\t')
+#		outStr = ("%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n" % \
+#								(vals[0],vals[1],vals[3], vals[4], vals[6], \
+#								 vals[8],vals[9],vals[10],vals[11],vals[13]) \
+#						 )
+#		fw.write(outStr)
+#		line = f.readline()
+#
+#		times += 1
+#		if times % 100 == 0:
+#			fw.flush()
+#
+#	fw.flush()
+#	fw.close()
+#
+#	print("Shrink Done! %d lines shrinked to %s !\n" % (times, outFile))
 
-	print "Now Shrink to following columns:\n"
-	print(cIds)
-	cIds = [0,1,3,4,6,8,9,10,11,13]
-	outStr = ""
-	for id in cIds:
-		outStr =  outStr + str(cols[id]) + '\t'
-	outStr = outStr.strip() + '\n'
-	fw.write(outStr)
-	
-
-	# initialize column names
-	idx = 0
-	for col in cols:
-		colName[col] = idx
-		idx += 1
-	
-	line = f.readline()
-	times = 0
-	while line:
-		line = line.strip()
-		vals = line.split('\t')
-		outStr = ("%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n" % \
-								(vals[0],vals[1],vals[3], vals[4], vals[6], \
-								 vals[8],vals[9],vals[10],vals[11],vals[13]) \
-						 )
-		fw.write(outStr)
-		line = f.readline()
-
-		times += 1
-		if times % 100 == 0:
-			fw.flush()
-
-	fw.flush()
-	fw.close()
-
-	print("Shrink Done! %d lines shrinked to %s !\n" % (times, outFile))
-
-
-
-
-fn = "../../data/writing.dat"
+#fn = "../../data/writing.dat"
 #ShrinkFile(fn)
 #ShrinkFile(WritingFile, HomeData + "/writing_all_shrinked.dat")
