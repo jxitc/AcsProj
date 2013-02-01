@@ -4,7 +4,7 @@
 # 1 18428834  Let's arrange an area of 8 metres by 3 metres as the "bowling all
 #
 
-from var import *
+#from var import *
 import operator
 
 class WritingData:
@@ -88,6 +88,27 @@ class WritingData:
 
 		return vals.keys()
 
+	def GetStat(self, colStr):
+		"""
+		Get statistics information about the data
+		"""
+		colIdx = self.__colName[colStr]
+		count = {}
+		for d in self.__data.values():
+			newVal = d[colIdx].lower().strip()
+			if newVal == "":
+				continue
+			else:
+				if count.has_key(newVal):
+					count[newVal] += 1
+				else:
+					count[newVal] = 1
+
+		sortedCnt = sorted(count.iteritems(), \
+										  key=operator.itemgetter(1), \
+											reverse = True)
+		return sortedCnt
+			
 
 #def ShrinkFile(wrtFile, outFile = ""):
 #	f = open(wrtFile, 'r')
