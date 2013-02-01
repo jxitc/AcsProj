@@ -21,6 +21,12 @@ class WritingData:
 		sortedCN = sorted(self.__colName.iteritems(), key=operator.itemgetter(1))
 		return sortedCN
 
+	def GetDictColName(self):
+		return self.__colName
+
+	def GetDictData(self):
+		return self.__data
+
 	def Read(self, dataFn):
 		self.__dataFileName = dataFn
 		f = open(dataFn, 'r')
