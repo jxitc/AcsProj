@@ -14,7 +14,7 @@ class WritingData:
 
 	def __init__(self):
 		self.__colName = {}
-		self.__data = {}
+		self.__data = {} # wid: [col1.. col2 ..]
 		self.__dataFileName = ""
 
 	def GetColNames(self):

@@ -11,6 +11,7 @@ class SensData:
 
 		self.__wrtIdx = 0
 
+
 	def ResetWritingIter(self):
 		self.__wrtIdx = 1
 	
@@ -83,3 +84,7 @@ class SensData:
 				rslt.append((wrtId, sen))
 
 		return rslt
+
+	def GetSensDict(self):
+		# self.__sens = {}
+		return self.__sens

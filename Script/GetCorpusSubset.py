@@ -18,6 +18,174 @@ from Corpus.WritingData import *
 from Util.Log import *
 from Util.ConfigFile import *
 
+class SubSetCriteria:
+	def __init__(self):
+		self.__criSet = {} # i.e. ["levelNo":[1,2,3,4]; 
+											 #			 "Nationality":['cn', 'fr'] ... etc.
+											 #			]
+		self.__wd = None
+		self.__colName = {}
+
+	def AddCriteria(self, colStr, criVal):
+		valSet = []
+		if self.__criSet.has_key(colStr):
+			valSet = self.__criSet[colStr]
+		valSet.append(criVal)
+		self.__criSet = valSet
+	
+	
+	def SetWritingDataObj(self, wdObj):
+		self.__wd = wdObj
+		self.__colName = self.__wd.GetDictColName()
+
+	def GetSummaryStr(self):
+		"""
+		Get a string of description of current defined criteria
+		"""
+
+		rsltStr = ""
+		for colCri in self.__criSet.keys():
+			rsltStr += colCri + "\t["
+
+			valSet = self.__criSet[colCri]
+			if valSet == []:
+				continue
+
+			valStr = ""
+			for v in valSet:
+				valStr += "%s, " % v
+
+			valStr = valStr.strip() # remove trailing space
+			valStr = valStr[0:-1]		# remove last comma ','
+
+			rsltStr += valStr + "]\n"
+
+		return rsltStr
+			
+
+
+	def Test(self, data):
+		"""
+		Test if given data is accordance with the pre-defined
+		crateira
+		"""
+		assert(self.__wd != None)
+		assert(self.__criSet != {})
+
+		for colCri in self.__criSet.keys():
+			colStr = colCri
+			criValSet = self.__criSet[colStr]
+			colId = self.__colName[colStr]
+			tgtVal = data[colId]
+
+			# test if the data is equal to any of the
+			# value in criValSet
+			anyCri = False
+			for val in criValSet:
+				if val == tgtVal:
+					anyCri = True
+					break
+	
+			if anyCri == False: # none of the value satisfied the criteria
+				return False
+
+		return True
+
+class SubsetGetter:
+	"""
+	This class will extract wId which meet the pre-defined criteria
+	"""
+	
+	WdObj = None # writing data obj
+	SdObj = None # sentence data obj
+
+	def __init__(self):
+		cf = ConfigFile()
+
+		if WdObj is None:
+			self.WdObj = WritingData()
+			self.WdObj.Read(cf.GetConfig("WRITINGDATA"))
+
+		if SdObj is None:
+			self.SdObj = WritingData()
+			self.SdObj.Read(cf.GetConfig("SENSDATA"))
+
+		self.__criSet = SubSetCriteria()
+		self.__criSet.SetWritingDataObj(self.WdObj)
+
+	def AddCriteria(self, colStr, criVal):
+		self.__criSet.__criSet.AddCriteria(colStr, criVal)
+
+	def GetWidSet(self):
+		"""
+		Get list (python list) of wId which meets the criteria
+		"""
+
+		dataDict self.WdObj.GetDictData()
+		rsltList = []
+		for wid in dataDict.keys()
+			data = dataDict[wid]
+			if self.__criSet.Test(data)
+				rsltList.append(wid)
+
+		return rsltList
+	
+	def GetIntersectionList(self, list1, list2):
+		"""
+		Get the intersection of two list
+		"""
+		
+		set1 = set(list1)
+		set2 = set(list2)
+
+		interSet = set1 & set2
+
+		return list(interSet)
+		
+	def GetUnionList(self, list1, list2):
+		"""
+		Get the union of two list
+		"""
+		
+		set1 = set(list1)
+		set2 = set(list2)
+
+		interSet = set1 | set2
+
+		return list(interSet)
+
+	
+	def __outputWdFormat(self, widList, outputFn):
+		"""
+		Output the subset in writing data format
+		"""
+		
+		
+	
+	def __outputSdFormat(self, widList, outputFn):
+		"""
+		Output the subset in sens data format
+		"""
+
+		sensDataDict = self.SdObj.GetSensDict()
+
+		for wid in widList:
+			if not sensDataDict.has_key(wid):
+				continue
+
+			sens = wid.
+
+	def OutputSubset(self, widList):
+
+		
+
+
+		
+			
+		
+		
+	
+
 def GetStatStr(stat):
 	rsltStr = ""
 	for e in stat:
