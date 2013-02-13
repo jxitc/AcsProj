@@ -42,6 +42,12 @@ class SubsetGetter:
 	def AddCriteria(self, colStr, criVal):
 		self.__criSet.AddCriteria(colStr, criVal)
 
+	def GetSummaryCriStr(self):
+		"""
+		Get the summary of current criteria set
+		"""
+		return self.__criSet.GetSummaryStr()
+
 	def GetWidSet(self):
 		"""
 		Get list (python list) of wId which meets the criteria
@@ -90,17 +96,25 @@ class SubsetGetter:
 		fw.write("%s\n" % '\t'.join(colStrList))
 	
 		dataDict = self.WdObj.GetDictData()
+		
+		lg = Log()
+		allWrt = 0
 
 		for wid in widList:
 			wid = int(wid)
+
 			if not dataDict.has_key(wid):
 				continue
+
 			data = dataDict[wid]
 			fw.write('%s\n' % '\t'.join(data))
+			allWrt += 1
 
 				
 		fw.flush()
 		fw.close()
+
+		lg.WriteLog("%d sentences has been wrote to %s" % (allWrt, outputFn))
 
 		
 	def __outputSdFormat(self, widList, outputFn):
@@ -111,7 +125,9 @@ class SubsetGetter:
 		fw = open(outputFn, 'w')
 		
 		sensDataDict = self.SdObj.GetSensDict()
-
+		
+		lg = Log()
+		allSens = 0
 		for wid in widList:
 			wid = int(wid)
 			if not sensDataDict.has_key(wid):
@@ -122,19 +138,26 @@ class SubsetGetter:
 			for sen in senList:
 				fw.write("%d:%d\t%s\n" % (wid, senId, sen))
 				senId += 1
+				allSens += 1
 
 		fw.flush()
 		fw.close()
 
-	def OutputSubset(self, widList):
+		lg.WriteLog("%d sentences has been wrote to %s" % (allSens, outputFn))
+
+	def OutputSubset(self, widList, outputPath):
 		cf = ConfigFile()
-		outputPath = cf.GetConfig("SUBSETOUTPUT")
+		
+		#outputPath = cf.GetConfig("SUBSETOUTPUT")
 		outFormat = cf.GetConfig("SUBSETFORMAT")
 		
 		if outFormat == "WRITINGDATA":
 			self.__outputWdFormat(widList, outputPath)
-		elif format == "SENSDATA":
+		elif outFormat == "SENSDATA":
 			self.__outputSdFormat(widList, outputPath)
+		else:
+			print("Wrong outFormat")
+			assert(False)
 
 	def ReadWidList(self, widListPath):
 		"""
@@ -145,20 +168,84 @@ class SubsetGetter:
 		fr = open(widListPath, 'r')
 		list = fr.readlines()
 		fr.close()
+		msgStr = "Read %d wid from file %s" % (len(list), widListPath)
+		print(msgStr)
+		lg = Log()
+		lg.WriteLog(msgStr)
 		return list
 
+	def WriteWidList(self, widList, outPath):
+		"""
+		Output the given wid list to disk
+		"""
+		fw = open(outPath, 'w')
 		
+		i = 0
+		for wid in widList:
+			fw.write(str(wid) + "\n")
+			i += 1
+		print("%d wid wrote to file: %s" % (i, outPath))
+		fw.close()
+
+
+######################
+# Global run
+######################
+
+def main_Get7natlvl123SubsetWid():
+	cf = ConfigFile()
+	lg = Log()
+
+	for nat in ['cn','fr','de','mx','ru','br','it']:
+		lg.WriteLog("\n\nProcessing " + nat)
+
+		sg = SubsetGetter()
+		sg.AddCriteria("Nationality", nat)
+		sg.AddCriteria("LevelNo", 1)
+		sg.AddCriteria("LevelNo", 2)
+		sg.AddCriteria("LevelNo", 3)
+
+		# Get list
+		widList = sg.GetWidSet()
+
+		# Write and log
+		outPath = cf.GetConfig("DATAFOLDER") + "/%s_lvl123" % nat \
+						  + ".widlist"
+
+		lg.WriteLog(sg.GetSummaryCriStr())
+		lg.WriteLog("Write %d wid to widlist %s" % (len(widList), outPath))
+		sg.WriteWidList(widList, outPath)
+
+def main_Combine7natlvl123SubsetWid():
+	cf = ConfigFile()
+	lg = Log()
+
+	sg = SubsetGetter()
+
+	widListAll = []
+	for nat in ['cn','fr','de','mx','ru','br','it']:
+		lg.WriteLog("\n\nProcessing " + nat)
+
+	
+		widList = sg.ReadWidList(cf.GetConfig("DATAFOLDER") + \
+										   "/%s_lvl123" % nat + ".widlist")
+
+		widListAll.extend(widList)
+	
+	outputPath = cf.GetConfig("DATAFOLDER") + "/7nat_lvl123_all.sens"
+	lg.WriteLog("Output 7 nat lvl 123 conbined sensdata to " + outputPath)
+	sg.OutputSubset(widListAll, outputPath)
 
 
 if __name__ == '__main__':
-	sg = SubsetGetter()
-	sg.AddCriteria("Nationality", 'cn')
-	sg.AddCriteria("LevelNo", 7)
-	sg.AddCriteria("LevelNo", 6)
-	sg.AddCriteria("LevelNo", 8)
+	#main_Get7natlvl123SubsetWid()
+	main_Combine7natlvl123SubsetWid()
+
 	
+		
+	pass
 	#widList = sg.GetWidSet()
-	widList = sg.ReadWidList(r"d:\Dropbox\Working Proj\ACS Proj\AcsProj\data\widList.dat")
-	print(len(widList))
-	sg.OutputSubset(widList)
+#	widList = sg.ReadWidList(r"d:\Dropbox\Working Proj\ACS Proj\AcsProj\data\widList.dat")
+#	print(len(widList))
+#	sg.OutputSubset(widList)
 	

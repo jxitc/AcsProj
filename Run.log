@@ -1764,3 +1764,563 @@ Number of writings per group:
 	Group[3] lvl6 -lvl8:	1941
 	Group[4] lvl9 -lvl16:	1617
 
+
+
+===============================
+ Start logging 20130213102632
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[10.26.32]	LevelNo	[7, 6, 8]
+Nationality	[cn]
+
+[10.26.32]	Write 30505 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/cn_lvl678_10.26.32.widlist
+
+
+===============================
+ Start logging 20130213102726
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[10.27.26]	LevelNo	[7, 6, 8]
+Nationality	[cn]
+
+[10.27.26]	Write 30505 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/cn_lvl678_10.27.26.widlist
+
+
+===============================
+ Start logging 20130213104207
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[10.42.17]	
+SubSetCriteria Summary:
+LevelNo	[1, 2, 3]
+Nationality	[cn]
+
+[10.42.17]	Write 63795 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/cn_lvl123_10.42.17.widlist
+[10.42.27]	
+SubSetCriteria Summary:
+LevelNo	[1, 2, 3]
+Nationality	[fr]
+
+[10.42.27]	Write 5758 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/fr_lvl123_10.42.27.widlist
+[10.42.37]	
+SubSetCriteria Summary:
+LevelNo	[1, 2, 3]
+Nationality	[de]
+
+[10.42.37]	Write 6107 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/de_lvl123_10.42.37.widlist
+[10.42.46]	
+SubSetCriteria Summary:
+LevelNo	[1, 2, 3]
+Nationality	[mx]
+
+[10.42.46]	Write 9488 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/mx_lvl123_10.42.46.widlist
+[10.42.56]	
+SubSetCriteria Summary:
+LevelNo	[1, 2, 3]
+Nationality	[ru]
+
+[10.42.56]	Write 14362 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/ru_lvl123_10.42.56.widlist
+[10.43.06]	
+SubSetCriteria Summary:
+LevelNo	[1, 2, 3]
+Nationality	[br]
+
+[10.43.06]	Write 41969 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/br_lvl123_10.43.06.widlist
+[10.43.17]	
+SubSetCriteria Summary:
+LevelNo	[1, 2, 3]
+Nationality	[it]
+
+[10.43.17]	Write 6041 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/it_lvl123_10.43.17.widlist
+
+
+===============================
+ Start logging 20130213105451
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[10.54.51]	
+
+Processing cn
+[10.55.00]	
+SubSetCriteria Summary:
+LevelNo	[1, 2, 3]
+Nationality	[cn]
+
+[10.55.00]	Write 63795 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/cn_lvl123.widlist
+[10.55.00]	
+
+Processing fr
+[10.55.11]	
+SubSetCriteria Summary:
+LevelNo	[1, 2, 3]
+Nationality	[fr]
+
+[10.55.11]	Write 5758 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/fr_lvl123.widlist
+[10.55.11]	
+
+Processing de
+[10.55.21]	
+SubSetCriteria Summary:
+LevelNo	[1, 2, 3]
+Nationality	[de]
+
+[10.55.21]	Write 6107 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/de_lvl123.widlist
+[10.55.21]	
+
+Processing mx
+[10.55.30]	
+SubSetCriteria Summary:
+LevelNo	[1, 2, 3]
+Nationality	[mx]
+
+[10.55.30]	Write 9488 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/mx_lvl123.widlist
+[10.55.30]	
+
+Processing ru
+[10.55.40]	
+SubSetCriteria Summary:
+LevelNo	[1, 2, 3]
+Nationality	[ru]
+
+[10.55.40]	Write 14362 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/ru_lvl123.widlist
+[10.55.40]	
+
+Processing br
+[10.55.49]	
+SubSetCriteria Summary:
+LevelNo	[1, 2, 3]
+Nationality	[br]
+
+[10.55.49]	Write 41969 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/br_lvl123.widlist
+[10.55.49]	
+
+Processing it
+[10.55.59]	
+SubSetCriteria Summary:
+LevelNo	[1, 2, 3]
+Nationality	[it]
+
+[10.55.59]	Write 6041 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/it_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110358
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.04.02]	
+
+Processing cn
+[11.04.07]	
+
+Processing fr
+
+
+===============================
+ Start logging 20130213110432
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.04.36]	
+
+Processing cn
+[11.04.36]	
+
+Processing fr
+
+
+===============================
+ Start logging 20130213110636
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.06.36]	Read 63795 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/cn_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110636
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.06.36]	Read 5758 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/fr_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110636
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.06.36]	Read 6107 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/de_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110636
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.06.36]	Read 9488 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/mx_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110636
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.06.36]	Read 14362 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/ru_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110636
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.06.36]	Read 41969 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/br_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110636
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.06.36]	Read 6041 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/it_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110632
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.06.36]	
+
+Processing cn
+[11.06.36]	
+
+Processing fr
+[11.06.36]	
+
+Processing de
+[11.06.36]	
+
+Processing mx
+[11.06.36]	
+
+Processing ru
+[11.06.36]	
+
+Processing br
+[11.06.36]	
+
+Processing it
+[11.06.36]	Output 7 nat lvl 123 conbined sensdata to d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/7nat_lvl123_all.sens
+
+
+===============================
+ Start logging 20130213110713
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.07.13]	Read 63795 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/cn_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110713
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.07.13]	Read 5758 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/fr_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110713
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.07.13]	Read 6107 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/de_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110713
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.07.13]	Read 9488 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/mx_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110713
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.07.13]	Read 14362 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/ru_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110713
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.07.13]	Read 41969 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/br_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110713
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.07.13]	Read 6041 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/it_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110709
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.07.13]	
+
+Processing cn
+[11.07.13]	
+
+Processing fr
+[11.07.13]	
+
+Processing de
+[11.07.13]	
+
+Processing mx
+[11.07.13]	
+
+Processing ru
+[11.07.13]	
+
+Processing br
+[11.07.13]	
+
+Processing it
+[11.07.13]	Output 7 nat lvl 123 conbined sensdata to d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/7nat_lvl123_all.sens
+
+
+===============================
+ Start logging 20130213110729
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.07.29]	Read 63795 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/cn_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110729
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.07.29]	Read 5758 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/fr_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110729
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.07.29]	Read 6107 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/de_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110729
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.07.29]	Read 9488 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/mx_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110729
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.07.29]	Read 14362 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/ru_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110729
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.07.29]	Read 41969 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/br_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110729
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.07.29]	Read 6041 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/it_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110729
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.07.31]	147520 sentences has been wrote to d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/7nat_lvl123_all.sens
+
+
+===============================
+ Start logging 20130213110725
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.07.29]	
+
+Processing cn
+[11.07.29]	
+
+Processing fr
+[11.07.29]	
+
+Processing de
+[11.07.29]	
+
+Processing mx
+[11.07.29]	
+
+Processing ru
+[11.07.29]	
+
+Processing br
+[11.07.29]	
+
+Processing it
+[11.07.29]	Output 7 nat lvl 123 conbined sensdata to d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/7nat_lvl123_all.sens
+
+
+===============================
+ Start logging 20130213110943
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.09.43]	Read 63795 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/cn_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110943
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.09.43]	Read 5758 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/fr_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110943
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.09.43]	Read 6107 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/de_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110943
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.09.43]	Read 9488 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/mx_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110943
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.09.43]	Read 14362 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/ru_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110943
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.09.43]	Read 41969 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/br_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110943
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.09.43]	Read 6041 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/it_lvl123.widlist
+
+
+===============================
+ Start logging 20130213110939
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.09.43]	
+
+Processing cn
+[11.09.43]	
+
+Processing fr
+[11.09.43]	
+
+Processing de
+[11.09.43]	
+
+Processing mx
+[11.09.43]	
+
+Processing ru
+[11.09.43]	
+
+Processing br
+[11.09.43]	
+
+Processing it
+[11.09.43]	Output 7 nat lvl 123 conbined sensdata to d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/7nat_lvl123_all.sens
+
+
+===============================
+ Start logging 20130213111117
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.11.17]	Read 63795 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/cn_lvl123.widlist
+
+
+===============================
+ Start logging 20130213111117
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.11.17]	Read 5758 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/fr_lvl123.widlist
+
+
+===============================
+ Start logging 20130213111117
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.11.17]	Read 6107 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/de_lvl123.widlist
+
+
+===============================
+ Start logging 20130213111117
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.11.17]	Read 9488 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/mx_lvl123.widlist
+
+
+===============================
+ Start logging 20130213111117
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.11.17]	Read 14362 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/ru_lvl123.widlist
+
+
+===============================
+ Start logging 20130213111117
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.11.17]	Read 41969 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/br_lvl123.widlist
+
+
+===============================
+ Start logging 20130213111117
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.11.17]	Read 6041 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/it_lvl123.widlist
+
+
+===============================
+ Start logging 20130213111117
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.11.17]	39 sentences has been wrote to d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/7nat_lvl123_all.sens
+
+
+===============================
+ Start logging 20130213111113
+ D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
+
+[11.11.17]	
+
+Processing cn
+[11.11.17]	
+
+Processing fr
+[11.11.17]	
+
+Processing de
+[11.11.17]	
+
+Processing mx
+[11.11.17]	
+
+Processing ru
+[11.11.17]	
+
+Processing br
+[11.11.17]	
+
+Processing it
+[11.11.17]	Output 7 nat lvl 123 conbined sensdata to d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/7nat_lvl123_all.sens
