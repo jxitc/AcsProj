@@ -1,0 +1,19 @@
+# This is config file
+
+# Global setting
+RUNLOGFILE = /home/xj229/workspace/AcsProj/Run.log
+
+# Data folder
+DATAFOLDER = /home/xj229/workspace/AcsProj/data
+SENSDATA = /home/xj229/workspace/AcsProj/datasenssel.dat
+WRITINGDATA = /home/xj229/workspace/AcsProj/datawriting_all_shrinked.dat
+#WRITINGDATA = /home/xj229/workspace/AcsProj/datawriting.dat
+VOCAB = /home/xj229/workspace/AcsProj/datasens_alpha_upper.vocab
+
+# Cross validation fold number  
+CVFOLD = 10
+
+# Subset output format
+# "WRITINGDATA" or "SENSDATA"
+SUBSETFORMAT = WRITINGDATA
+SUBSETOUTPUT = /home/xj229/workspace/AcsProj/dataoutput.txt

@@ -29,7 +29,7 @@ class SubSetCriteria:
 		Get a string of description of current defined criteria
 		"""
 
-		rsltStr = ""
+		rsltStr = "\nSubSetCriteria Summary:\n"
 		for colCri in self.__criSet.keys():
 			rsltStr += colCri + "\t["
 
