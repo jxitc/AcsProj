@@ -11,15 +11,15 @@ sys.path.append(os.path.join(os.path.dirname(__file__), 'Util'))
 sys.path.append(os.path.join(os.path.dirname(__file__), 'Script'))
 sys.path.append(os.path.dirname(__file__))
 
-from WritingData import *
-from Vocab import *
-from SensData import *
+from Corpus.WritingData import *
+from Corpus.Vocab import *
+from Corpus.SensData import *
 
-from Log import *
-from ConfigFile import *
+from Util.Log import *
+from Util.ConfigFile import *
 
-from ArffBuilder import *
-from ArffParser import *
+from Weka.ArffBuilder import *
+from Weka.ArffParser import *
 
 class BogBuilder:
 	
@@ -29,14 +29,14 @@ class BogBuilder:
 		senDataPath = cf.GetConfig("SENSDATA")
 		wrtDataPath = cf.GetConfig("WRITINGDATA")
 
-		self._wd = WritingData()
-		self._sd = SensData()
-		self._vocab = Vocab()
+		self.__wd = WritingData()
+		self.__sd = SensData()
+		self.__vocab = Vocab()
 
 		# load ..
-		self._wd.Read(wrtDataPath)
-		self._sd.Read(senDataPath)
-		self._vocab.Read(vocabPath)
+		self.__wd.Read(wrtDataPath)
+		self.__sd.Read(senDataPath)
+		self.__vocab.Read(vocabPath)
 
 	def _getCvSplitRange(self, nFold, nData):
 		# TODO
@@ -68,7 +68,7 @@ class BogBuilder:
 		"""
 
 		cf = ConfigFile()
-		nFold = int(cv.GetConfig("CVFOLD"))
+		nFold = int(cf.GetConfig("CVFOLD"))
 		ratio = 1.0 / float(nFold)
 		
 		# analyse Arff file
@@ -100,7 +100,7 @@ class BogBuilder:
 				while idx < eIdx:
 					fwTrn.write(nData[idx])
 			
-			print("Start writing testing file: " + fnTs)
+			print("Start writing testing file: " + fnTst)
 
 			fwTrn = open(fnTrn, 'w')
 			fwTrn.write(headerStr)
@@ -129,7 +129,7 @@ class BogBuilder:
 		wd = self.__wd
 		sd = self.__sd
 		sd.ResetWritingIter()
-		vocab = self._vocab
+		vocab = self.__vocab
 		
 		ab = ArffBuilder()
 		ab.StartWriting(arffOut)
@@ -150,26 +150,30 @@ class BogBuilder:
 
 		# Write arff data part
 		sd.ResetWritingIter()
-		(wrtId, wrt) = sd.GetNextWriting()
-		allToks = 0
-		afterPrunedToks = 0
-		while wrt:
-			nat = wd.GetValueByWid(wrtId, "Nationality").lower()
-			if nat.strip() == "":
-				(wrtId, wrt) = sd.GetNextWriting()
-				continue
-
-			for sen in wrt:
+		(wrtId, senList) = sd.GetNextWriting()
 		
-		allSens = sd.GetAllSentencesWrtId()
-		nSens = len(allSens)
-	
-		iSen = 0
-		print("Start Writing Training Data...")
-		while iSen < nSens
-			(wrtId, sen) = allSens[iSen]
-			nat = wd.GetValueByWid(wrtId, "Nationality").lower()
-			attrList = ['"%s"' % sen, nat]
-			ab.AddData(attrList)
-			iSen += 1
+		while wrtId:
+			nat = wd.GetValueByWid(wrtId, "Nationality")
+					
+			if nat == None:
+				continue
+			
+			if nat.strip() == "":
+				continue
+			
+			nat = nat.lower().strip()
+			
+			if senList == None:
+				print("Skip none senList")
+				continue
+				
+			for sen in senList:
+				attrList = ['"%s"' % sen, nat]
+				ab.AddData(attrList)
+			
+			(wrtId, senList) = sd.GetNextWriting()
+		
 
+if __name__ == '__main__':
+	bb = BogBuilder()
+	bb.GenerateBog_BeforeFilter('../data/t.arff')

@@ -84,7 +84,7 @@ class SubsetGetter:
 		"""
 		Output the subset in writing data format
 		"""
-		
+		print("Start output writing data: " + outputFn)
 		fw = open(outputFn, 'w')
 		colStrList = [x[0] for x in self.WdObj.GetColNames()]
 		fw.write("%s\n" % '\t'.join(colStrList))
@@ -107,7 +107,7 @@ class SubsetGetter:
 		"""
 		Output the subset in sens data format
 		"""
-
+		print("Start output sentence data: " + outputFn)
 		fw = open(outputFn, 'w')
 		
 		sensDataDict = self.SdObj.GetSensDict()
@@ -133,7 +133,7 @@ class SubsetGetter:
 		
 		if outFormat == "WRITINGDATA":
 			self.__outputWdFormat(widList, outputPath)
-		elif format == "SENSDATA":
+		elif outFormat == "SENSDATA":
 			self.__outputSdFormat(widList, outputPath)
 
 	def ReadWidList(self, widListPath):
@@ -158,7 +158,7 @@ if __name__ == '__main__':
 	sg.AddCriteria("LevelNo", 8)
 	
 	#widList = sg.GetWidSet()
-	widList = sg.ReadWidList(r"d:\Dropbox\Working Proj\ACS Proj\AcsProj\data\widList.dat")
+	widList = sg.ReadWidList(r"/home/xj229/workspace/AcsProj/data/widList.dat")
 	print(len(widList))
 	sg.OutputSubset(widList)
 	

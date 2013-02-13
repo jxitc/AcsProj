@@ -68,6 +68,7 @@ class WritingData:
 			return None
 	
 	def GetValueByWid(self, wid, colStr):
+		wid = int(wid)
 		data = self.GetData(wid)
 		return self.GetValue(data, colStr)
 
