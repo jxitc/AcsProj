@@ -22,7 +22,7 @@ class Log:
 			from ConfigFile import ConfigFile
 			cf = ConfigFile()
 			Log.RunLogFilePath = cf.GetConfig("RUNLOGFILE")
-			
+
 		else:
 			pass
 
