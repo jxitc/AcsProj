@@ -1,4 +1,5 @@
 /data/
+/conf/
 *.ini
 *.swp
 *.swo
