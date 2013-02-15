@@ -38,6 +38,7 @@ class BogBuilder:
 		self.__sd.Read(senDataPath)
 		self.__vocab.Read(vocabPath)
 
+
 	def _getCvSplitRange(self, nFold, nData):
 		# TODO
 		assert(nFold <= nData)
@@ -142,17 +143,17 @@ class BogBuilder:
 				continue
 			strNatClasses += "%s," % n
 		strNatClasses = strNatClasses[0:-1] + "}"
-		ab.AddAttr("nationality", strNatClasses)
+		ab.AddAttr("nationality", "{fr,cn,mx,it,ru,de,br}") # TODO this is hack!
 
 		ab.WriteRelation("text_files")
 		ab.WriteAttr()
 
 
 		# Write arff data part
-		sd.ResetWritingIter()
-		(wrtId, senList) = sd.GetNextWriting()
 		
-		while wrtId:
+		sens = sd.GetAllSentencesWrtId()
+
+		for (wrtId, sen) in sens:
 			nat = wd.GetValueByWid(wrtId, "Nationality")
 					
 			if nat == None:
@@ -162,18 +163,12 @@ class BogBuilder:
 				continue
 			
 			nat = nat.lower().strip()
+
+			attrList = ['"%s"' % sen, nat]
+			ab.AddData(attrList)
 			
-			if senList == None:
-				print("Skip none senList")
-				continue
-				
-			for sen in senList:
-				attrList = ['"%s"' % sen, nat]
-				ab.AddData(attrList)
-			
-			(wrtId, senList) = sd.GetNextWriting()
 		
 
 if __name__ == '__main__':
 	bb = BogBuilder()
-	bb.GenerateBog_BeforeFilter('../data/t.arff')
+	bb.GenerateBog_BeforeFilter('/home/xj229/data/7nat_lvl123_6000each_bf.arff')

@@ -19,6 +19,7 @@ class SensData:
 		if self.__wrtIdx >= len(self.__sens):
 			return (None, None)
 		else:
+			
 			rslt = self.__sens[self.__wrtIdx]
 			curId = self.__wrtIdx
 
@@ -45,6 +46,8 @@ class SensData:
 		fr = open(self.__fileName, 'r')
 		lines = fr.readlines()
 		fr.close()
+		
+		allSens = 0
 
 		for line in lines:
 			#print line
@@ -61,6 +64,8 @@ class SensData:
 			if self.__sens.has_key(wrtId):
 				senList = self.__sens[wrtId]
 			
+			allSens += 1
+			
 			senList.append(sen)
 			self.__sens[wrtId] = senList
 			#print("%d, %d ==> %d" % (len(senList), senId, len(self.__sens)))
@@ -68,7 +73,7 @@ class SensData:
 				print("%d, %d ==> %d" % (len(senList), senId, len(self.__sens)))
 				
 
-		print("Sentence Data load complted! #Sentences=%d" % len(self.__sens))
+		print("Sentence Data load complted! #Sentences=%d" % allSens)
 
 	def GetAllSentences(self):
 		rslt = []
