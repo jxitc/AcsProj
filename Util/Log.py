@@ -12,27 +12,28 @@ class Log:
 	# class static variable
 	RunLogFilePath = "" 
 	RunLogWriter = None
+	cnt = 0
 
 
 	def __init__(self):
-		
-		if self.RunLogFilePath == "":
+	
+		if Log.RunLogFilePath == "":
 			# TODO or read log path from config file?
 			from ConfigFile import ConfigFile
 			cf = ConfigFile()
-			self.RunLogFilePath = cf.GetConfig("RUNLOGFILE")
+			Log.RunLogFilePath = cf.GetConfig("RUNLOGFILE")
 			
 		else:
 			pass
 
-		if self.RunLogWriter is None:
-			self.RunLogWriter = open(self.RunLogFilePath, 'a') # Start appending
+		if Log.RunLogWriter is None:
+			Log.RunLogWriter = open(self.RunLogFilePath, 'a') # Start appending
 		
-		print("Start Logging")
-		self.RunLogWriter.write( \
-			"\n\n===============================\n Start logging %s\n %s\n\n" \
-			% (self.GetDateStamp(), __file__) \
-		)
+			print("Start Logging")
+			Log.RunLogWriter.write( \
+			 "\n\n===============================\n Start logging %s\n %s\n\n" \
+			 % (self.GetDateStamp(), __file__) \
+			)
 		
 	
 	def GetDateStamp(self):
@@ -60,10 +61,8 @@ class Log:
 		Write message to log file
 		"""
 
-		self.RunLogWriter.write("[%s]\t%s\n" % (self.GetTimeStamp(), msg))
+		Log.RunLogWriter.write("[%s]\t%s\n" % (self.GetTimeStamp(), msg))
 		
-
-
 
 # Testing...
 if __name__ == '__main__':
