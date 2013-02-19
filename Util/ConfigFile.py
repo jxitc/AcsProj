@@ -75,6 +75,7 @@ class ConfigFile():
 	def GetConfig(self, confKey):
 		confKey = confKey.strip()
 		if not self.__configDict.has_key(confKey):
+			print("Error! Config not found for: " + confKey)
 			return None
 		else:
 			return self.__configDict[confKey]

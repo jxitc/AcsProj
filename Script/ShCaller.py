@@ -22,9 +22,9 @@ class ShCaller:
 	def __init__(self):
 		self.__lg = Log()
 		
-	def __call(self, cmdList):
+	def Call(self, cmdList):
 		cmdStr = ' '.join(cmdList)
 		print("Executing command:\n" + cmdStr)
+		
 		self.__lg.WriteLog(cmdStr)
 		subprocess.call(cmdList, shell=True)
-		

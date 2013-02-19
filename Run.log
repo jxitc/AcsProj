@@ -3098,3 +3098,51 @@ Processing it
 [18.07.32]	This is another log message
 [18.07.32]	This is another log message
 [18.07.32]	This is another log message
+
+
+===============================
+ Start logging 20130219173232
+ /auto/homes/xj229/workspace/AcsProj/Util/Log.py
+
+
+
+===============================
+ Start logging 20130219173359
+ /auto/homes/xj229/workspace/AcsProj/Util/Log.pyc
+
+
+
+===============================
+ Start logging 20130219173728
+ /auto/homes/xj229/workspace/AcsProj/Util/Log.pyc
+
+
+
+===============================
+ Start logging 20130219174522
+ /auto/homes/xj229/workspace/AcsProj/Util/Log.pyc
+
+[17.45.45]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
+
+
+===============================
+ Start logging 20130219174646
+ /auto/homes/xj229/workspace/AcsProj/Util/Log.pyc
+
+[17.46.46]	java -cp /auto/home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
+
+
+===============================
+ Start logging 20130219174756
+ /auto/homes/xj229/workspace/AcsProj/Util/Log.pyc
+
+[17.47.56]	java -cp /auto/home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff
+[17.47.56]	java -cp /auto/home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
+
+
+===============================
+ Start logging 20130219175117
+ /auto/homes/xj229/workspace/AcsProj/Util/Log.pyc
+
+[17.51.17]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff
+[17.51.17]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
