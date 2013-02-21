@@ -92,5 +92,6 @@ class SensData:
 		return rslt
 
 	def GetSensDict(self):
-		# self.__sens = {}
+		# Format:
+		# {wrtId(int) : [sentens_list]}
 		return self.__sens

@@ -50,54 +50,42 @@ class WekaSh:
 		http://weka.sourceforge.net/doc.dev/weka/filters/unsupervised/attribute/StringToWordVector.html
 		"""
 
+		cmdList = ['./StringToWordVector.sh']
 
-		fixPara = "java -cp %s weka.filters.unsupervised.attribute." \
-							"StringToWordVector -N 0 -i %s -o %s" \
-							% (WekaSh.__wekaJar, inputArff, outputArff)
-
-
+		# add parameters one by one
 		
-		# Start constructing sh command list
-		cmdList = fixPara.split(' ')
+		cmdList.append(WekaSh.__cfg.GetConfig("WEKA_SWV_WORDTOKEEP")) #$1
 
-		WekaSh.__shCaller.Call(cmdList)
-		
-		# add -tokenizer list
-		# TODO also the token string
-		# -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\""
+		if WekaSh.__cfg.GetConfig("WEKA_SWV_LOWER") == 'TRUE':
+			cmdList.append('-L') #$2
+			
+		cmdList.append(WekaSh.__cfg.GetConfig("WEKA_SWV_STEMMER")) #$3
+		cmdList.append(WekaSh.__cfg.GetConfig("WEKA_SWV_MINFREQ")) #$4
 
-		tokPara = r"""
-		"weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\""
-		"""
-		tokPara = tokPara.strip()
-		cmdList.append('-tokenizer')
-		cmdList.append(tokPara)
+		cmdList.append(inputArff) #$5
+		cmdList.append(outputArff) #$6
 
-		
-		# process valParas and bool Paras
-		valParas = {"WEKA_SWV_WORDTOKEEP" : "W", \
-								"WEKA_SWV_MINFREQ" : "M",	\
-								"WEKA_SMV_STEMMER" : "stemmer" \
-							 }
-
-		for k in valParas.keys():
-			cfVal = WekaSh.__cfg.GetConfig(k)
-			paraStr = "-" + valParas[k]
-			cmdList.append(paraStr)
-			cmdList.append(cfVal)
-
-		boolParas = {"WEKA_SWV_LOWER" : "L"}
-
-		for k in boolParas.keys():
-			cfVal = WekaSh.__cfg.GetConfig(k)
-			if cfVal == "TRUE":
-				paraStr = "-" + boolParas[k]
-				cmdList.append(paraStr)
+		cmdList.append(WekaSh.__wekaJar)
 		
 		print(cmdList)
 		
 		WekaSh.__shCaller.Call(cmdList)
 		
+	def LibSVMSaver(self, iArffFile, oLibSVMFile):
+		msg = "Convert arff to libSVM file"
+		print(msg)
+		
+		iniPara = "java -Xmx5000M -cp %s weka.core.converters.LibSVMSaver " \
+							"-c first" % (WekaSh.__wekaJar)
+		cmdList = iniPara.split(' ')
+		
+		cmdList.append('-i')
+		cmdList.append(iArffFile)
+
+		cmdList.append('-o')
+		cmdList.append(oLibSVMFile)
+		
+		self.__shCaller.Call(cmdList)
 
 
 if __name__ == '__main__':

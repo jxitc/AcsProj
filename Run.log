@@ -3146,3 +3146,921 @@ Processing it
 
 [17.51.17]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff
 [17.51.17]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
+
+
+===============================
+ Start logging 20130220053834
+ /home/xj229/workspace/AcsProj/Util/Log.py
+
+[05.38.34]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff
+[05.38.34]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
+
+
+===============================
+ Start logging 20130220054310
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[05.43.10]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector
+
+
+===============================
+ Start logging 20130220054344
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[05.43.44]	java -cp /home/xj229/tools/weka/weka.jar
+
+
+===============================
+ Start logging 20130220054406
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[05.44.06]	java -cp /home/xj229/tools/weka/weka.jara.xx
+
+
+===============================
+ Start logging 20130220054512
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[05.45.12]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector
+
+
+===============================
+ Start logging 20130220060141
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[06.01.41]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
+
+
+===============================
+ Start logging 20130220060534
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[06.05.34]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
+
+
+===============================
+ Start logging 20130220060659
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[06.06.59]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer weka.core.tokenizers.WordTokenizer -delimiters \  -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
+
+
+===============================
+ Start logging 20130220060714
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[06.07.14]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer weka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
+
+
+===============================
+ Start logging 20130220060735
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[06.07.35]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
+
+
+===============================
+ Start logging 20130220060828
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[06.08.28]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
+
+
+===============================
+ Start logging 20130220060844
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[06.08.44]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
+
+
+===============================
+ Start logging 20130220061111
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[06.11.11]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters " \\r\\n\\t.,;:\\\'\\\"()?!"" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
+
+
+===============================
+ Start logging 20130220062356
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[06.23.56]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \\" \\r\\n\\t.,;:\\\'\\\"()?!\\"" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
+
+
+===============================
+ Start logging 20130220062435
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[06.24.35]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
+
+
+===============================
+ Start logging 20130220065805
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+
+
+===============================
+ Start logging 20130220065942
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[06.59.42]	./StringToWordVector.sh 25000 -L weka.core.stemmers.LovinsStemmer 10 ../data/7nat_lvl123_6000each_bf.arff ../data/7nat_lvl123_6000each_bog.arff /home/xj229/tools/weka/weka.jar
+
+
+===============================
+ Start logging 20130220070404
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[07.04.04]	./StringToWordVector.sh 25000 -L weka.core.stemmers.LovinsStemmer 10 ../data/7nat_lvl123_6000each_bf.arff ../data/7nat_lvl123_6000each_bog.arff /home/xj229/tools/weka/weka.jar
+
+
+===============================
+ Start logging 20130220070429
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[07.04.29]	./StringToWordVector.sh 25000 -L weka.core.stemmers.LovinsStemmer 10 ../data/7nat_lvl123_6000each_bf.arff ../data/7nat_lvl123_6000each_bog.arff /home/xj229/tools/weka/weka.jar
+
+
+===============================
+ Start logging 20130220192045
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[19.20.45]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:False
+[19.20.45]	[BogBuilder] First pass vocab scan, #vocab = 36064
+[19.20.45]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4497
+
+
+===============================
+ Start logging 20130220192103
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[19.21.03]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:False
+[19.21.03]	[BogBuilder] First pass vocab scan, #vocab = 36064
+[19.21.03]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4497
+
+
+===============================
+ Start logging 20130220192120
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[19.21.20]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:False
+[19.21.20]	[BogBuilder] First pass vocab scan, #vocab = 36064
+[19.21.20]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4497
+[19.21.25]	Done! Number of instance wrote: 0
+
+
+===============================
+ Start logging 20130220192527
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[19.25.27]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:False
+[19.25.27]	[BogBuilder] First pass vocab scan, #vocab = 36064
+[19.25.27]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4497
+[19.25.32]	Done! Number of instance wrote: 208935
+
+
+===============================
+ Start logging 20130220192747
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[19.27.47]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:False
+[19.27.47]	[BogBuilder] First pass vocab scan, #vocab = 36064
+[19.27.47]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4497
+[19.27.52]	Done! Number of instance wrote: 208935
+
+
+===============================
+ Start logging 20130220195816
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[19.58.16]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:True
+[19.58.16]	[BogBuilder] First pass vocab scan, #vocab = 30118
+[19.58.16]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4077
+[19.58.21]	Done! Number of instance wrote: 208935
+
+
+===============================
+ Start logging 20130220200049
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[20.00.49]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:True
+[20.00.49]	[BogBuilder] First pass vocab scan, #vocab = 30118
+[20.00.49]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4077
+
+
+===============================
+ Start logging 20130220200140
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[20.01.40]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:True
+[20.01.40]	[BogBuilder] First pass vocab scan, #vocab = 30118
+[20.01.40]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4077
+
+
+===============================
+ Start logging 20130220200259
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[20.02.59]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:True
+[20.02.59]	[BogBuilder] First pass vocab scan, #vocab = 30118
+[20.02.59]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4077
+
+
+===============================
+ Start logging 20130220200357
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[20.03.57]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:True
+[20.03.57]	[BogBuilder] First pass vocab scan, #vocab = 30118
+[20.03.57]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4077
+
+
+===============================
+ Start logging 20130220200554
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[20.05.54]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:True
+[20.05.54]	[BogBuilder] First pass vocab scan, #vocab = 30118
+[20.05.54]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4077
+
+
+===============================
+ Start logging 20130220200729
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[20.07.29]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:True
+[20.07.29]	[BogBuilder] First pass vocab scan, #vocab = 30118
+[20.07.29]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4077
+
+
+===============================
+ Start logging 20130220200747
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[20.07.47]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:True
+[20.07.47]	[BogBuilder] First pass vocab scan, #vocab = 30118
+[20.07.47]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4077
+
+
+===============================
+ Start logging 20130220200842
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[20.08.42]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:True
+[20.08.42]	[BogBuilder] First pass vocab scan, #vocab = 30118
+[20.08.42]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4077
+[20.08.47]	Done! Number of instance wrote: 208799
+
+
+===============================
+ Start logging 20130220211056
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[21.10.56]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:True
+[21.10.56]	[BogBuilder] First pass vocab scan, #vocab = 25112
+[21.10.56]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 3613
+[21.11.16]	Done! Number of instance wrote: 208810
+
+
+===============================
+ Start logging 20130220211220
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[21.12.20]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:False
+[21.12.20]	[BogBuilder] First pass vocab scan, #vocab = 30867
+[21.12.20]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4015
+[21.12.40]	Done! Number of instance wrote: 208886
+
+
+===============================
+ Start logging 20130220212735
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[21.27.35]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.arff
+[21.27.38]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:5 -alphanumonly:False
+[21.27.38]	[BogBuilder] First pass vocab scan, #vocab = 35979
+[21.27.38]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7462
+[21.27.44]	Done! Number of instance wrote: 208904
+
+
+===============================
+ Start logging 20130220212810
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[21.28.10]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.arff
+[21.28.27]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
+[21.28.27]	[BogBuilder] First pass vocab scan, #vocab = 30867
+[21.28.27]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6519
+[21.28.47]	Done! Number of instance wrote: 208907
+
+
+===============================
+ Start logging 20130220213901
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[21.39.01]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.arff
+[21.39.19]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
+[21.39.19]	[BogBuilder] First pass vocab scan, #vocab = 30951
+[21.39.19]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6542
+[21.39.39]	Done! Number of instance wrote: 208907
+
+
+===============================
+ Start logging 20130220214212
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[21.42.12]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.arff
+[21.42.30]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
+[21.42.30]	[BogBuilder] First pass vocab scan, #vocab = 31005
+[21.42.30]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6546
+[21.42.50]	Done! Number of instance wrote: 208907
+
+
+===============================
+ Start logging 20130220220215
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[22.02.15]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.arff
+
+
+===============================
+ Start logging 20130220220350
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[22.03.50]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.arff
+[22.04.10]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
+[22.04.10]	[BogBuilder] First pass vocab scan, #vocab = 30988
+[22.04.10]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6536
+[22.04.33]	Done! Number of instance wrote: 208906
+
+
+===============================
+ Start logging 20130220220530
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[22.05.30]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.arff
+[22.05.36]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:5 -alphanumonly:False
+[22.05.36]	[BogBuilder] First pass vocab scan, #vocab = 36047
+[22.05.36]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7476
+[22.05.45]	Done! Number of instance wrote: 208903
+
+
+===============================
+ Start logging 20130221162352
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[16.23.52]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.arff
+[16.23.58]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:5 -alphanumonly:False
+[16.23.58]	[BogBuilder] First pass vocab scan, #vocab = 36047
+[16.23.58]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7476
+[16.24.07]	Done! Number of instance wrote: 208903
+[16.24.07]	Time Used(s): 15.851191
+Memory Used (Mb): 0.000000
+		=========== Prev Mem ============
+		None
+		=========== ======== ============
+		
+		=========== After Mem ===========
+		None
+		=========== ======== ============
+		
+
+
+===============================
+ Start logging 20130221162502
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[16.25.02]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.arff
+[16.25.08]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:5 -alphanumonly:False
+[16.25.08]	[BogBuilder] First pass vocab scan, #vocab = 36047
+[16.25.08]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7476
+[16.25.17]	Done! Number of instance wrote: 208903
+[16.25.17]	Time Used(s): 15.801887
+Memory Used (Mb): 0.000000
+		=========== Prev Mem ============
+		n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	529904
+ru_minflt ->	1382
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	2
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	1
+ru_oublock ->	16
+ru_stime ->	0.016001
+ru_utime ->	0.012
+
+		=========== ======== ============
+		
+		=========== After Mem ===========
+		n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	529904
+ru_minflt ->	93349
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	19
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	4
+ru_oublock ->	20856
+ru_stime ->	0.188011
+ru_utime ->	15.592974
+
+		=========== ======== ============
+		
+
+
+===============================
+ Start logging 20130221163213
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[16.32.13]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.arff
+[16.32.19]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:5 -alphanumonly:False
+[16.32.19]	[BogBuilder] First pass vocab scan, #vocab = 36047
+[16.32.19]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7476
+[16.32.28]	Done! Number of instance wrote: 208903
+[16.32.28]	
+
+Perfmon Summary:
+Time Used(s): 15.962027
+Memory Used (Mb): 0.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	530136
+ru_minflt ->	1381
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	0
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	1
+ru_oublock ->	16
+ru_stime ->	0.012
+ru_utime ->	0.008
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	530136
+ru_minflt ->	93348
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	20
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	4
+ru_oublock ->	20856
+ru_stime ->	0.216013
+ru_utime ->	15.53297
+
+=========== ======== ============
+		
+
+
+===============================
+ Start logging 20130221163441
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[16.34.41]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.arff
+[16.35.01]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
+[16.35.01]	[BogBuilder] First pass vocab scan, #vocab = 30988
+[16.35.01]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6536
+[16.35.25]	Done! Number of instance wrote: 208906
+[16.35.25]	
+
+Perfmon Summary:
+Time Used(s): 44.683976
+Memory Used (Mb): 0.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	532576
+ru_minflt ->	1377
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	0
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	1
+ru_oublock ->	0
+ru_stime ->	0.012
+ru_utime ->	0.012
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	532576
+ru_minflt ->	93344
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	47
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	4
+ru_oublock ->	20768
+ru_stime ->	0.212013
+ru_utime ->	44.234764
+
+=========== ======== ============
+		
+
+
+===============================
+ Start logging 20130221165331
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[16.53.31]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.arff
+[16.53.51]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
+[16.53.51]	[BogBuilder] First pass vocab scan, #vocab = 30988
+[16.53.51]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6536
+[16.54.14]	Done! Number of instance wrote: 208906
+
+
+===============================
+ Start logging 20130221165500
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+
+
+===============================
+ Start logging 20130221165612
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[16.56.12]	
+
+Perfmon Summary:
+Time Used(s): 1.186473
+Memory Used (Mb): 0.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	533320
+ru_minflt ->	1475
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	0
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	1
+ru_oublock ->	0
+ru_stime ->	0.016001
+ru_utime ->	0.012
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	533320
+ru_minflt ->	80626
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	2
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	1
+ru_oublock ->	0
+ru_stime ->	0.16001
+ru_utime ->	1.048065
+
+=========== ======== ============
+		
+
+
+===============================
+ Start logging 20130221211239
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[21.12.39]	
+
+Perfmon Summary:
+Time Used(s): 1.211547
+Memory Used (Mb): 0.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	538540
+ru_minflt ->	1542
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	0
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	1
+ru_oublock ->	16
+ru_stime ->	0.012
+ru_utime ->	0.016001
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	538540
+ru_minflt ->	80695
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	3
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	1
+ru_oublock ->	16
+ru_stime ->	0.128008
+ru_utime ->	1.108069
+
+=========== ======== ============
+		
+
+
+===============================
+ Start logging 20130221211414
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[21.14.14]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.arff -o /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.libsvm
+[21.14.24]	
+
+Perfmon Summary:
+Time Used(s): 11.153445
+Memory Used (Mb): 0.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	544476
+ru_minflt ->	1539
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	0
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	1
+ru_oublock ->	8
+ru_stime ->	0.020001
+ru_utime ->	0.016001
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	544476
+ru_minflt ->	80797
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	3
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	3
+ru_oublock ->	8
+ru_stime ->	0.156009
+ru_utime ->	1.052065
+
+=========== ======== ============
+		
+
+
+===============================
+ Start logging 20130221212036
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[21.20.36]	/home/xj229/tools/liblinear-1.93/train -v None /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.libsvm
+
+
+===============================
+ Start logging 20130221212213
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[21.22.13]	/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.libsvm
+
+
+===============================
+ Start logging 20130221212419
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[21.24.19]	/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.libsvm
+
+
+===============================
+ Start logging 20130221212452
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[21.24.52]	/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.libsvm
+
+
+===============================
+ Start logging 20130221213654
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[21.36.54]	/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.libsvm
+[21.39.47]	
+
+Perfmon Summary:
+Time Used(s): 172.239975
+Memory Used (Mb): 0.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	580376
+ru_minflt ->	1477
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	0
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	1
+ru_oublock ->	16
+ru_stime ->	0.016001
+ru_utime ->	0.008
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	580376
+ru_minflt ->	1628
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	4
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	1730
+ru_oublock ->	16
+ru_stime ->	0.056003
+ru_utime ->	0.060003
+
+=========== ======== ============
+		
+
+
+===============================
+ Start logging 20130221220908
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[22.09.08]	/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.libsvm
+[22.12.00]	
+
+Perfmon Summary:
+Time Used(s): 172.102252
+Memory Used (Mb): 0.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	583460
+ru_minflt ->	3006
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	2
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	33
+ru_oublock ->	24
+ru_stime ->	0.028001
+ru_utime ->	0.052003
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	583460
+ru_minflt ->	3383
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	12
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	2114
+ru_oublock ->	24
+ru_stime ->	0.068004
+ru_utime ->	0.140008
+
+=========== ======== ============
+		

@@ -90,21 +90,22 @@ class ArffBuilder():
 		self.__outFw.write(outStr + "\n")
 
 		
+	def AddDataSparse(self, attrList):
+		if attrList == []:
+			return
 
-	def AddDataSparse(self, feaList):
-		"""
-		Assume data is following format:
-		[
-			(idx, val),
-			(idx, val),
-			....
-		]
-		"""
-		# Asssume the passed-in data is also sparse format
-		nAttr = self.GetNumAttr()
-		for fea in feaList:
-			feaIdx = fea[0]
-			feaVal = fea[1]
+		if not self.__isDataWrote:
+			self.__outFw.write("\n\n@data\n")
+			self.__isDataWrote = True
+
+		# write data entry
+		outStr = "{"
+		for fe in attrList:
+			outStr += "%s, " % fe
+		outStr = outStr[0:-2]
+		self.__outFw.write(outStr + "}\n")
+
+
 		
 
 	def WriteArffHeader(self):
