@@ -408,8 +408,8 @@ if __name__ == '__main__':
 	#bb.GenerateBog_BeforeFilter('/home/xj229/data/7nat_lvl123_6000each_bf.arff')
 
 	iSenFile = '/home/xj229/data/7nat_lvl123_6000each.sen'
-	oArffFile = '/home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.arff'
-	#bb.GetBog(iSenFile, oArffFile)
+	oArffFile = '/home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.arff'
+	bb.GetBog(iSenFile, oArffFile)
 
 	# Covert arff to libsvm
 	ws = WekaSh()

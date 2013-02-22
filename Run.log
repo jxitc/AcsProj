@@ -4064,3 +4064,256 @@ ru_utime ->	0.140008
 
 =========== ======== ============
 		
+
+
+===============================
+ Start logging 20130221233022
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[23.30.22]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.arff -o /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.libsvm
+[23.30.22]	
+
+Perfmon Summary:
+Time Used(s): 1.264186
+Memory Used (Mb): 0.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	581660
+ru_minflt ->	1535
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	0
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	1
+ru_oublock ->	0
+ru_stime ->	0.016001
+ru_utime ->	0.012
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	581660
+ru_minflt ->	80802
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	3
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	3
+ru_oublock ->	0
+ru_stime ->	0.124007
+ru_utime ->	1.076067
+
+=========== ======== ============
+		
+
+
+===============================
+ Start logging 20130221233036
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[23.30.36]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.arff
+[23.30.56]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:False
+[23.30.56]	[BogBuilder] First pass vocab scan, #vocab = 30988
+[23.30.56]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4025
+[23.31.19]	Done! Number of instance wrote: 208885
+[23.31.19]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.arff -o /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.libsvm
+[23.31.25]	
+
+Perfmon Summary:
+Time Used(s): 50.513358
+Memory Used (Mb): 0.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	581744
+ru_minflt ->	1536
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	0
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	1
+ru_oublock ->	0
+ru_stime ->	0.016001
+ru_utime ->	0.012
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	581744
+ru_minflt ->	93654
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	46
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	6
+ru_oublock ->	20384
+ru_stime ->	0.236014
+ru_utime ->	43.454715
+
+=========== ======== ============
+		
+
+
+===============================
+ Start logging 20130221233202
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[23.32.02]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_STM.arff
+[23.32.21]	BOG setting: BogBuilder -stmmer:True -lower:False -minFreq:5 -alphanumonly:False
+[23.32.21]	[BogBuilder] First pass vocab scan, #vocab = 36898
+[23.32.21]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7546
+[23.32.44]	Done! Number of instance wrote: 208896
+[23.32.44]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_6000each.bog_M5_STM.arff -o /home/xj229/data/7nat_lvl123_6000each.bog_M5_STM.libsvm
+[23.32.56]	
+
+Perfmon Summary:
+Time Used(s): 55.181013
+Memory Used (Mb): 0.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	581840
+ru_minflt ->	1535
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	0
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	1
+ru_oublock ->	0
+ru_stime ->	0.036002
+ru_utime ->	0.012
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	581840
+ru_minflt ->	93653
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	49
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	8
+ru_oublock ->	21080
+ru_stime ->	0.188011
+ru_utime ->	42.670666
+
+=========== ======== ============
+		
+
+
+===============================
+ Start logging 20130221233613
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[23.36.13]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.arff
+[23.36.34]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:True
+[23.36.34]	[BogBuilder] First pass vocab scan, #vocab = 25112
+[23.36.34]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 5791
+[23.36.57]	Done! Number of instance wrote: 208845
+[23.36.57]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.arff -o /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.libsvm
+[23.37.05]	
+
+Perfmon Summary:
+Time Used(s): 53.465714
+Memory Used (Mb): 0.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	584732
+ru_minflt ->	1539
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	1
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	1
+ru_oublock ->	8
+ru_stime ->	0.020001
+ru_utime ->	0.024001
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	584732
+ru_minflt ->	93650
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	48
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	9
+ru_oublock ->	19544
+ru_stime ->	0.204012
+ru_utime ->	44.386774
+
+=========== ======== ============
+		

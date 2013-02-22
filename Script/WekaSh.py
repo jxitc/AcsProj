@@ -87,6 +87,7 @@ class WekaSh:
 		
 		self.__shCaller.Call(cmdList)
 
+	
 
 if __name__ == '__main__':
 	ws = WekaSh()
