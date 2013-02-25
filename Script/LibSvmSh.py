@@ -5,11 +5,7 @@ Created on 21 Feb 2013
 '''
 
 import sys,os
-sys.path.append(os.path.join(os.path.dirname(__file__), 'Corpus'))
-sys.path.append(os.path.join(os.path.dirname(__file__), 'Weka'))
-sys.path.append(os.path.join(os.path.dirname(__file__), 'Util'))
-sys.path.append(os.path.join(os.path.dirname(__file__), 'Script'))
-sys.path.append(os.path.dirname(__file__))
+sys.path.append('../')
 
 from Util.Log import *
 from Util.ConfigFile import *
@@ -55,8 +51,17 @@ class LibSvmSh:
 
 		cmdList = iniPara.split(' ')
 
-		rdFile = '/home/xj229/data/a.log'
+		(folderName, fName) = os.path.split(testSetPath)
+		(fName, extName) = os.path.splitext(fName)
+		import time
+		timeStamp = time.strftime("%y%m%d%H%M%S", time.localtime())
+		rdFile = fName + ".libsvmEval_%s.log" % timeStamp
+
 		LibSvmSh.__shCaller.RedirectedCall(cmdList, rdFile)
+
+		getRslt = LibSvmSh.__shCaller.GetGrep('Accuracy', "/home/xj229/logs/" + rdFile)
+		print(getRslt)
+		LibSvmSh.__log.WriteLog(getRslt)
 	
 if __name__ == '__main__':
 	pfm = Perfmon()
@@ -64,7 +69,7 @@ if __name__ == '__main__':
 	pfm.Start()
 	
 	lss = LibSvmSh()
-	fn = '/home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.libsvm'
+	fn = '/home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.libsvm'
 	lss.RunEval(fn)
 	
 	pfm.Stop()
@@ -73,3 +78,4 @@ if __name__ == '__main__':
 	print(msg)
 	lg = Log()
 	lg.WriteLog(msg)
+

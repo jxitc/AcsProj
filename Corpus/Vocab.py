@@ -14,8 +14,14 @@ class Vocab:
 
 		for line in lines:
 			sp = line.strip().split('\t')
-			wrd = sp[0]
-			frq = sp[1]
+			if len(sp) >= 2:
+				wrd = sp[0]
+				frq = int(sp[1])
+			else:
+				wrd = sp[0]
+				frq = 1
+
+			wrd = wrd.upper()
 			self.__dict[wrd] = frq
 
 		print("Vocab load completed! %d words loaded" % len(self.__dict))

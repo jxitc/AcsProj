@@ -61,14 +61,16 @@ class Perfmon:
 		self.__endRu = None # start resrouce usage
 
 	def __getResourceUsage(self):
-		return resource.getrusage(resource.RUSAGE_SELF)
+		# RUSAGE_SELF: for this process only (not include subprocess.call(...)
+		# RUSAGE_CHILD: Child process only, i.e. subprocess.call()
+		# RUSAGE_BOTH: both, but may not working on some system
+		return resource.getrusage(resource.RUSAGE_CHILDREN)
 
 	def Start(self):
 		print("Performance Monitor start working!!")
 		self.__status = 'Started'
 		self.__timer.Start()
 		self.__startRu = self.__getResourceUsage()
-
 	
 	def Stop(self):
 		print("Performance Monitor stopped working!!")

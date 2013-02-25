@@ -16,6 +16,7 @@ import time
 import os.path
 from threading import *
 
+from Util.ConfigFile import *
 from Util.Log import *
 
 class ThreadFlag:
@@ -47,6 +48,7 @@ class ShCaller:
 		"""
 
 		# Wait for file open first
+		time.sleep(2)
 		interval = 0.1
 		while(True):
 			if os.path.exists(rdFilePath):
@@ -87,8 +89,9 @@ class ShCaller:
 			rdFilePath = os.path.join(logFolder, fileName)
 
 		cmdStr = ' '.join(cmdList)
-		print("Executing command (redirect to file: %s):\n%s" % (rdFilePath, cmdStr))
-		self.__lg.WriteLog(cmdStr)
+		msg = "Executing command (redirect to file: %s):\n%s" % (rdFilePath, cmdStr)
+		print(msg)
+		self.__lg.WriteLog(msg)
 
 		flagObj = ThreadFlag()
 
@@ -104,3 +107,19 @@ class ShCaller:
 
 		# Finished command, stop monitoring thread
 		flagObj.Flag = 2
+
+	def GetGrep(self, pat, file):
+		"""
+		Get the grep result 
+		"""
+		cmdList = []
+		cmdList.append('grep')
+		cmdList.append(pat)
+		cmdList.append(file)
+
+		# Python 2.6.8 can only use following:
+		rslt = subprocess.Popen(cmdList, \
+														stdout = subprocess.PIPE).communicate()[0]
+
+		return rslt
+		

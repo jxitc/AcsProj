@@ -7,11 +7,9 @@ Created on 2013-1-31
 '''
 
 import sys,os
-sys.path.append(os.path.join(os.path.dirname(__file__), 'Corpus'))
-sys.path.append(os.path.join(os.path.dirname(__file__), 'Weka'))
-sys.path.append(os.path.join(os.path.dirname(__file__), 'Util'))
-sys.path.append(os.path.join(os.path.dirname(__file__), 'Script'))
-sys.path.append(os.path.dirname(__file__))
+sys.path.append('../')
+sys.path.append('./')
+
 
 from Corpus.WritingData import *
 from Corpus.Vocab import *
@@ -62,6 +60,15 @@ class BogBuilder:
 			self.__isAlphaNumOnly = True
 		else:
 			self.__isAlphaNumOnly = False
+
+		self.__stopWordsVocab = None
+		if cf.GetConfig("BOG_RMSTOPWORDS") == 'TRUE':
+			self.__rmStopWords = True
+			self.__stopWordsVocab = Vocab()
+			stopList = cf.GetConfig("STOPLIST")
+			self.__stopWordsVocab.Read(stopList)
+		else:
+			self.__rmStopWords = False
 
 		self.__minFreq = int(cf.GetConfig("BOG_MINFREQ"))
 		
@@ -152,9 +159,12 @@ class BogBuilder:
 		if tok == '':
 			return None
 
+
+
 		if self.isAllNonASCII(tok):
 			#print tok
 			return None
+
 		
 		# substitution some char
 		
@@ -163,6 +173,11 @@ class BogBuilder:
 
 		if tok.find('%') != -1:
 			tok = "'%s'" % tok.replace("%", r"\%")
+
+		if self.__rmStopWords:
+			if self.__stopWordsVocab.IsVocabWord(tok):
+				#print("REMOVED: " + tok)
+				return None
 
 		if self.__isToLower:
 			tok = tok.lower()
@@ -408,9 +423,9 @@ if __name__ == '__main__':
 	#bb.GenerateBog_BeforeFilter('/home/xj229/data/7nat_lvl123_6000each_bf.arff')
 
 	iSenFile = '/home/xj229/data/7nat_lvl123_6000each.sen'
-	oArffFile = '/home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.arff'
+	oArffFile = '/home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.arff'
 	bb.GetBog(iSenFile, oArffFile)
-
+	
 	# Covert arff to libsvm
 	ws = WekaSh()
 

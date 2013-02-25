@@ -31,7 +31,9 @@ class Log:
 		
 			print("Start Logging")
 			Log.RunLogWriter.write( \
-			 "\n\n===============================\n Start logging %s\n %s\n\n" \
+			 "\n\n======================================================\n" \
+			 "*********************************************************\n"  \
+			 "Start logging %s\n %s\n\n" \
 			 % (self.GetDateStamp(), __file__) \
 			)
 		
@@ -62,7 +64,7 @@ class Log:
 		"""
 
 		Log.RunLogWriter.write("[%s]\t%s\n" % (self.GetTimeStamp(), msg))
-		
+		Log.RunLogWriter.flush()
 
 # Testing...
 if __name__ == '__main__':

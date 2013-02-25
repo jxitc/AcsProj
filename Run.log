@@ -1,3624 +1,78 @@
 
 
-===============================
- Start logging 20130131111815
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.py
-
-[11.18.15]	This is a log message
-[11.18.15]	This is another log message
-
-
-===============================
- Start logging 20130131111815
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.py
-
-[11.18.15]	LG2: I am here!
-
-
-===============================
- Start logging 20130131111906
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.py
-
-[11.19.06]	This is a log message
-[11.19.06]	This is another log message
-[11.19.06]	This is another log message
-[11.19.06]	This is another log message
-[11.19.06]	This is another log message
-
-
-===============================
- Start logging 20130131111906
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.py
-
-[11.19.06]	LG2: I am here!
-
-
-===============================
- Start logging 20130131141609
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.py
-
-[14.16.09]	This is a log message
-[14.16.09]	This is another log message
-[14.16.09]	This is another log message
-[14.16.09]	This is another log message
-[14.16.09]	This is another log message
-
-
-===============================
- Start logging 20130131141609
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.py
-
-[14.16.09]	LG2: I am here!
-
-
-===============================
- Start logging 20130131143353
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.py
-
-[14.33.53]	This is a log message
-[14.33.53]	This is another log message
-[14.33.53]	This is another log message
-[14.33.53]	This is another log message
-[14.33.53]	This is another log message
-
-
-===============================
- Start logging 20130131143353
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.py
-
-[14.33.53]	LG2: I am here!
-
-
-===============================
- Start logging 20130131155759
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.py
-
-[15.58.01]	This is a log message
-[15.58.05]	This is another log message
-[15.58.05]	This is another log message
-[15.58.06]	This is another log message
-[15.58.06]	This is another log message
-
-
-===============================
- Start logging 20130131155802
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.py
-
-[15.58.04]	LG2: I am here!
-
-
-===============================
- Start logging 20130201123922
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[12.39.22]	cn -> 44
-br -> 16
-de -> 15
-it -> 5
-sa -> 4
-fr -> 3
-kr -> 3
-ru -> 2
-ir -> 1
-ma -> 1
-cl -> 1
-at -> 1
-uy -> 1
-pl -> 1
-qn -> 1
-[12.39.22]	1 -> 26
-3 -> 23
-4 -> 14
-7 -> 8
-5 -> 7
-10 -> 5
-6 -> 4
-11 -> 3
-2 -> 3
-13 -> 2
-9 -> 2
-12 -> 1
-15 -> 1
-8 -> 1
-
-
-===============================
- Start logging 20130201124025
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[12.40.25]	cn -> 162256
-br -> 71182
-ru -> 63470
-it -> 19304
-de -> 17030
-mx -> 15802
-fr -> 14067
-sa -> 7743
-us -> 6712
-jp -> 6027
-tw -> 5960
-tr -> 3971
-kr -> 2489
-es -> 1902
-co -> 1535
-cl -> 1464
-kz -> 1397
-ae -> 1164
-in -> 1158
-ch -> 964
-eg -> 949
-gb -> 826
-fi -> 631
-at -> 624
-pl -> 545
-th -> 544
-se -> 506
-vn -> 482
-ua -> 465
-kw -> 426
-no -> 391
-hk -> 356
-pt -> 323
-qn -> 305
-pe -> 295
-ar -> 293
-nl -> 291
-id -> 290
-sy -> 284
-la -> 247
-be -> 233
-sg -> 226
-hu -> 218
-kh -> 211
-cz -> 201
-jo -> 199
-ca -> 199
-sv -> 199
-ve -> 192
-bg -> 188
-sk -> 187
-pr -> 183
-lt -> 179
-gr -> 168
-dk -> 168
-ge -> 157
-lb -> 156
-cr -> 154
-au -> 149
-ee -> 140
-qa -> 137
-lv -> 134
-az -> 125
-ps -> 113
-ro -> 111
-ma -> 108
-cu -> 102
-gp -> 98
-ec -> 97
-gt -> 90
-bo -> 89
-si -> 89
-do -> 78
-by -> 77
-pk -> 74
-sd -> 69
-ie -> 67
-pa -> 66
-rs -> 62
-ye -> 55
-za -> 51
-ir -> 51
-iq -> 49
-am -> 49
-dz -> 47
-uy -> 46
-mn -> 46
-bh -> 42
-bj -> 41
-hn -> 40
-my -> 40
-vc -> 40
-mz -> 40
-cm -> 39
-ot -> 38
-ci -> 38
-uz -> 35
-md -> 34
-mo -> 33
-is -> 33
-ng -> 32
-il -> 31
-ba -> 30
-al -> 30
-uk -> 28
-me -> 27
-ht -> 26
-mq -> 26
-py -> 24
-nz -> 23
-hr -> 22
-af -> 22
-cy -> 21
-pf -> 20
-tm -> 19
-ni -> 19
-dj -> 18
-cc -> 17
-ao -> 17
-sn -> 16
-eh -> 15
-cx -> 15
-mu -> 14
-pg -> 13
-ph -> 13
-vz -> 13
-mg -> 11
-kg -> 11
-ml -> 10
-nr -> 10
-om -> 9
-?? -> 9
-ly -> 8
-nc -> 8
-gf -> 7
-td -> 7
-er -> 7
-mm -> 7
-mr -> 6
-np -> 6
-km -> 6
-tn -> 5
-um -> 5
-gh -> 4
-qr -> 4
-mk -> 4
-lu -> 4
-mt -> 4
-aw -> 4
-bu -> 3
-cg -> 3
-mc -> 3
-ne -> 3
-ga -> 2
-gn -> 2
-gm -> 2
-dm -> 2
-wf -> 2
-bd -> 2
-bf -> 2
-bk -> 2
-bs -> 2
-cd -> 2
-fj -> 2
-gu -> 1
-gl -> 1
-lk -> 1
-qs -> 1
-qt -> 1
-vu -> 1
-qo -> 1
-et -> 1
-bm -> 1
-xk -> 1
-ad -> 1
-mv -> 1
-[12.40.25]	1 -> 91948
-4 -> 74700
-3 -> 43776
-7 -> 39700
-2 -> 38220
-5 -> 35922
-10 -> 21710
-6 -> 20214
-8 -> 18456
-9 -> 16056
-11 -> 10180
-12 -> 5695
-13 -> 3985
-14 -> 1567
-15 -> 745
-16 -> 499
-
-
-===============================
- Start logging 20130201144813
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[14.48.13]	Statistics for subset division:
-
-Stat. [cn]:
-	Group 0 -> 2813
-	Group 1 -> 2813
-	Group 2 -> 2813
-	Group 3 -> 2813
-	Group 4 -> 2129
-
-Stat. [br]:
-	Group 0 -> 2813
-	Group 1 -> 2813
-	Group 2 -> 2813
-	Group 3 -> 2813
-	Group 4 -> 2129
-
-Stat. [ru]:
-	Group 0 -> 2813
-	Group 1 -> 2813
-	Group 2 -> 2813
-	Group 3 -> 2813
-	Group 4 -> 2129
-
-Stat. [it]:
-	Group 0 -> 2813
-	Group 1 -> 2813
-	Group 2 -> 2813
-	Group 3 -> 2813
-	Group 4 -> 2129
-
-Stat. [de]:
-	Group 0 -> 2813
-	Group 1 -> 2813
-	Group 2 -> 2813
-	Group 3 -> 2813
-	Group 4 -> 2129
-
-Stat. [mx]:
-	Group 0 -> 2813
-	Group 1 -> 2813
-	Group 2 -> 2813
-	Group 3 -> 2813
-	Group 4 -> 2129
-
-Stat. [fr]:
-	Group 0 -> 2813
-	Group 1 -> 2813
-	Group 2 -> 2813
-	Group 3 -> 2813
-	Group 4 -> 2129
-
-
-
-===============================
- Start logging 20130201150629
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[15.06.29]	Statistics for subset division:
-
-Stat. [cn]:
-	Group 0 -> 2813
-	Group 1 -> 2813
-	Group 2 -> 2813
-	Group 3 -> 2813
-	Group 4 -> 2129
-
-Stat. [br]:
-	Group 0 -> 2813
-	Group 1 -> 2813
-	Group 2 -> 2813
-	Group 3 -> 2813
-	Group 4 -> 2129
-
-Stat. [ru]:
-	Group 0 -> 2813
-	Group 1 -> 2813
-	Group 2 -> 2813
-	Group 3 -> 2813
-	Group 4 -> 2129
-
-Stat. [it]:
-	Group 0 -> 2813
-	Group 1 -> 2813
-	Group 2 -> 2813
-	Group 3 -> 2813
-	Group 4 -> 2129
-
-Stat. [de]:
-	Group 0 -> 2813
-	Group 1 -> 2813
-	Group 2 -> 2813
-	Group 3 -> 2813
-	Group 4 -> 2129
-
-Stat. [mx]:
-	Group 0 -> 2813
-	Group 1 -> 2813
-	Group 2 -> 2813
-	Group 3 -> 2813
-	Group 4 -> 2129
-
-Stat. [fr]:
-	Group 0 -> 2813
-	Group 1 -> 2813
-	Group 2 -> 2813
-	Group 3 -> 2813
-	Group 4 -> 2129
-
-
-
-===============================
- Start logging 20130201150905
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[15.09.05]	Statistics for subset division:
-
-Stat. [cn]:
-	Group 0 -> 2813
-	Group 1 -> 2813
-	Group 2 -> 2813
-	Group 3 -> 2813
-	Group 4 -> 2129
-
-Stat. [br]:
-	Group 0 -> 2813
-	Group 1 -> 2813
-	Group 2 -> 2813
-	Group 3 -> 2813
-	Group 4 -> 2129
-
-Stat. [ru]:
-	Group 0 -> 2813
-	Group 1 -> 2813
-	Group 2 -> 2813
-	Group 3 -> 2813
-	Group 4 -> 2129
-
-Stat. [it]:
-	Group 0 -> 2813
-	Group 1 -> 2813
-	Group 2 -> 2813
-	Group 3 -> 2813
-	Group 4 -> 2129
-
-Stat. [de]:
-	Group 0 -> 2813
-	Group 1 -> 2813
-	Group 2 -> 2813
-	Group 3 -> 2813
-	Group 4 -> 2129
-
-Stat. [mx]:
-	Group 0 -> 2813
-	Group 1 -> 2813
-	Group 2 -> 2813
-	Group 3 -> 2813
-	Group 4 -> 2129
-
-Stat. [fr]:
-	Group 0 -> 2813
-	Group 1 -> 2813
-	Group 2 -> 2813
-	Group 3 -> 2813
-	Group 4 -> 2129
-
-
-
-===============================
- Start logging 20130201153936
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[15.39.36]	Statistics for subset division:
-
-Stat. [cn]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [br]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [ru]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [it]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [de]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [mx]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [fr]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Number of writings per group:
-	Group[0] lvl1 -lvl3:	4851	Group[1] lvl4 -lvl6:	3234	Group[2] lvl7 -lvl9:	2426	Group[3] lvl10 -lvl12:	1941	Group[4] lvl13 -lvl16:	1617
-
-
-===============================
- Start logging 20130201153957
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[15.39.57]	Statistics for subset division:
-
-Stat. [cn]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [br]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [ru]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [it]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [de]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [mx]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [fr]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Number of writings per group:
-	Group[0] lvl1 -lvl3:	4851
-	Group[1] lvl4 -lvl6:	3234
-	Group[2] lvl7 -lvl9:	2426
-	Group[3] lvl10 -lvl12:	1941
-	Group[4] lvl13 -lvl16:	1617
-
-
-
-===============================
- Start logging 20130201162516
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[16.25.16]	Statistics for subset division:
-
-Stat. [cn]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [br]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [ru]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [it]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [de]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [mx]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [fr]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Number of writings per group:
-	Group[0] lvl1 -lvl3:	4851
-	Group[1] lvl4 -lvl6:	3234
-	Group[2] lvl7 -lvl9:	2426
-	Group[3] lvl10 -lvl12:	1941
-	Group[4] lvl13 -lvl16:	1617
-
-
-
-===============================
- Start logging 20130201163911
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[16.39.11]	Statistics for subset division:
-
-Stat. [cn]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [br]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [ru]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [it]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [de]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [mx]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [fr]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Number of writings per group:
-	Group[0] lvl1 -lvl3:	4851
-	Group[1] lvl4 -lvl6:	3234
-	Group[2] lvl7 -lvl9:	2426
-	Group[3] lvl10 -lvl12:	1941
-	Group[4] lvl13 -lvl16:	1617
-
-
-
-===============================
- Start logging 20130201163943
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[16.39.43]	Statistics for subset division:
-
-Stat. [cn]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [br]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [ru]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [it]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [de]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [mx]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [fr]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Number of writings per group:
-	Group[0] lvl1 -lvl3:	4851
-	Group[1] lvl4 -lvl6:	3234
-	Group[2] lvl7 -lvl9:	2426
-	Group[3] lvl10 -lvl12:	1941
-	Group[4] lvl13 -lvl16:	1617
-
-
-
-===============================
- Start logging 20130201164054
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[16.40.54]	Statistics for subset division:
-
-Stat. [cn]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [br]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [ru]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [it]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [de]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [mx]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [fr]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Number of writings per group:
-	Group[0] lvl1 -lvl3:	4851
-	Group[1] lvl4 -lvl6:	3234
-	Group[2] lvl7 -lvl9:	2426
-	Group[3] lvl10 -lvl12:	1941
-	Group[4] lvl13 -lvl16:	1617
-
-
-
-===============================
- Start logging 20130201164122
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[16.41.22]	Statistics for subset division:
-
-Stat. [cn]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [br]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [ru]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [it]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [de]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [mx]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [fr]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Number of writings per group:
-	Group[0] lvl1 -lvl3:	4851
-	Group[1] lvl4 -lvl6:	3234
-	Group[2] lvl7 -lvl9:	2426
-	Group[3] lvl10 -lvl12:	1941
-	Group[4] lvl13 -lvl16:	1617
-
-
-
-===============================
- Start logging 20130201164155
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[16.41.55]	Statistics for subset division:
-
-Stat. [cn]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [br]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [ru]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [it]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [de]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [mx]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [fr]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Number of writings per group:
-	Group[0] lvl1 -lvl3:	4851
-	Group[1] lvl4 -lvl6:	3234
-	Group[2] lvl7 -lvl9:	2426
-	Group[3] lvl10 -lvl12:	1941
-	Group[4] lvl13 -lvl16:	1617
-
-
-
-===============================
- Start logging 20130201164323
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[16.43.23]	Statistics for subset division:
-
-Stat. [cn]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [br]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [ru]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [it]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [de]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [mx]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [fr]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Number of writings per group:
-	Group[0] lvl1 -lvl3:	4851
-	Group[1] lvl4 -lvl6:	3234
-	Group[2] lvl7 -lvl9:	2426
-	Group[3] lvl10 -lvl12:	1941
-	Group[4] lvl13 -lvl16:	1617
-
-
-
-===============================
- Start logging 20130201164353
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[16.43.53]	Statistics for subset division:
-
-Stat. [cn]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [br]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [ru]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [it]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [de]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [mx]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [fr]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Number of writings per group:
-	Group[0] lvl1 -lvl3:	4851
-	Group[1] lvl4 -lvl6:	3234
-	Group[2] lvl7 -lvl9:	2426
-	Group[3] lvl10 -lvl12:	1941
-	Group[4] lvl13 -lvl16:	1617
-
-
-
-===============================
- Start logging 20130201164410
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[16.44.10]	Statistics for subset division:
-
-Stat. [cn]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [br]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [ru]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [it]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [de]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [mx]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [fr]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Number of writings per group:
-	Group[0] lvl1 -lvl3:	4851
-	Group[1] lvl4 -lvl6:	3234
-	Group[2] lvl7 -lvl9:	2426
-	Group[3] lvl10 -lvl12:	1941
-	Group[4] lvl13 -lvl16:	1617
-
-
-
-===============================
- Start logging 20130201164438
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[16.44.38]	Statistics for subset division:
-
-Stat. [cn]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [br]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [ru]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [it]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [de]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [mx]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [fr]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Number of writings per group:
-	Group[0] lvl1 -lvl3:	4851
-	Group[1] lvl4 -lvl6:	3234
-	Group[2] lvl7 -lvl9:	2426
-	Group[3] lvl10 -lvl12:	1941
-	Group[4] lvl13 -lvl16:	1617
-
-
-
-===============================
- Start logging 20130201164505
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[16.45.05]	Statistics for subset division:
-
-Stat. [cn]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [br]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [ru]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [it]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [de]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [mx]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [fr]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Number of writings per group:
-	Group[0] lvl1 -lvl3:	4851
-	Group[1] lvl4 -lvl6:	3234
-	Group[2] lvl7 -lvl9:	2426
-	Group[3] lvl10 -lvl12:	1941
-	Group[4] lvl13 -lvl16:	1617
-
-
-
-===============================
- Start logging 20130201164539
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[16.45.39]	Statistics for subset division:
-
-Stat. [cn]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [br]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [ru]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [it]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [de]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [mx]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [fr]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Number of writings per group:
-	Group[0] lvl1 -lvl3:	4851
-	Group[1] lvl4 -lvl6:	3234
-	Group[2] lvl7 -lvl9:	2426
-	Group[3] lvl10 -lvl12:	1941
-	Group[4] lvl13 -lvl16:	1617
-
-
-
-===============================
- Start logging 20130201164628
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[16.46.28]	Statistics for subset division:
-
-Stat. [cn]:
-	Group 0 -> 9
-	Group 1 -> 5
-	Group 2 -> 1
-	Group 3 -> 1
-	Group 4 -> 0
-
-Stat. [br]:
-	Group 0 -> 9
-	Group 1 -> 5
-	Group 2 -> 1
-	Group 3 -> 1
-	Group 4 -> 0
-
-Stat. [ru]:
-	Group 0 -> 9
-	Group 1 -> 5
-	Group 2 -> 1
-	Group 3 -> 1
-	Group 4 -> 0
-
-Stat. [it]:
-	Group 0 -> 9
-	Group 1 -> 5
-	Group 2 -> 1
-	Group 3 -> 1
-	Group 4 -> 0
-
-Stat. [de]:
-	Group 0 -> 9
-	Group 1 -> 5
-	Group 2 -> 1
-	Group 3 -> 1
-	Group 4 -> 0
-
-Stat. [mx]:
-	Group 0 -> 9
-	Group 1 -> 5
-	Group 2 -> 1
-	Group 3 -> 1
-	Group 4 -> 0
-
-Stat. [fr]:
-	Group 0 -> 9
-	Group 1 -> 5
-	Group 2 -> 1
-	Group 3 -> 1
-	Group 4 -> 0
-
-Number of writings per group:
-	Group[0] lvl1 -lvl3:	4851
-	Group[1] lvl4 -lvl6:	3234
-	Group[2] lvl7 -lvl9:	2426
-	Group[3] lvl10 -lvl12:	1941
-	Group[4] lvl13 -lvl16:	1617
-
-
-
-===============================
- Start logging 20130201165421
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[16.54.21]	Statistics for subset division:
-
-Stat. [cn]:
-	Group 0 -> 27
-	Group 1 -> 8
-	Group 2 -> 6
-	Group 3 -> 2
-	Group 4 -> 1
-
-Stat. [br]:
-	Group 0 -> 9
-	Group 1 -> 5
-	Group 2 -> 1
-	Group 3 -> 1
-	Group 4 -> 0
-
-Stat. [ru]:
-	Group 0 -> 1
-	Group 1 -> 1
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [it]:
-	Group 0 -> 3
-	Group 1 -> 1
-	Group 2 -> 1
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [de]:
-	Group 0 -> 3
-	Group 1 -> 8
-	Group 2 -> 1
-	Group 3 -> 2
-	Group 4 -> 1
-
-Stat. [mx]:
-	Group 0 -> 0
-	Group 1 -> 0
-	Group 2 -> 0
-	Group 3 -> 0
-	Group 4 -> 0
-
-Stat. [fr]:
-	Group 0 -> 0
-	Group 1 -> 1
-	Group 2 -> 1
-	Group 3 -> 0
-	Group 4 -> 1
-
-Number of writings per group:
-	Group[0] lvl1 -lvl3:	4851
-	Group[1] lvl4 -lvl6:	3234
-	Group[2] lvl7 -lvl9:	2426
-	Group[3] lvl10 -lvl12:	1941
-	Group[4] lvl13 -lvl16:	1617
-
-
-
-===============================
- Start logging 20130201165559
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[16.55.59]	Statistics for subset division:
-
-Stat. [cn]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 434
-
-Stat. [br]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 529
-
-Stat. [ru]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 1615
-
-Stat. [it]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1288
-	Group 4 -> 244
-
-Stat. [de]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 660
-
-Stat. [mx]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 1779
-	Group 3 -> 498
-	Group 4 -> 59
-
-Stat. [fr]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1553
-	Group 4 -> 243
-
-Number of writings per group:
-	Group[0] lvl1 -lvl3:	4851
-	Group[1] lvl4 -lvl6:	3234
-	Group[2] lvl7 -lvl9:	2426
-	Group[3] lvl10 -lvl12:	1941
-	Group[4] lvl13 -lvl16:	1617
-
-
-
-===============================
- Start logging 20130201171500
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[17.15.00]	Statistics for subset division:
-
-Stat. [cn]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 1615
-
-Stat. [br]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 1615
-
-Stat. [ru]:
-	Group 0 -> 4849
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 1617
-
-Stat. [it]:
-	Group 0 -> 2875
-	Group 1 -> 3173
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 1617
-
-Stat. [de]:
-	Group 0 -> 3465
-	Group 1 -> 2642
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 1617
-
-Stat. [mx]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 873
-
-Stat. [fr]:
-	Group 0 -> 3593
-	Group 1 -> 2166
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 1617
-
-Number of writings per group:
-	Group[0] lvl1 -lvl1:	4851
-	Group[1] lvl2 -lvl3:	3234
-	Group[2] lvl4 -lvl5:	2426
-	Group[3] lvl6 -lvl8:	1941
-	Group[4] lvl9 -lvl16:	1617
-
-
-
-===============================
- Start logging 20130207111152
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.11.52]	Statistics for subset division:
-
-Stat. [cn]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 1615
-
-Stat. [br]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 1615
-
-Stat. [ru]:
-	Group 0 -> 4849
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 1617
-
-Stat. [it]:
-	Group 0 -> 2875
-	Group 1 -> 3173
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 1617
-
-Stat. [de]:
-	Group 0 -> 3465
-	Group 1 -> 2642
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 1617
-
-Stat. [mx]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 873
-
-Stat. [fr]:
-	Group 0 -> 3593
-	Group 1 -> 2166
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 1617
-
-Number of writings per group:
-	Group[0] lvl1 -lvl1:	4851
-	Group[1] lvl2 -lvl3:	3234
-	Group[2] lvl4 -lvl5:	2426
-	Group[3] lvl6 -lvl8:	1941
-	Group[4] lvl9 -lvl16:	1617
-
-
-
-===============================
- Start logging 20130207111425
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.14.25]	Statistics for subset division:
-
-Stat. [cn]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 1615
-
-Stat. [br]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 1615
-
-Stat. [ru]:
-	Group 0 -> 4849
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 1617
-
-Stat. [it]:
-	Group 0 -> 2875
-	Group 1 -> 3173
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 1617
-
-Stat. [de]:
-	Group 0 -> 3465
-	Group 1 -> 2642
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 1617
-
-Stat. [mx]:
-	Group 0 -> 4851
-	Group 1 -> 3234
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 873
-
-Stat. [fr]:
-	Group 0 -> 3593
-	Group 1 -> 2166
-	Group 2 -> 2426
-	Group 3 -> 1941
-	Group 4 -> 1617
-
-Number of writings per group:
-	Group[0] lvl1 -lvl1:	4851
-	Group[1] lvl2 -lvl3:	3234
-	Group[2] lvl4 -lvl5:	2426
-	Group[3] lvl6 -lvl8:	1941
-	Group[4] lvl9 -lvl16:	1617
-
-
-
-===============================
- Start logging 20130213102632
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[10.26.32]	LevelNo	[7, 6, 8]
-Nationality	[cn]
-
-[10.26.32]	Write 30505 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/cn_lvl678_10.26.32.widlist
-
-
-===============================
- Start logging 20130213102726
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[10.27.26]	LevelNo	[7, 6, 8]
-Nationality	[cn]
-
-[10.27.26]	Write 30505 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/cn_lvl678_10.27.26.widlist
-
-
-===============================
- Start logging 20130213104207
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[10.42.17]	
-SubSetCriteria Summary:
-LevelNo	[1, 2, 3]
-Nationality	[cn]
-
-[10.42.17]	Write 63795 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/cn_lvl123_10.42.17.widlist
-[10.42.27]	
-SubSetCriteria Summary:
-LevelNo	[1, 2, 3]
-Nationality	[fr]
-
-[10.42.27]	Write 5758 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/fr_lvl123_10.42.27.widlist
-[10.42.37]	
-SubSetCriteria Summary:
-LevelNo	[1, 2, 3]
-Nationality	[de]
-
-[10.42.37]	Write 6107 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/de_lvl123_10.42.37.widlist
-[10.42.46]	
-SubSetCriteria Summary:
-LevelNo	[1, 2, 3]
-Nationality	[mx]
-
-[10.42.46]	Write 9488 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/mx_lvl123_10.42.46.widlist
-[10.42.56]	
-SubSetCriteria Summary:
-LevelNo	[1, 2, 3]
-Nationality	[ru]
-
-[10.42.56]	Write 14362 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/ru_lvl123_10.42.56.widlist
-[10.43.06]	
-SubSetCriteria Summary:
-LevelNo	[1, 2, 3]
-Nationality	[br]
-
-[10.43.06]	Write 41969 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/br_lvl123_10.43.06.widlist
-[10.43.17]	
-SubSetCriteria Summary:
-LevelNo	[1, 2, 3]
-Nationality	[it]
-
-[10.43.17]	Write 6041 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/it_lvl123_10.43.17.widlist
-
-
-===============================
- Start logging 20130213105451
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[10.54.51]	
-
-Processing cn
-[10.55.00]	
-SubSetCriteria Summary:
-LevelNo	[1, 2, 3]
-Nationality	[cn]
-
-[10.55.00]	Write 63795 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/cn_lvl123.widlist
-[10.55.00]	
-
-Processing fr
-[10.55.11]	
-SubSetCriteria Summary:
-LevelNo	[1, 2, 3]
-Nationality	[fr]
-
-[10.55.11]	Write 5758 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/fr_lvl123.widlist
-[10.55.11]	
-
-Processing de
-[10.55.21]	
-SubSetCriteria Summary:
-LevelNo	[1, 2, 3]
-Nationality	[de]
-
-[10.55.21]	Write 6107 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/de_lvl123.widlist
-[10.55.21]	
-
-Processing mx
-[10.55.30]	
-SubSetCriteria Summary:
-LevelNo	[1, 2, 3]
-Nationality	[mx]
-
-[10.55.30]	Write 9488 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/mx_lvl123.widlist
-[10.55.30]	
-
-Processing ru
-[10.55.40]	
-SubSetCriteria Summary:
-LevelNo	[1, 2, 3]
-Nationality	[ru]
-
-[10.55.40]	Write 14362 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/ru_lvl123.widlist
-[10.55.40]	
-
-Processing br
-[10.55.49]	
-SubSetCriteria Summary:
-LevelNo	[1, 2, 3]
-Nationality	[br]
-
-[10.55.49]	Write 41969 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/br_lvl123.widlist
-[10.55.49]	
-
-Processing it
-[10.55.59]	
-SubSetCriteria Summary:
-LevelNo	[1, 2, 3]
-Nationality	[it]
-
-[10.55.59]	Write 6041 wid to widlist d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/it_lvl123.widlist
-
-
-===============================
- Start logging 20130213110358
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.04.02]	
-
-Processing cn
-[11.04.07]	
-
-Processing fr
-
-
-===============================
- Start logging 20130213110432
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.04.36]	
-
-Processing cn
-[11.04.36]	
-
-Processing fr
-
-
-===============================
- Start logging 20130213110636
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.06.36]	Read 63795 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/cn_lvl123.widlist
-
-
-===============================
- Start logging 20130213110636
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.06.36]	Read 5758 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/fr_lvl123.widlist
-
-
-===============================
- Start logging 20130213110636
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.06.36]	Read 6107 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/de_lvl123.widlist
-
-
-===============================
- Start logging 20130213110636
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.06.36]	Read 9488 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/mx_lvl123.widlist
-
-
-===============================
- Start logging 20130213110636
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.06.36]	Read 14362 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/ru_lvl123.widlist
-
-
-===============================
- Start logging 20130213110636
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.06.36]	Read 41969 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/br_lvl123.widlist
-
-
-===============================
- Start logging 20130213110636
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.06.36]	Read 6041 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/it_lvl123.widlist
-
-
-===============================
- Start logging 20130213110632
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.06.36]	
-
-Processing cn
-[11.06.36]	
-
-Processing fr
-[11.06.36]	
-
-Processing de
-[11.06.36]	
-
-Processing mx
-[11.06.36]	
-
-Processing ru
-[11.06.36]	
-
-Processing br
-[11.06.36]	
-
-Processing it
-[11.06.36]	Output 7 nat lvl 123 conbined sensdata to d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/7nat_lvl123_all.sens
-
-
-===============================
- Start logging 20130213110713
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.07.13]	Read 63795 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/cn_lvl123.widlist
-
-
-===============================
- Start logging 20130213110713
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.07.13]	Read 5758 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/fr_lvl123.widlist
-
-
-===============================
- Start logging 20130213110713
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.07.13]	Read 6107 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/de_lvl123.widlist
-
-
-===============================
- Start logging 20130213110713
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.07.13]	Read 9488 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/mx_lvl123.widlist
-
-
-===============================
- Start logging 20130213110713
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.07.13]	Read 14362 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/ru_lvl123.widlist
-
-
-===============================
- Start logging 20130213110713
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.07.13]	Read 41969 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/br_lvl123.widlist
-
-
-===============================
- Start logging 20130213110713
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.07.13]	Read 6041 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/it_lvl123.widlist
-
-
-===============================
- Start logging 20130213110709
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.07.13]	
-
-Processing cn
-[11.07.13]	
-
-Processing fr
-[11.07.13]	
-
-Processing de
-[11.07.13]	
-
-Processing mx
-[11.07.13]	
-
-Processing ru
-[11.07.13]	
-
-Processing br
-[11.07.13]	
-
-Processing it
-[11.07.13]	Output 7 nat lvl 123 conbined sensdata to d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/7nat_lvl123_all.sens
-
-
-===============================
- Start logging 20130213110729
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.07.29]	Read 63795 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/cn_lvl123.widlist
-
-
-===============================
- Start logging 20130213110729
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.07.29]	Read 5758 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/fr_lvl123.widlist
-
-
-===============================
- Start logging 20130213110729
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.07.29]	Read 6107 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/de_lvl123.widlist
-
-
-===============================
- Start logging 20130213110729
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.07.29]	Read 9488 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/mx_lvl123.widlist
-
-
-===============================
- Start logging 20130213110729
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.07.29]	Read 14362 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/ru_lvl123.widlist
-
-
-===============================
- Start logging 20130213110729
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.07.29]	Read 41969 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/br_lvl123.widlist
-
-
-===============================
- Start logging 20130213110729
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.07.29]	Read 6041 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/it_lvl123.widlist
-
-
-===============================
- Start logging 20130213110729
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.07.31]	147520 sentences has been wrote to d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/7nat_lvl123_all.sens
-
-
-===============================
- Start logging 20130213110725
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.07.29]	
-
-Processing cn
-[11.07.29]	
-
-Processing fr
-[11.07.29]	
-
-Processing de
-[11.07.29]	
-
-Processing mx
-[11.07.29]	
-
-Processing ru
-[11.07.29]	
-
-Processing br
-[11.07.29]	
-
-Processing it
-[11.07.29]	Output 7 nat lvl 123 conbined sensdata to d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/7nat_lvl123_all.sens
-
-
-===============================
- Start logging 20130213110943
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.09.43]	Read 63795 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/cn_lvl123.widlist
-
-
-===============================
- Start logging 20130213110943
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.09.43]	Read 5758 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/fr_lvl123.widlist
-
-
-===============================
- Start logging 20130213110943
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.09.43]	Read 6107 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/de_lvl123.widlist
-
-
-===============================
- Start logging 20130213110943
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.09.43]	Read 9488 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/mx_lvl123.widlist
-
-
-===============================
- Start logging 20130213110943
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.09.43]	Read 14362 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/ru_lvl123.widlist
-
-
-===============================
- Start logging 20130213110943
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.09.43]	Read 41969 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/br_lvl123.widlist
-
-
-===============================
- Start logging 20130213110943
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.09.43]	Read 6041 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/it_lvl123.widlist
-
-
-===============================
- Start logging 20130213110939
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.09.43]	
-
-Processing cn
-[11.09.43]	
-
-Processing fr
-[11.09.43]	
-
-Processing de
-[11.09.43]	
-
-Processing mx
-[11.09.43]	
-
-Processing ru
-[11.09.43]	
-
-Processing br
-[11.09.43]	
-
-Processing it
-[11.09.43]	Output 7 nat lvl 123 conbined sensdata to d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/7nat_lvl123_all.sens
-
-
-===============================
- Start logging 20130213111117
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.11.17]	Read 63795 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/cn_lvl123.widlist
-
-
-===============================
- Start logging 20130213111117
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.11.17]	Read 5758 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/fr_lvl123.widlist
-
-
-===============================
- Start logging 20130213111117
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.11.17]	Read 6107 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/de_lvl123.widlist
-
-
-===============================
- Start logging 20130213111117
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.11.17]	Read 9488 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/mx_lvl123.widlist
-
-
-===============================
- Start logging 20130213111117
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.11.17]	Read 14362 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/ru_lvl123.widlist
-
-
-===============================
- Start logging 20130213111117
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.11.17]	Read 41969 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/br_lvl123.widlist
-
-
-===============================
- Start logging 20130213111117
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.11.17]	Read 6041 wid from file d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/it_lvl123.widlist
-
-
-===============================
- Start logging 20130213111117
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.11.17]	39 sentences has been wrote to d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/7nat_lvl123_all.sens
-
-
-===============================
- Start logging 20130213111113
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.pyc
-
-[11.11.17]	
-
-Processing cn
-[11.11.17]	
-
-Processing fr
-[11.11.17]	
-
-Processing de
-[11.11.17]	
-
-Processing mx
-[11.11.17]	
-
-Processing ru
-[11.11.17]	
-
-Processing br
-[11.11.17]	
-
-Processing it
-[11.11.17]	Output 7 nat lvl 123 conbined sensdata to d:\Dropbox\Working Proj\ACS Proj\AcsProj\data/7nat_lvl123_all.sens
-
-
-===============================
- Start logging 20130213113114
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.31.14]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
-
-
-===============================
- Start logging 20130213113114
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.31.14]	Read 5758 wid from file /home/xj229/workspace/AcsProj/data/fr_lvl123.widlist
-
-
-===============================
- Start logging 20130213113114
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.31.14]	Read 6107 wid from file /home/xj229/workspace/AcsProj/data/de_lvl123.widlist
-
-
-===============================
- Start logging 20130213113114
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.31.14]	Read 9488 wid from file /home/xj229/workspace/AcsProj/data/mx_lvl123.widlist
-
-
-===============================
- Start logging 20130213113114
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.31.14]	Read 14362 wid from file /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
-
-
-===============================
- Start logging 20130213113114
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.31.14]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
-
-
-===============================
- Start logging 20130213113114
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.31.14]	Read 6041 wid from file /home/xj229/workspace/AcsProj/data/it_lvl123.widlist
-
-
-===============================
- Start logging 20130213113114
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.31.15]	248834 sentences has been wrote to /home/xj229/workspace/AcsProj/data/7nat_lvl123_all.sens
-
-
-===============================
- Start logging 20130213113110
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.31.14]	
-
-Processing cn
-[11.31.14]	
-
-Processing fr
-[11.31.14]	
-
-Processing de
-[11.31.14]	
-
-Processing mx
-[11.31.14]	
-
-Processing ru
-[11.31.14]	
-
-Processing br
-[11.31.14]	
-
-Processing it
-[11.31.14]	Output 7 nat lvl 123 conbined sensdata to /home/xj229/workspace/AcsProj/data/7nat_lvl123_all.sens
-
-
-===============================
- Start logging 20130213113500
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.35.00]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
-
-
-===============================
- Start logging 20130213113500
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.35.00]	Read 5758 wid from file /home/xj229/workspace/AcsProj/data/fr_lvl123.widlist
-
-
-===============================
- Start logging 20130213113500
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.35.00]	Read 6107 wid from file /home/xj229/workspace/AcsProj/data/de_lvl123.widlist
-
-
-===============================
- Start logging 20130213113500
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.35.00]	Read 9488 wid from file /home/xj229/workspace/AcsProj/data/mx_lvl123.widlist
-
-
-===============================
- Start logging 20130213113500
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.35.00]	Read 14362 wid from file /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
-
-
-===============================
- Start logging 20130213113500
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.35.00]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
-
-
-===============================
- Start logging 20130213113500
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.35.00]	Read 6041 wid from file /home/xj229/workspace/AcsProj/data/it_lvl123.widlist
-
-
-===============================
- Start logging 20130213113500
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.35.01]	760464 sentences has been wrote to /home/xj229/workspace/AcsProj/data/7nat_lvl123_all.sens
-
-
-===============================
- Start logging 20130213113441
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.35.00]	
-
-Processing cn
-[11.35.00]	
-
-Processing fr
-[11.35.00]	
-
-Processing de
-[11.35.00]	
-
-Processing mx
-[11.35.00]	
-
-Processing ru
-[11.35.00]	
-
-Processing br
-[11.35.00]	
-
-Processing it
-[11.35.00]	Output 7 nat lvl 123 conbined sensdata to /home/xj229/workspace/AcsProj/data/7nat_lvl123_all.sens
-
-
-===============================
- Start logging 20130213113641
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.36.41]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
-
-
-===============================
- Start logging 20130213113641
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.36.41]	Read 5758 wid from file /home/xj229/workspace/AcsProj/data/fr_lvl123.widlist
-
-
-===============================
- Start logging 20130213113641
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.36.41]	Read 6107 wid from file /home/xj229/workspace/AcsProj/data/de_lvl123.widlist
-
-
-===============================
- Start logging 20130213113641
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.36.41]	Read 9488 wid from file /home/xj229/workspace/AcsProj/data/mx_lvl123.widlist
-
-
-===============================
- Start logging 20130213113641
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.36.41]	Read 14362 wid from file /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
-
-
-===============================
- Start logging 20130213113641
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.36.41]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
-
-
-===============================
- Start logging 20130213113641
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.36.41]	Read 6041 wid from file /home/xj229/workspace/AcsProj/data/it_lvl123.widlist
-
-
-===============================
- Start logging 20130213113641
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.36.42]	147520 sentences has been wrote to /home/xj229/workspace/AcsProj/data/7nat_lvl123_all.wrt
-
-
-===============================
- Start logging 20130213113624
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.36.41]	
-
-Processing cn
-[11.36.41]	
-
-Processing fr
-[11.36.41]	
-
-Processing de
-[11.36.41]	
-
-Processing mx
-[11.36.41]	
-
-Processing ru
-[11.36.41]	
-
-Processing br
-[11.36.41]	
-
-Processing it
-[11.36.41]	Output 7 nat lvl 123 conbined sensdata to /home/xj229/workspace/AcsProj/data/7nat_lvl123_all.wrt
-
-
-===============================
- Start logging 20130213114929
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.49.29]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
-
-
-===============================
- Start logging 20130213114929
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.49.29]	Read 5758 wid from file /home/xj229/workspace/AcsProj/data/fr_lvl123.widlist
-
-
-===============================
- Start logging 20130213114929
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.49.29]	Read 6107 wid from file /home/xj229/workspace/AcsProj/data/de_lvl123.widlist
-
-
-===============================
- Start logging 20130213114929
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.49.29]	Read 9488 wid from file /home/xj229/workspace/AcsProj/data/mx_lvl123.widlist
-
-
-===============================
- Start logging 20130213114929
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.49.29]	Read 14362 wid from file /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
-
-
-===============================
- Start logging 20130213114929
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.49.29]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
-
-
-===============================
- Start logging 20130213114929
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.49.29]	Read 6041 wid from file /home/xj229/workspace/AcsProj/data/it_lvl123.widlist
-
-
-===============================
- Start logging 20130213114929
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.49.29]	287400 sentences has been wrote to /home/xj229/workspace/AcsProj/data/7nat_lvl123_all.sen
-
-
-===============================
- Start logging 20130213114911
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.49.29]	
-
-Processing cn
-[11.49.29]	
-
-Processing fr
-[11.49.29]	
-
-Processing de
-[11.49.29]	
-
-Processing mx
-[11.49.29]	
-
-Processing ru
-[11.49.29]	
-
-Processing br
-[11.49.29]	
-
-Processing it
-[11.49.29]	Output 7 nat lvl 123 conbined sensdata to /home/xj229/workspace/AcsProj/data/7nat_lvl123_all.sen
-
-
-===============================
- Start logging 20130213115041
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.50.41]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
-
-
-===============================
- Start logging 20130213115041
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.50.41]	Read 5758 wid from file /home/xj229/workspace/AcsProj/data/fr_lvl123.widlist
-
-
-===============================
- Start logging 20130213115041
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.50.41]	Read 6107 wid from file /home/xj229/workspace/AcsProj/data/de_lvl123.widlist
-
-
-===============================
- Start logging 20130213115041
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.50.41]	Read 9488 wid from file /home/xj229/workspace/AcsProj/data/mx_lvl123.widlist
-
-
-===============================
- Start logging 20130213115041
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.50.41]	Read 14362 wid from file /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
-
-
-===============================
- Start logging 20130213115041
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.50.41]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
-
-
-===============================
- Start logging 20130213115041
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.50.41]	Read 6041 wid from file /home/xj229/workspace/AcsProj/data/it_lvl123.widlist
-
-
-===============================
- Start logging 20130213115041
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.50.41]	57394 sentences has been wrote to /home/xj229/workspace/AcsProj/data/7nat_lvl123_all.sen
-
-
-===============================
- Start logging 20130213115024
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.50.41]	
-
-Processing cn
-[11.50.41]	
-
-Processing fr
-[11.50.41]	
-
-Processing de
-[11.50.41]	
-
-Processing mx
-[11.50.41]	
-
-Processing ru
-[11.50.41]	
-
-Processing br
-[11.50.41]	
-
-Processing it
-[11.50.41]	Output 7 nat lvl 123 conbined sensdata to /home/xj229/workspace/AcsProj/data/7nat_lvl123_all.sen
-
-
-===============================
- Start logging 20130213115042
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.50.42]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
-
-
-===============================
- Start logging 20130213115042
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.50.42]	Read 5758 wid from file /home/xj229/workspace/AcsProj/data/fr_lvl123.widlist
-
-
-===============================
- Start logging 20130213115042
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.50.42]	Read 6107 wid from file /home/xj229/workspace/AcsProj/data/de_lvl123.widlist
-
-
-===============================
- Start logging 20130213115042
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.50.42]	Read 9488 wid from file /home/xj229/workspace/AcsProj/data/mx_lvl123.widlist
-
-
-===============================
- Start logging 20130213115042
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.50.42]	Read 14362 wid from file /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
-
-
-===============================
- Start logging 20130213115042
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.50.42]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
-
-
-===============================
- Start logging 20130213115042
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.50.42]	Read 6041 wid from file /home/xj229/workspace/AcsProj/data/it_lvl123.widlist
-
-
-===============================
- Start logging 20130213115042
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.50.42]	57394 sentences has been wrote to /home/xj229/workspace/AcsProj/data/7nat_lvl123_all.sen
-
-
-===============================
- Start logging 20130213115025
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.50.42]	
-
-Processing cn
-[11.50.42]	
-
-Processing fr
-[11.50.42]	
-
-Processing de
-[11.50.42]	
-
-Processing mx
-[11.50.42]	
-
-Processing ru
-[11.50.42]	
-
-Processing br
-[11.50.42]	
-
-Processing it
-[11.50.42]	Output 7 nat lvl 123 conbined sensdata to /home/xj229/workspace/AcsProj/data/7nat_lvl123_all.sen
-
-
-===============================
- Start logging 20130213115222
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.52.22]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
-
-
-===============================
- Start logging 20130213115222
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.52.22]	Read 5758 wid from file /home/xj229/workspace/AcsProj/data/fr_lvl123.widlist
-
-
-===============================
- Start logging 20130213115222
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.52.22]	Read 6107 wid from file /home/xj229/workspace/AcsProj/data/de_lvl123.widlist
-
-
-===============================
- Start logging 20130213115222
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.52.22]	Read 9488 wid from file /home/xj229/workspace/AcsProj/data/mx_lvl123.widlist
-
-
-===============================
- Start logging 20130213115222
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.52.22]	Read 14362 wid from file /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
-
-
-===============================
- Start logging 20130213115222
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.52.22]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
-
-
-===============================
- Start logging 20130213115222
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.52.22]	Read 6041 wid from file /home/xj229/workspace/AcsProj/data/it_lvl123.widlist
-
-
-===============================
- Start logging 20130213115222
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.52.23]	287400 sentences has been wrote to /home/xj229/workspace/AcsProj/data/7nat_lvl123_all.sen
-
-
-===============================
- Start logging 20130213115205
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[11.52.22]	
-
-Processing cn
-[11.52.22]	
-
-Processing fr
-[11.52.22]	
-
-Processing de
-[11.52.22]	
-
-Processing mx
-[11.52.22]	
-
-Processing ru
-[11.52.22]	
-
-Processing br
-[11.52.22]	
-
-Processing it
-[11.52.22]	Output 7 nat lvl 123 conbined sensdata to /home/xj229/workspace/AcsProj/data/7nat_lvl123_all.sen
-
-
-===============================
- Start logging 20130213131057
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[13.10.57]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
-
-
-===============================
- Start logging 20130213131057
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[13.10.57]	Read 5758 wid from file /home/xj229/workspace/AcsProj/data/fr_lvl123.widlist
-
-
-===============================
- Start logging 20130213131057
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[13.10.57]	Read 6107 wid from file /home/xj229/workspace/AcsProj/data/de_lvl123.widlist
-
-
-===============================
- Start logging 20130213131057
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[13.10.57]	Read 9488 wid from file /home/xj229/workspace/AcsProj/data/mx_lvl123.widlist
-
-
-===============================
- Start logging 20130213131057
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[13.10.57]	Read 14362 wid from file /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
-
-
-===============================
- Start logging 20130213131057
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[13.10.57]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
-
-
-===============================
- Start logging 20130213131057
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[13.10.57]	Read 6041 wid from file /home/xj229/workspace/AcsProj/data/it_lvl123.widlist
-
-
-===============================
- Start logging 20130213131057
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[13.10.57]	208935 sentences has been wrote to /home/xj229/workspace/AcsProj/data/7nat_lvl123_6000each.sen
-
-
-===============================
- Start logging 20130213131040
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[13.10.57]	
-
-Processing cn
-[13.10.57]	
-
-Processing fr
-[13.10.57]	
-
-Processing de
-[13.10.57]	
-
-Processing mx
-[13.10.57]	
-
-Processing ru
-[13.10.57]	
-
-Processing br
-[13.10.57]	
-
-Processing it
-[13.10.57]	Output 7 nat lvl 123 conbined sensdata to /home/xj229/workspace/AcsProj/data/7nat_lvl123_6000each.sen
-
-
-===============================
- Start logging 20130215180206
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.py
-
-[18.02.06]	This is a log message
-[18.02.06]	This is another log message
-[18.02.06]	This is another log message
-[18.02.06]	This is another log message
-[18.02.06]	This is another log message
-
-
-===============================
- Start logging 20130215180206
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.py
-
-[18.02.06]	LG2: I am here!
-
-
-===============================
- Start logging 20130215180337
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.py
-
-[18.03.37]	This is a log message
-[18.03.37]	This is another log message
-[18.03.37]	This is another log message
-[18.03.37]	This is another log message
-[18.03.37]	This is another log message
-
-
-===============================
- Start logging 20130215180337
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.py
-
-[18.03.37]	LG2: I am here!
-
-
-===============================
- Start logging 20130215180407
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.py
-
-[18.04.07]	This is a log message
-
-
-===============================
- Start logging 20130215180407
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.py
-
-[18.04.07]	LG2: I am here!
-[18.04.07]	This is another log message
-[18.04.07]	This is another log message
-[18.04.07]	This is another log message
-[18.04.07]	This is another log message
-
-
-===============================
- Start logging 20130215180612
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.py
-
-[18.06.12]	This is a log message
-
-
-===============================
- Start logging 20130215180612
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.py
-
-[18.06.12]	LG2: I am here!
-[18.06.12]	This is another log message
-[18.06.12]	This is another log message
-[18.06.12]	This is another log message
-[18.06.12]	This is another log message
-
-
-===============================
- Start logging 20130215180636
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.py
-
-[18.06.36]	This is a log message
-
-
-===============================
- Start logging 20130215180636
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.py
-
-[18.06.36]	LG2: I am here!
-[18.06.36]	This is another log message
-[18.06.36]	This is another log message
-[18.06.36]	This is another log message
-[18.06.36]	This is another log message
-
-
-===============================
- Start logging 20130215180732
- D:\Dropbox\Working Proj\ACS Proj\AcsProj\Util\Log.py
-
-[18.07.32]	This is a log message
-[18.07.32]	LG2: I am here!
-[18.07.32]	This is another log message
-[18.07.32]	This is another log message
-[18.07.32]	This is another log message
-[18.07.32]	This is another log message
-
-
-===============================
- Start logging 20130219173232
- /auto/homes/xj229/workspace/AcsProj/Util/Log.py
-
-
-
-===============================
- Start logging 20130219173359
- /auto/homes/xj229/workspace/AcsProj/Util/Log.pyc
-
-
-
-===============================
- Start logging 20130219173728
- /auto/homes/xj229/workspace/AcsProj/Util/Log.pyc
-
-
-
-===============================
- Start logging 20130219174522
- /auto/homes/xj229/workspace/AcsProj/Util/Log.pyc
-
-[17.45.45]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
-
-
-===============================
- Start logging 20130219174646
- /auto/homes/xj229/workspace/AcsProj/Util/Log.pyc
-
-[17.46.46]	java -cp /auto/home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
-
-
-===============================
- Start logging 20130219174756
- /auto/homes/xj229/workspace/AcsProj/Util/Log.pyc
-
-[17.47.56]	java -cp /auto/home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff
-[17.47.56]	java -cp /auto/home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
-
-
-===============================
- Start logging 20130219175117
- /auto/homes/xj229/workspace/AcsProj/Util/Log.pyc
-
-[17.51.17]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff
-[17.51.17]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
-
-
-===============================
- Start logging 20130220053834
+======================================================
+*********************************************************
+Start logging 20130223161945
  /home/xj229/workspace/AcsProj/Util/Log.py
 
-[05.38.34]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff
-[05.38.34]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
+[16.19.45]	This is a log message
+[16.19.45]	LG2: I am here!
+[16.19.45]	This is another log message
+[16.19.45]	This is another log message
+[16.19.45]	This is another log message
+[16.19.45]	This is another log message
 
 
-===============================
- Start logging 20130220054310
+======================================================
+*********************************************************
+Start logging 20130223162153
+ /home/xj229/workspace/AcsProj/Util/Log.py
+
+[16.21.53]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM
+[16.21.53]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M10_L_STM.libsvmEval_130223162153.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.libsvm
+[16.25.31]	
+[16.25.31]	Start Weka evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM
+[16.25.31]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M10_L_STM.wekaEval_130223162531.log):
+java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.arff
+
+
+======================================================
+*********************************************************
+Start logging 20130223171739
  /home/xj229/workspace/AcsProj/Util/Log.pyc
 
-[05.43.10]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector
+[17.17.39]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM
+[17.17.39]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M10_L_STM.libsvmEval_130223171739.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.libsvm
+[17.22.30]	Cross Validation Accuracy = 40.056%
+
+[17.22.30]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L
+[17.22.30]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L.libsvmEval_130223172230.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.libsvm
+[17.22.30]	
+[17.22.30]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM
+[17.22.30]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.libsvmEval_130223172230.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.libsvm
+[17.27.18]	Cross Validation Accuracy = 40.781%
+
+[17.27.18]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM
+[17.27.18]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L_STM.libsvmEval_130223172718.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.libsvm
+[17.32.48]	Cross Validation Accuracy = 41.7432%
+
+[17.32.48]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_STM
+[17.32.48]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_STM.libsvmEval_130223173248.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_STM.libsvm
+[17.38.52]	Cross Validation Accuracy = 42.3316%
 
 
-===============================
- Start logging 20130220054344
+
+======================================================
+*********************************************************
+Start logging 20130223174642
  /home/xj229/workspace/AcsProj/Util/Log.pyc
 
-[05.43.44]	java -cp /home/xj229/tools/weka/weka.jar
-
-
-===============================
- Start logging 20130220054406
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[05.44.06]	java -cp /home/xj229/tools/weka/weka.jara.xx
-
-
-===============================
- Start logging 20130220054512
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[05.45.12]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector
-
-
-===============================
- Start logging 20130220060141
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[06.01.41]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
-
-
-===============================
- Start logging 20130220060534
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[06.05.34]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
-
-
-===============================
- Start logging 20130220060659
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[06.06.59]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer weka.core.tokenizers.WordTokenizer -delimiters \  -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
-
-
-===============================
- Start logging 20130220060714
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[06.07.14]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer weka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
-
-
-===============================
- Start logging 20130220060735
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[06.07.35]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
-
-
-===============================
- Start logging 20130220060828
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[06.08.28]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
-
-
-===============================
- Start logging 20130220060844
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[06.08.44]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
-
-
-===============================
- Start logging 20130220061111
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[06.11.11]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters " \\r\\n\\t.,;:\\\'\\\"()?!"" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
-
-
-===============================
- Start logging 20130220062356
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[06.23.56]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \\" \\r\\n\\t.,;:\\\'\\\"()?!\\"" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
-
-
-===============================
- Start logging 20130220062435
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[06.24.35]	java -cp /home/xj229/tools/weka/weka.jar weka.filters.unsupervised.attribute.StringToWordVector -N 0 -i ../data/7nat_lvl123_6000each_bf.arff -o ../data/7nat_lvl123_6000each_bog.arff -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.LovinsStemmer -W 25000 -M 10 -L
-
-
-===============================
- Start logging 20130220065805
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-
-
-===============================
- Start logging 20130220065942
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[06.59.42]	./StringToWordVector.sh 25000 -L weka.core.stemmers.LovinsStemmer 10 ../data/7nat_lvl123_6000each_bf.arff ../data/7nat_lvl123_6000each_bog.arff /home/xj229/tools/weka/weka.jar
-
-
-===============================
- Start logging 20130220070404
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[07.04.04]	./StringToWordVector.sh 25000 -L weka.core.stemmers.LovinsStemmer 10 ../data/7nat_lvl123_6000each_bf.arff ../data/7nat_lvl123_6000each_bog.arff /home/xj229/tools/weka/weka.jar
-
-
-===============================
- Start logging 20130220070429
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[07.04.29]	./StringToWordVector.sh 25000 -L weka.core.stemmers.LovinsStemmer 10 ../data/7nat_lvl123_6000each_bf.arff ../data/7nat_lvl123_6000each_bog.arff /home/xj229/tools/weka/weka.jar
-
-
-===============================
- Start logging 20130220192045
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[19.20.45]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:False
-[19.20.45]	[BogBuilder] First pass vocab scan, #vocab = 36064
-[19.20.45]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4497
-
-
-===============================
- Start logging 20130220192103
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[19.21.03]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:False
-[19.21.03]	[BogBuilder] First pass vocab scan, #vocab = 36064
-[19.21.03]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4497
-
-
-===============================
- Start logging 20130220192120
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[19.21.20]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:False
-[19.21.20]	[BogBuilder] First pass vocab scan, #vocab = 36064
-[19.21.20]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4497
-[19.21.25]	Done! Number of instance wrote: 0
-
-
-===============================
- Start logging 20130220192527
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[19.25.27]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:False
-[19.25.27]	[BogBuilder] First pass vocab scan, #vocab = 36064
-[19.25.27]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4497
-[19.25.32]	Done! Number of instance wrote: 208935
-
-
-===============================
- Start logging 20130220192747
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[19.27.47]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:False
-[19.27.47]	[BogBuilder] First pass vocab scan, #vocab = 36064
-[19.27.47]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4497
-[19.27.52]	Done! Number of instance wrote: 208935
-
-
-===============================
- Start logging 20130220195816
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[19.58.16]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:True
-[19.58.16]	[BogBuilder] First pass vocab scan, #vocab = 30118
-[19.58.16]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4077
-[19.58.21]	Done! Number of instance wrote: 208935
-
-
-===============================
- Start logging 20130220200049
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[20.00.49]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:True
-[20.00.49]	[BogBuilder] First pass vocab scan, #vocab = 30118
-[20.00.49]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4077
-
-
-===============================
- Start logging 20130220200140
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[20.01.40]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:True
-[20.01.40]	[BogBuilder] First pass vocab scan, #vocab = 30118
-[20.01.40]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4077
-
-
-===============================
- Start logging 20130220200259
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[20.02.59]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:True
-[20.02.59]	[BogBuilder] First pass vocab scan, #vocab = 30118
-[20.02.59]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4077
-
-
-===============================
- Start logging 20130220200357
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[20.03.57]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:True
-[20.03.57]	[BogBuilder] First pass vocab scan, #vocab = 30118
-[20.03.57]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4077
-
-
-===============================
- Start logging 20130220200554
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[20.05.54]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:True
-[20.05.54]	[BogBuilder] First pass vocab scan, #vocab = 30118
-[20.05.54]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4077
-
-
-===============================
- Start logging 20130220200729
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[20.07.29]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:True
-[20.07.29]	[BogBuilder] First pass vocab scan, #vocab = 30118
-[20.07.29]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4077
-
-
-===============================
- Start logging 20130220200747
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[20.07.47]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:True
-[20.07.47]	[BogBuilder] First pass vocab scan, #vocab = 30118
-[20.07.47]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4077
-
-
-===============================
- Start logging 20130220200842
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[20.08.42]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:True
-[20.08.42]	[BogBuilder] First pass vocab scan, #vocab = 30118
-[20.08.42]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4077
-[20.08.47]	Done! Number of instance wrote: 208799
-
-
-===============================
- Start logging 20130220211056
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[21.10.56]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:True
-[21.10.56]	[BogBuilder] First pass vocab scan, #vocab = 25112
-[21.10.56]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 3613
-[21.11.16]	Done! Number of instance wrote: 208810
-
-
-===============================
- Start logging 20130220211220
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[21.12.20]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:False
-[21.12.20]	[BogBuilder] First pass vocab scan, #vocab = 30867
-[21.12.20]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4015
-[21.12.40]	Done! Number of instance wrote: 208886
-
-
-===============================
- Start logging 20130220212735
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[21.27.35]	BogBuilder.GetBog(
-/home/xj229/data/7nat_lvl123_6000each.sen ->
- /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.arff
-[21.27.38]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:5 -alphanumonly:False
-[21.27.38]	[BogBuilder] First pass vocab scan, #vocab = 35979
-[21.27.38]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7462
-[21.27.44]	Done! Number of instance wrote: 208904
-
-
-===============================
- Start logging 20130220212810
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[21.28.10]	BogBuilder.GetBog(
-/home/xj229/data/7nat_lvl123_6000each.sen ->
- /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.arff
-[21.28.27]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
-[21.28.27]	[BogBuilder] First pass vocab scan, #vocab = 30867
-[21.28.27]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6519
-[21.28.47]	Done! Number of instance wrote: 208907
-
-
-===============================
- Start logging 20130220213901
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[21.39.01]	BogBuilder.GetBog(
-/home/xj229/data/7nat_lvl123_6000each.sen ->
- /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.arff
-[21.39.19]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
-[21.39.19]	[BogBuilder] First pass vocab scan, #vocab = 30951
-[21.39.19]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6542
-[21.39.39]	Done! Number of instance wrote: 208907
-
-
-===============================
- Start logging 20130220214212
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[21.42.12]	BogBuilder.GetBog(
-/home/xj229/data/7nat_lvl123_6000each.sen ->
- /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.arff
-[21.42.30]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
-[21.42.30]	[BogBuilder] First pass vocab scan, #vocab = 31005
-[21.42.30]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6546
-[21.42.50]	Done! Number of instance wrote: 208907
-
-
-===============================
- Start logging 20130220220215
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[22.02.15]	BogBuilder.GetBog(
-/home/xj229/data/7nat_lvl123_6000each.sen ->
- /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.arff
-
-
-===============================
- Start logging 20130220220350
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[22.03.50]	BogBuilder.GetBog(
-/home/xj229/data/7nat_lvl123_6000each.sen ->
- /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.arff
-[22.04.10]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
-[22.04.10]	[BogBuilder] First pass vocab scan, #vocab = 30988
-[22.04.10]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6536
-[22.04.33]	Done! Number of instance wrote: 208906
-
-
-===============================
- Start logging 20130220220530
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[22.05.30]	BogBuilder.GetBog(
-/home/xj229/data/7nat_lvl123_6000each.sen ->
- /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.arff
-[22.05.36]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:5 -alphanumonly:False
-[22.05.36]	[BogBuilder] First pass vocab scan, #vocab = 36047
-[22.05.36]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7476
-[22.05.45]	Done! Number of instance wrote: 208903
-
-
-===============================
- Start logging 20130221162352
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[16.23.52]	BogBuilder.GetBog(
-/home/xj229/data/7nat_lvl123_6000each.sen ->
- /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.arff
-[16.23.58]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:5 -alphanumonly:False
-[16.23.58]	[BogBuilder] First pass vocab scan, #vocab = 36047
-[16.23.58]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7476
-[16.24.07]	Done! Number of instance wrote: 208903
-[16.24.07]	Time Used(s): 15.851191
-Memory Used (Mb): 0.000000
-		=========== Prev Mem ============
-		None
-		=========== ======== ============
-		
-		=========== After Mem ===========
-		None
-		=========== ======== ============
-		
-
-
-===============================
- Start logging 20130221162502
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[16.25.02]	BogBuilder.GetBog(
-/home/xj229/data/7nat_lvl123_6000each.sen ->
- /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.arff
-[16.25.08]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:5 -alphanumonly:False
-[16.25.08]	[BogBuilder] First pass vocab scan, #vocab = 36047
-[16.25.08]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7476
-[16.25.17]	Done! Number of instance wrote: 208903
-[16.25.17]	Time Used(s): 15.801887
-Memory Used (Mb): 0.000000
-		=========== Prev Mem ============
-		n_fields ->	16
-n_sequence_fields ->	16
-n_unnamed_fields ->	0
-ru_idrss ->	0
-ru_inblock ->	0
-ru_isrss ->	0
-ru_ixrss ->	0
-ru_majflt ->	0
-ru_maxrss ->	529904
-ru_minflt ->	1382
-ru_msgrcv ->	0
-ru_msgsnd ->	0
-ru_nivcsw ->	2
-ru_nsignals ->	0
-ru_nswap ->	0
-ru_nvcsw ->	1
-ru_oublock ->	16
-ru_stime ->	0.016001
-ru_utime ->	0.012
-
-		=========== ======== ============
-		
-		=========== After Mem ===========
-		n_fields ->	16
-n_sequence_fields ->	16
-n_unnamed_fields ->	0
-ru_idrss ->	0
-ru_inblock ->	0
-ru_isrss ->	0
-ru_ixrss ->	0
-ru_majflt ->	0
-ru_maxrss ->	529904
-ru_minflt ->	93349
-ru_msgrcv ->	0
-ru_msgsnd ->	0
-ru_nivcsw ->	19
-ru_nsignals ->	0
-ru_nswap ->	0
-ru_nvcsw ->	4
-ru_oublock ->	20856
-ru_stime ->	0.188011
-ru_utime ->	15.592974
-
-		=========== ======== ============
-		
-
-
-===============================
- Start logging 20130221163213
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[16.32.13]	BogBuilder.GetBog(
-/home/xj229/data/7nat_lvl123_6000each.sen ->
- /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.arff
-[16.32.19]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:5 -alphanumonly:False
-[16.32.19]	[BogBuilder] First pass vocab scan, #vocab = 36047
-[16.32.19]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7476
-[16.32.28]	Done! Number of instance wrote: 208903
-[16.32.28]	
+[17.46.42]	Executing command (redirect to file: /home/xj229/logs/short_arfftest.wekaEval_130223174642.log):
+java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/short_arfftest.arff
+[17.47.37]	Correctly Classified Instances         885               49.1121 %
+Incorrectly Classified Instances       917               50.8879 %
+
+[17.47.37]	
 
 Perfmon Summary:
-Time Used(s): 15.962027
-Memory Used (Mb): 0.000000
+Time Used(s): 55.180177
+Memory Used (Mb): 2697.000000
 =========== Prev Mem ============
 n_fields ->	16
 n_sequence_fields ->	16
@@ -3628,81 +82,17 @@ ru_inblock ->	0
 ru_isrss ->	0
 ru_ixrss ->	0
 ru_majflt ->	0
-ru_maxrss ->	530136
-ru_minflt ->	1381
+ru_maxrss ->	0
+ru_minflt ->	0
 ru_msgrcv ->	0
 ru_msgsnd ->	0
 ru_nivcsw ->	0
 ru_nsignals ->	0
 ru_nswap ->	0
-ru_nvcsw ->	1
-ru_oublock ->	16
-ru_stime ->	0.012
-ru_utime ->	0.008
-
-=========== ======== ============
-		
-=========== After Mem ===========
-n_fields ->	16
-n_sequence_fields ->	16
-n_unnamed_fields ->	0
-ru_idrss ->	0
-ru_inblock ->	0
-ru_isrss ->	0
-ru_ixrss ->	0
-ru_majflt ->	0
-ru_maxrss ->	530136
-ru_minflt ->	93348
-ru_msgrcv ->	0
-ru_msgsnd ->	0
-ru_nivcsw ->	20
-ru_nsignals ->	0
-ru_nswap ->	0
-ru_nvcsw ->	4
-ru_oublock ->	20856
-ru_stime ->	0.216013
-ru_utime ->	15.53297
-
-=========== ======== ============
-		
-
-
-===============================
- Start logging 20130221163441
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[16.34.41]	BogBuilder.GetBog(
-/home/xj229/data/7nat_lvl123_6000each.sen ->
- /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.arff
-[16.35.01]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
-[16.35.01]	[BogBuilder] First pass vocab scan, #vocab = 30988
-[16.35.01]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6536
-[16.35.25]	Done! Number of instance wrote: 208906
-[16.35.25]	
-
-Perfmon Summary:
-Time Used(s): 44.683976
-Memory Used (Mb): 0.000000
-=========== Prev Mem ============
-n_fields ->	16
-n_sequence_fields ->	16
-n_unnamed_fields ->	0
-ru_idrss ->	0
-ru_inblock ->	0
-ru_isrss ->	0
-ru_ixrss ->	0
-ru_majflt ->	0
-ru_maxrss ->	532576
-ru_minflt ->	1377
-ru_msgrcv ->	0
-ru_msgsnd ->	0
-ru_nivcsw ->	0
-ru_nsignals ->	0
-ru_nswap ->	0
-ru_nvcsw ->	1
+ru_nvcsw ->	0
 ru_oublock ->	0
-ru_stime ->	0.012
-ru_utime ->	0.012
+ru_stime ->	0.0
+ru_utime ->	0.0
 
 =========== ======== ============
 		
@@ -3714,51 +104,57 @@ ru_idrss ->	0
 ru_inblock ->	0
 ru_isrss ->	0
 ru_ixrss ->	0
-ru_majflt ->	0
-ru_maxrss ->	532576
-ru_minflt ->	93344
+ru_majflt ->	1
+ru_maxrss ->	2762304
+ru_minflt ->	704055
 ru_msgrcv ->	0
 ru_msgsnd ->	0
-ru_nivcsw ->	47
+ru_nivcsw ->	394
 ru_nsignals ->	0
 ru_nswap ->	0
-ru_nvcsw ->	4
-ru_oublock ->	20768
-ru_stime ->	0.212013
-ru_utime ->	44.234764
+ru_nvcsw ->	3639
+ru_oublock ->	4704
+ru_stime ->	1.540096
+ru_utime ->	56.291518
 
 =========== ======== ============
 		
 
 
-===============================
- Start logging 20130221165331
+======================================================
+*********************************************************
+Start logging 20130223175012
  /home/xj229/workspace/AcsProj/Util/Log.pyc
 
-[16.53.31]	BogBuilder.GetBog(
-/home/xj229/data/7nat_lvl123_6000each.sen ->
- /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.arff
-[16.53.51]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
-[16.53.51]	[BogBuilder] First pass vocab scan, #vocab = 30988
-[16.53.51]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6536
-[16.54.14]	Done! Number of instance wrote: 208906
+[17.50.12]	Start Weka evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM
+[17.50.12]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M10_L_STM.wekaEval_130223175012.log):
+java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.arff
 
 
-===============================
- Start logging 20130221165500
+======================================================
+*********************************************************
+Start logging 20130223175140
  /home/xj229/workspace/AcsProj/Util/Log.pyc
 
+[17.51.40]	Start Weka evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM
+[17.51.40]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M10_L_STM.wekaEval_130223175140.log):
+java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.arff
+[18.25.49]	
+[18.25.49]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L
+[18.25.49]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L.libsvmEval_130223182549.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.libsvm
+[18.25.49]	
+[18.25.49]	Start Weka evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L
+[18.25.49]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L.wekaEval_130223182549.log):
+java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.arff
+[19.45.27]	Correctly Classified Instances       55866               26.7449 %
+Incorrectly Classified Instances    153019               73.2551 %
 
-
-===============================
- Start logging 20130221165612
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[16.56.12]	
+[19.45.27]	
 
 Perfmon Summary:
-Time Used(s): 1.186473
-Memory Used (Mb): 0.000000
+Time Used(s): 6827.117777
+Memory Used (Mb): 2699.000000
 =========== Prev Mem ============
 n_fields ->	16
 n_sequence_fields ->	16
@@ -3768,17 +164,17 @@ ru_inblock ->	0
 ru_isrss ->	0
 ru_ixrss ->	0
 ru_majflt ->	0
-ru_maxrss ->	533320
-ru_minflt ->	1475
+ru_maxrss ->	0
+ru_minflt ->	0
 ru_msgrcv ->	0
 ru_msgsnd ->	0
 ru_nivcsw ->	0
 ru_nsignals ->	0
 ru_nswap ->	0
-ru_nvcsw ->	1
+ru_nvcsw ->	0
 ru_oublock ->	0
-ru_stime ->	0.016001
-ru_utime ->	0.012
+ru_stime ->	0.0
+ru_utime ->	0.0
 
 =========== ======== ============
 		
@@ -3790,52 +186,371 @@ ru_idrss ->	0
 ru_inblock ->	0
 ru_isrss ->	0
 ru_ixrss ->	0
-ru_majflt ->	0
-ru_maxrss ->	533320
-ru_minflt ->	80626
+ru_majflt ->	1
+ru_maxrss ->	2764444
+ru_minflt ->	858775
 ru_msgrcv ->	0
 ru_msgsnd ->	0
-ru_nivcsw ->	2
+ru_nivcsw ->	16021
 ru_nsignals ->	0
 ru_nswap ->	0
-ru_nvcsw ->	1
+ru_nvcsw ->	411081
+ru_oublock ->	6616
+ru_stime ->	7.216451
+ru_utime ->	6906.539631
+
+=========== ======== ============
+		
+[19.45.27]	Start Weka evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L
+[19.45.27]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L.wekaEval_130223194527.log):
+java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.arff
+[21.35.09]	
+[21.35.09]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM
+[21.35.09]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.libsvmEval_130223213509.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.libsvm
+[21.37.53]	
+[21.37.53]	Start Weka evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM
+[21.37.53]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.wekaEval_130223213753.log):
+java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.arff
+[22.43.17]	Correctly Classified Instances       56012               26.8124 %
+Incorrectly Classified Instances    152891               73.1876 %
+
+[22.43.17]	
+
+Perfmon Summary:
+Time Used(s): 10669.593146
+Memory Used (Mb): 9.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	1
+ru_maxrss ->	2764444
+ru_minflt ->	858775
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	16021
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	411081
+ru_oublock ->	6616
+ru_stime ->	7.216451
+ru_utime ->	6906.539631
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	2
+ru_maxrss ->	2773408
+ru_minflt ->	1830561
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	38028
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	1205638
+ru_oublock ->	17648
+ru_stime ->	18.605162
+ru_utime ->	17681.661034
+
+=========== ======== ============
+		
+[22.43.17]	Start Weka evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM
+[22.43.17]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.wekaEval_130223224317.log):
+java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.arff
+[23.50.05]	
+[23.50.05]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM
+[23.50.05]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L_STM.libsvmEval_130223235005.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.libsvm
+[23.52.59]	
+[23.52.59]	Start Weka evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM
+[23.52.59]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L_STM.wekaEval_130223235259.log):
+java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.arff
+[00.58.29]	Correctly Classified Instances       55501               26.5752 %
+Incorrectly Classified Instances    153344               73.4248 %
+
+[00.58.29]	
+
+Perfmon Summary:
+Time Used(s): 8111.711155
+Memory Used (Mb): 0.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	2
+ru_maxrss ->	2773408
+ru_minflt ->	1830561
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	38028
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	1205638
+ru_oublock ->	17648
+ru_stime ->	18.605162
+ru_utime ->	17681.661034
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	3
+ru_maxrss ->	2773408
+ru_minflt ->	2797800
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	55484
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	1854540
+ru_oublock ->	26144
+ru_stime ->	28.425776
+ru_utime ->	25878.849327
+
+=========== ======== ============
+		
+[00.58.29]	Start Weka evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM
+[00.58.29]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L_STM.wekaEval_130224005829.log):
+java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.arff
+[02.27.52]	
+[02.27.52]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_STM
+[02.27.52]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_STM.libsvmEval_130224022752.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_STM.libsvm
+[02.30.56]	
+[02.30.56]	Start Weka evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_STM
+[02.30.56]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_STM.wekaEval_130224023056.log):
+java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/7nat_lvl123_6000each.bog_M5_STM.arff
+[03.36.03]	Correctly Classified Instances       55894               26.7556 %
+Incorrectly Classified Instances    153012               73.2444 %
+
+[03.36.03]	
+
+Perfmon Summary:
+Time Used(s): 9454.391922
+Memory Used (Mb): 118.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	3
+ru_maxrss ->	2773408
+ru_minflt ->	2797800
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	55484
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	1854540
+ru_oublock ->	26144
+ru_stime ->	28.425776
+ru_utime ->	25878.849327
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	8
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	4
+ru_maxrss ->	2893832
+ru_minflt ->	3828161
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	78106
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	2440132
+ru_oublock ->	35872
+ru_stime ->	37.44234
+ru_utime ->	35461.996236
+
+=========== ======== ============
+		
+[03.36.03]	Start Weka evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_STM
+[03.36.03]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_STM.wekaEval_130224033603.log):
+java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/7nat_lvl123_6000each.bog_M5_STM.arff
+[05.29.14]	
+[06.40.31]	Correctly Classified Instances       55688               26.6582 %
+Incorrectly Classified Instances    153208               73.3418 %
+
+[06.40.31]	
+
+Perfmon Summary:
+Time Used(s): 11067.908662
+Memory Used (Mb): 0.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	8
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	4
+ru_maxrss ->	2893832
+ru_minflt ->	3828161
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	78106
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	2440132
+ru_oublock ->	35872
+ru_stime ->	37.44234
+ru_utime ->	35461.996236
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	52192
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	6
+ru_maxrss ->	2893832
+ru_minflt ->	4771636
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	101466
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	3240049
+ru_oublock ->	47040
+ru_stime ->	47.738983
+ru_utime ->	46637.538664
+
+=========== ======== ============
+		
+
+
+======================================================
+*********************************************************
+Start logging 20130224104303
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[10.43.03]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM
+[10.43.03]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M10_L_STM.libsvmEval_130224104303.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.libsvm
+[10.46.18]	Cross Validation Accuracy = 40.056%
+
+[10.46.18]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L
+[10.46.18]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L.libsvmEval_130224104618.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.libsvm
+[10.46.18]	
+[10.46.18]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM
+[10.46.18]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.libsvmEval_130224104618.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.libsvm
+[10.49.14]	Cross Validation Accuracy = 40.781%
+
+[10.49.14]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM
+[10.49.14]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L_STM.libsvmEval_130224104914.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.libsvm
+[10.52.18]	Cross Validation Accuracy = 41.7432%
+
+[10.52.18]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_STM
+[10.52.18]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_STM.libsvmEval_130224105218.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_STM.libsvm
+[10.55.33]	Cross Validation Accuracy = 42.3316%
+
+
+
+======================================================
+*********************************************************
+Start logging 20130224110704
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[11.07.04]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM
+[11.07.04]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M10_L_STM.libsvmEval_130224110704.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.libsvm
+[11.10.29]	Cross Validation Accuracy = 40.056%
+
+[11.10.29]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L
+[11.10.29]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L.libsvmEval_130224111029.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.libsvm
+[11.10.29]	
+[11.10.29]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM
+[11.10.29]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.libsvmEval_130224111029.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.libsvm
+[11.13.20]	Cross Validation Accuracy = 40.781%
+
+[11.13.20]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM
+[11.13.20]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L_STM.libsvmEval_130224111320.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.libsvm
+[11.16.39]	Cross Validation Accuracy = 41.7432%
+
+[11.16.39]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_STM
+[11.16.39]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_STM.libsvmEval_130224111639.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_STM.libsvm
+
+
+======================================================
+*********************************************************
+Start logging 20130224111825
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[11.18.25]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM
+[11.18.25]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M10_L_STM.libsvmEval_130224111825.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.libsvm
+[11.21.47]	Cross Validation Accuracy = 40.056%
+
+[11.21.47]	
+
+Perfmon Summary:
+Time Used(s): 202.596386
+Memory Used (Mb): 41.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	0
+ru_minflt ->	0
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	0
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	0
 ru_oublock ->	0
-ru_stime ->	0.16001
-ru_utime ->	1.048065
-
-=========== ======== ============
-		
-
-
-===============================
- Start logging 20130221211239
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[21.12.39]	
-
-Perfmon Summary:
-Time Used(s): 1.211547
-Memory Used (Mb): 0.000000
-=========== Prev Mem ============
-n_fields ->	16
-n_sequence_fields ->	16
-n_unnamed_fields ->	0
-ru_idrss ->	0
-ru_inblock ->	0
-ru_isrss ->	0
-ru_ixrss ->	0
-ru_majflt ->	0
-ru_maxrss ->	538540
-ru_minflt ->	1542
-ru_msgrcv ->	0
-ru_msgsnd ->	0
-ru_nivcsw ->	0
-ru_nsignals ->	0
-ru_nswap ->	0
-ru_nvcsw ->	1
-ru_oublock ->	16
-ru_stime ->	0.012
-ru_utime ->	0.016001
+ru_stime ->	0.0
+ru_utime ->	0.0
 
 =========== ======== ============
 		
@@ -3848,363 +563,28 @@ ru_inblock ->	0
 ru_isrss ->	0
 ru_ixrss ->	0
 ru_majflt ->	0
-ru_maxrss ->	538540
-ru_minflt ->	80695
+ru_maxrss ->	42564
+ru_minflt ->	37389
 ru_msgrcv ->	0
 ru_msgsnd ->	0
-ru_nivcsw ->	3
-ru_nsignals ->	0
-ru_nswap ->	0
-ru_nvcsw ->	1
-ru_oublock ->	16
-ru_stime ->	0.128008
-ru_utime ->	1.108069
-
-=========== ======== ============
-		
-
-
-===============================
- Start logging 20130221211414
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[21.14.14]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.arff -o /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.libsvm
-[21.14.24]	
-
-Perfmon Summary:
-Time Used(s): 11.153445
-Memory Used (Mb): 0.000000
-=========== Prev Mem ============
-n_fields ->	16
-n_sequence_fields ->	16
-n_unnamed_fields ->	0
-ru_idrss ->	0
-ru_inblock ->	0
-ru_isrss ->	0
-ru_ixrss ->	0
-ru_majflt ->	0
-ru_maxrss ->	544476
-ru_minflt ->	1539
-ru_msgrcv ->	0
-ru_msgsnd ->	0
-ru_nivcsw ->	0
-ru_nsignals ->	0
-ru_nswap ->	0
-ru_nvcsw ->	1
-ru_oublock ->	8
-ru_stime ->	0.020001
-ru_utime ->	0.016001
-
-=========== ======== ============
-		
-=========== After Mem ===========
-n_fields ->	16
-n_sequence_fields ->	16
-n_unnamed_fields ->	0
-ru_idrss ->	0
-ru_inblock ->	0
-ru_isrss ->	0
-ru_ixrss ->	0
-ru_majflt ->	0
-ru_maxrss ->	544476
-ru_minflt ->	80797
-ru_msgrcv ->	0
-ru_msgsnd ->	0
-ru_nivcsw ->	3
-ru_nsignals ->	0
-ru_nswap ->	0
-ru_nvcsw ->	3
-ru_oublock ->	8
-ru_stime ->	0.156009
-ru_utime ->	1.052065
-
-=========== ======== ============
-		
-
-
-===============================
- Start logging 20130221212036
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[21.20.36]	/home/xj229/tools/liblinear-1.93/train -v None /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.libsvm
-
-
-===============================
- Start logging 20130221212213
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[21.22.13]	/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.libsvm
-
-
-===============================
- Start logging 20130221212419
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[21.24.19]	/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.libsvm
-
-
-===============================
- Start logging 20130221212452
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[21.24.52]	/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.libsvm
-
-
-===============================
- Start logging 20130221213654
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[21.36.54]	/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.libsvm
-[21.39.47]	
-
-Perfmon Summary:
-Time Used(s): 172.239975
-Memory Used (Mb): 0.000000
-=========== Prev Mem ============
-n_fields ->	16
-n_sequence_fields ->	16
-n_unnamed_fields ->	0
-ru_idrss ->	0
-ru_inblock ->	0
-ru_isrss ->	0
-ru_ixrss ->	0
-ru_majflt ->	0
-ru_maxrss ->	580376
-ru_minflt ->	1477
-ru_msgrcv ->	0
-ru_msgsnd ->	0
-ru_nivcsw ->	0
-ru_nsignals ->	0
-ru_nswap ->	0
-ru_nvcsw ->	1
-ru_oublock ->	16
-ru_stime ->	0.016001
-ru_utime ->	0.008
-
-=========== ======== ============
-		
-=========== After Mem ===========
-n_fields ->	16
-n_sequence_fields ->	16
-n_unnamed_fields ->	0
-ru_idrss ->	0
-ru_inblock ->	0
-ru_isrss ->	0
-ru_ixrss ->	0
-ru_majflt ->	0
-ru_maxrss ->	580376
-ru_minflt ->	1628
-ru_msgrcv ->	0
-ru_msgsnd ->	0
-ru_nivcsw ->	4
-ru_nsignals ->	0
-ru_nswap ->	0
-ru_nvcsw ->	1730
-ru_oublock ->	16
-ru_stime ->	0.056003
-ru_utime ->	0.060003
-
-=========== ======== ============
-		
-
-
-===============================
- Start logging 20130221220908
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[22.09.08]	/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.libsvm
-[22.12.00]	
-
-Perfmon Summary:
-Time Used(s): 172.102252
-Memory Used (Mb): 0.000000
-=========== Prev Mem ============
-n_fields ->	16
-n_sequence_fields ->	16
-n_unnamed_fields ->	0
-ru_idrss ->	0
-ru_inblock ->	0
-ru_isrss ->	0
-ru_ixrss ->	0
-ru_majflt ->	0
-ru_maxrss ->	583460
-ru_minflt ->	3006
-ru_msgrcv ->	0
-ru_msgsnd ->	0
-ru_nivcsw ->	2
-ru_nsignals ->	0
-ru_nswap ->	0
-ru_nvcsw ->	33
-ru_oublock ->	24
-ru_stime ->	0.028001
-ru_utime ->	0.052003
-
-=========== ======== ============
-		
-=========== After Mem ===========
-n_fields ->	16
-n_sequence_fields ->	16
-n_unnamed_fields ->	0
-ru_idrss ->	0
-ru_inblock ->	0
-ru_isrss ->	0
-ru_ixrss ->	0
-ru_majflt ->	0
-ru_maxrss ->	583460
-ru_minflt ->	3383
-ru_msgrcv ->	0
-ru_msgsnd ->	0
-ru_nivcsw ->	12
-ru_nsignals ->	0
-ru_nswap ->	0
-ru_nvcsw ->	2114
-ru_oublock ->	24
-ru_stime ->	0.068004
-ru_utime ->	0.140008
-
-=========== ======== ============
-		
-
-
-===============================
- Start logging 20130221233022
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[23.30.22]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.arff -o /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.libsvm
-[23.30.22]	
-
-Perfmon Summary:
-Time Used(s): 1.264186
-Memory Used (Mb): 0.000000
-=========== Prev Mem ============
-n_fields ->	16
-n_sequence_fields ->	16
-n_unnamed_fields ->	0
-ru_idrss ->	0
-ru_inblock ->	0
-ru_isrss ->	0
-ru_ixrss ->	0
-ru_majflt ->	0
-ru_maxrss ->	581660
-ru_minflt ->	1535
-ru_msgrcv ->	0
-ru_msgsnd ->	0
-ru_nivcsw ->	0
-ru_nsignals ->	0
-ru_nswap ->	0
-ru_nvcsw ->	1
-ru_oublock ->	0
-ru_stime ->	0.016001
-ru_utime ->	0.012
-
-=========== ======== ============
-		
-=========== After Mem ===========
-n_fields ->	16
-n_sequence_fields ->	16
-n_unnamed_fields ->	0
-ru_idrss ->	0
-ru_inblock ->	0
-ru_isrss ->	0
-ru_ixrss ->	0
-ru_majflt ->	0
-ru_maxrss ->	581660
-ru_minflt ->	80802
-ru_msgrcv ->	0
-ru_msgsnd ->	0
-ru_nivcsw ->	3
-ru_nsignals ->	0
-ru_nswap ->	0
-ru_nvcsw ->	3
-ru_oublock ->	0
-ru_stime ->	0.124007
-ru_utime ->	1.076067
-
-=========== ======== ============
-		
-
-
-===============================
- Start logging 20130221233036
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[23.30.36]	BogBuilder.GetBog(
-/home/xj229/data/7nat_lvl123_6000each.sen ->
- /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.arff
-[23.30.56]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:10 -alphanumonly:False
-[23.30.56]	[BogBuilder] First pass vocab scan, #vocab = 30988
-[23.30.56]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4025
-[23.31.19]	Done! Number of instance wrote: 208885
-[23.31.19]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.arff -o /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.libsvm
-[23.31.25]	
-
-Perfmon Summary:
-Time Used(s): 50.513358
-Memory Used (Mb): 0.000000
-=========== Prev Mem ============
-n_fields ->	16
-n_sequence_fields ->	16
-n_unnamed_fields ->	0
-ru_idrss ->	0
-ru_inblock ->	0
-ru_isrss ->	0
-ru_ixrss ->	0
-ru_majflt ->	0
-ru_maxrss ->	581744
-ru_minflt ->	1536
-ru_msgrcv ->	0
-ru_msgsnd ->	0
-ru_nivcsw ->	0
-ru_nsignals ->	0
-ru_nswap ->	0
-ru_nvcsw ->	1
-ru_oublock ->	0
-ru_stime ->	0.016001
-ru_utime ->	0.012
-
-=========== ======== ============
-		
-=========== After Mem ===========
-n_fields ->	16
-n_sequence_fields ->	16
-n_unnamed_fields ->	0
-ru_idrss ->	0
-ru_inblock ->	0
-ru_isrss ->	0
-ru_ixrss ->	0
-ru_majflt ->	0
-ru_maxrss ->	581744
-ru_minflt ->	93654
-ru_msgrcv ->	0
-ru_msgsnd ->	0
-ru_nivcsw ->	46
+ru_nivcsw ->	203
 ru_nsignals ->	0
 ru_nswap ->	0
 ru_nvcsw ->	6
-ru_oublock ->	20384
-ru_stime ->	0.236014
-ru_utime ->	43.454715
+ru_oublock ->	48
+ru_stime ->	0.076004
+ru_utime ->	201.848614
 
 =========== ======== ============
 		
-
-
-===============================
- Start logging 20130221233202
- /home/xj229/workspace/AcsProj/Util/Log.pyc
-
-[23.32.02]	BogBuilder.GetBog(
-/home/xj229/data/7nat_lvl123_6000each.sen ->
- /home/xj229/data/7nat_lvl123_6000each.bog_M5_STM.arff
-[23.32.21]	BOG setting: BogBuilder -stmmer:True -lower:False -minFreq:5 -alphanumonly:False
-[23.32.21]	[BogBuilder] First pass vocab scan, #vocab = 36898
-[23.32.21]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7546
-[23.32.44]	Done! Number of instance wrote: 208896
-[23.32.44]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_6000each.bog_M5_STM.arff -o /home/xj229/data/7nat_lvl123_6000each.bog_M5_STM.libsvm
-[23.32.56]	
+[11.21.47]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L
+[11.21.47]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L.libsvmEval_130224112147.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.libsvm
+[11.21.47]	
+[11.21.47]	
 
 Perfmon Summary:
-Time Used(s): 55.181013
+Time Used(s): 0.003714
 Memory Used (Mb): 0.000000
 =========== Prev Mem ============
 n_fields ->	16
@@ -4215,17 +595,251 @@ ru_inblock ->	0
 ru_isrss ->	0
 ru_ixrss ->	0
 ru_majflt ->	0
-ru_maxrss ->	581840
-ru_minflt ->	1535
+ru_maxrss ->	42564
+ru_minflt ->	37389
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	203
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	6
+ru_oublock ->	48
+ru_stime ->	0.076004
+ru_utime ->	201.848614
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	42564
+ru_minflt ->	38386
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	203
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	9
+ru_oublock ->	48
+ru_stime ->	0.076004
+ru_utime ->	201.848614
+
+=========== ======== ============
+		
+[11.21.47]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM
+[11.21.47]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.libsvmEval_130224112147.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.libsvm
+[11.24.30]	Cross Validation Accuracy = 40.781%
+
+[11.24.30]	
+
+Perfmon Summary:
+Time Used(s): 162.460838
+Memory Used (Mb): 0.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	42564
+ru_minflt ->	38386
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	203
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	9
+ru_oublock ->	48
+ru_stime ->	0.076004
+ru_utime ->	201.848614
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	42564
+ru_minflt ->	75572
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	366
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	15
+ru_oublock ->	88
+ru_stime ->	0.16001
+ru_utime ->	363.746732
+
+=========== ======== ============
+		
+[11.24.30]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM
+[11.24.30]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L_STM.libsvmEval_130224112430.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.libsvm
+[11.27.23]	Cross Validation Accuracy = 41.7432%
+
+[11.27.23]	
+
+Perfmon Summary:
+Time Used(s): 172.856770
+Memory Used (Mb): 0.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	42564
+ru_minflt ->	75572
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	366
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	15
+ru_oublock ->	88
+ru_stime ->	0.16001
+ru_utime ->	363.746732
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	42988
+ru_minflt ->	113165
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	539
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	20
+ru_oublock ->	136
+ru_stime ->	0.236014
+ru_utime ->	536.0455
+
+=========== ======== ============
+		
+[11.27.23]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_STM
+[11.27.23]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_STM.libsvmEval_130224112723.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_STM.libsvm
+[11.30.11]	Cross Validation Accuracy = 42.3316%
+
+[11.30.11]	
+
+Perfmon Summary:
+Time Used(s): 168.309885
+Memory Used (Mb): 1.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	42988
+ru_minflt ->	113165
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	539
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	20
+ru_oublock ->	136
+ru_stime ->	0.236014
+ru_utime ->	536.0455
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	43116
+ru_minflt ->	150826
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	707
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	28
+ru_oublock ->	184
+ru_stime ->	0.292018
+ru_utime ->	703.755982
+
+=========== ======== ============
+		
+
+
+======================================================
+*********************************************************
+Start logging 20130224214449
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[21.44.49]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.arff
+[21.45.07]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:True
+[21.45.07]	[BogBuilder] First pass vocab scan, #vocab = 24932
+[21.45.07]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 5550
+[21.45.28]	Done! Number of instance wrote: 196485
+[21.45.28]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.arff -o /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.libsvm
+[21.45.36]	
+
+Perfmon Summary:
+Time Used(s): 48.822985
+Memory Used (Mb): 341.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	0
+ru_minflt ->	0
 ru_msgrcv ->	0
 ru_msgsnd ->	0
 ru_nivcsw ->	0
 ru_nsignals ->	0
 ru_nswap ->	0
-ru_nvcsw ->	1
+ru_nvcsw ->	0
 ru_oublock ->	0
-ru_stime ->	0.036002
-ru_utime ->	0.012
+ru_stime ->	0.0
+ru_utime ->	0.0
 
 =========== ======== ============
 		
@@ -4234,43 +848,54 @@ n_fields ->	16
 n_sequence_fields ->	16
 n_unnamed_fields ->	0
 ru_idrss ->	0
-ru_inblock ->	0
+ru_inblock ->	10016
 ru_isrss ->	0
 ru_ixrss ->	0
-ru_majflt ->	0
-ru_maxrss ->	581840
-ru_minflt ->	93653
+ru_majflt ->	2
+ru_maxrss ->	349496
+ru_minflt ->	87169
 ru_msgrcv ->	0
 ru_msgsnd ->	0
-ru_nivcsw ->	49
+ru_nivcsw ->	17
 ru_nsignals ->	0
 ru_nswap ->	0
-ru_nvcsw ->	8
-ru_oublock ->	21080
-ru_stime ->	0.188011
-ru_utime ->	42.670666
+ru_nvcsw ->	528
+ru_oublock ->	11520
+ru_stime ->	0.220013
+ru_utime ->	8.256516
 
 =========== ======== ============
 		
 
 
-===============================
- Start logging 20130221233613
+======================================================
+*********************************************************
+Start logging 20130224214749
  /home/xj229/workspace/AcsProj/Util/Log.pyc
 
-[23.36.13]	BogBuilder.GetBog(
+[21.47.49]	BogBuilder.GetBog(
 /home/xj229/data/7nat_lvl123_6000each.sen ->
- /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.arff
-[23.36.34]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:True
-[23.36.34]	[BogBuilder] First pass vocab scan, #vocab = 25112
-[23.36.34]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 5791
-[23.36.57]	Done! Number of instance wrote: 208845
-[23.36.57]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.arff -o /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.libsvm
-[23.37.05]	
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.arff
+
+
+======================================================
+*********************************************************
+Start logging 20130224214849
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[21.48.49]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.arff
+[21.49.05]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:True
+[21.49.05]	[BogBuilder] First pass vocab scan, #vocab = 24932
+[21.49.05]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 5550
+[21.49.26]	Done! Number of instance wrote: 196485
+[21.49.26]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.arff -o /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.libsvm
+[21.49.33]	
 
 Perfmon Summary:
-Time Used(s): 53.465714
-Memory Used (Mb): 0.000000
+Time Used(s): 45.125670
+Memory Used (Mb): 341.000000
 =========== Prev Mem ============
 n_fields ->	16
 n_sequence_fields ->	16
@@ -4280,17 +905,223 @@ ru_inblock ->	0
 ru_isrss ->	0
 ru_ixrss ->	0
 ru_majflt ->	0
-ru_maxrss ->	584732
-ru_minflt ->	1539
+ru_maxrss ->	0
+ru_minflt ->	0
 ru_msgrcv ->	0
 ru_msgsnd ->	0
-ru_nivcsw ->	1
+ru_nivcsw ->	0
 ru_nsignals ->	0
 ru_nswap ->	0
-ru_nvcsw ->	1
-ru_oublock ->	8
-ru_stime ->	0.020001
-ru_utime ->	0.024001
+ru_nvcsw ->	0
+ru_oublock ->	0
+ru_stime ->	0.0
+ru_utime ->	0.0
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	8
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	1
+ru_maxrss ->	349496
+ru_minflt ->	86598
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	14
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	469
+ru_oublock ->	11520
+ru_stime ->	0.176011
+ru_utime ->	7.600475
+
+=========== ======== ============
+		
+
+
+======================================================
+*********************************************************
+Start logging 20130224215142
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[21.51.42]	Start LibSVM evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP
+[21.51.42]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.libsvmEval_130224215142.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.libsvm
+[21.53.49]	Cross Validation Accuracy = 40.5919%
+
+[21.53.49]	
+
+Perfmon Summary:
+Time Used(s): 126.708528
+Memory Used (Mb): 29.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	0
+ru_minflt ->	0
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	0
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	0
+ru_oublock ->	0
+ru_stime ->	0.0
+ru_utime ->	0.0
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	344
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	1
+ru_maxrss ->	29804
+ru_minflt ->	32655
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	142
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	8
+ru_oublock ->	32
+ru_stime ->	0.17201
+ru_utime ->	126.127882
+
+=========== ======== ============
+		
+
+
+======================================================
+*********************************************************
+Start logging 20130224215446
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[21.54.46]	Start Weka evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP
+[21.54.46]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.wekaEval_130224215446.log):
+java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.arff
+
+
+======================================================
+*********************************************************
+Start logging 20130224231331
+ ../Util/Log.pyc
+
+[23.13.31]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.arff
+
+
+======================================================
+*********************************************************
+Start logging 20130224231516
+ ../Util/Log.pyc
+
+[23.15.16]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.libsvmEval_130224231516.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.libsvm
+[23.17.10]	Cross Validation Accuracy = 40.5919%
+
+[23.17.10]	
+
+Perfmon Summary:
+Time Used(s): 113.406748
+Memory Used (Mb): 29.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	0
+ru_minflt ->	0
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	0
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	0
+ru_oublock ->	0
+ru_stime ->	0.0
+ru_utime ->	0.0
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	11608
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	1
+ru_maxrss ->	29804
+ru_minflt ->	32649
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	133
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	27
+ru_oublock ->	32
+ru_stime ->	0.064004
+ru_utime ->	112.899055
+
+=========== ======== ============
+		
+
+
+======================================================
+*********************************************************
+Start logging 20130224232143
+ ../Util/Log.pyc
+
+[23.21.43]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L.libsvmEval_130224232143.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.libsvm
+[23.21.43]	
+[23.21.43]	
+
+Perfmon Summary:
+Time Used(s): 0.003713
+Memory Used (Mb): 3.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	0
+ru_minflt ->	0
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	0
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	0
+ru_oublock ->	0
+ru_stime ->	0.0
+ru_utime ->	0.0
 
 =========== ======== ============
 		
@@ -4303,17 +1134,357 @@ ru_inblock ->	0
 ru_isrss ->	0
 ru_ixrss ->	0
 ru_majflt ->	0
-ru_maxrss ->	584732
-ru_minflt ->	93650
+ru_maxrss ->	3628
+ru_minflt ->	989
 ru_msgrcv ->	0
 ru_msgsnd ->	0
-ru_nivcsw ->	48
+ru_nivcsw ->	0
 ru_nsignals ->	0
 ru_nswap ->	0
-ru_nvcsw ->	9
-ru_oublock ->	19544
-ru_stime ->	0.204012
-ru_utime ->	44.386774
+ru_nvcsw ->	4
+ru_oublock ->	0
+ru_stime ->	0.0
+ru_utime ->	0.0
+
+=========== ======== ============
+		
+
+
+======================================================
+*********************************************************
+Start logging 20130224232325
+ ../Util/Log.pyc
+
+[23.23.25]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.arff
+[23.23.32]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:5 -alphanumonly:False
+[23.23.32]	[BogBuilder] First pass vocab scan, #vocab = 36047
+[23.23.32]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7476
+[23.23.40]	Done! Number of instance wrote: 208903
+[23.23.40]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.arff -o /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.libsvm
+[23.23.52]	
+
+Perfmon Summary:
+Time Used(s): 28.285881
+Memory Used (Mb): 364.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	0
+ru_minflt ->	0
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	0
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	0
+ru_oublock ->	0
+ru_stime ->	0.0
+ru_utime ->	0.0
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	10016
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	2
+ru_maxrss ->	372892
+ru_minflt ->	95222
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	221
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	659
+ru_oublock ->	22160
+ru_stime ->	0.264016
+ru_utime ->	12.676792
+
+=========== ======== ============
+		
+
+
+======================================================
+*********************************************************
+Start logging 20130224232426
+ ../Util/Log.pyc
+
+[23.24.26]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L.libsvmEval_130224232426.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.libsvm
+[23.27.14]	Cross Validation Accuracy = 42.2593%
+
+[23.27.14]	
+
+Perfmon Summary:
+Time Used(s): 168.394056
+Memory Used (Mb): 41.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	0
+ru_minflt ->	0
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	0
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	0
+ru_oublock ->	0
+ru_stime ->	0.0
+ru_utime ->	0.0
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	42976
+ru_minflt ->	37598
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	174
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	4
+ru_oublock ->	48
+ru_stime ->	0.068004
+ru_utime ->	167.85849
+
+=========== ======== ============
+		
+
+
+======================================================
+*********************************************************
+Start logging 20130224233528
+ ../Util/Log.pyc
+
+[23.35.28]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.arff
+[23.35.44]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
+[23.35.44]	[BogBuilder] First pass vocab scan, #vocab = 30808
+[23.35.44]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6295
+[23.36.02]	Done! Number of instance wrote: 203805
+[23.36.02]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.arff -o /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.libsvm
+[23.36.11]	
+
+Perfmon Summary:
+Time Used(s): 43.517909
+Memory Used (Mb): 341.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	0
+ru_minflt ->	0
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	0
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	0
+ru_oublock ->	0
+ru_stime ->	0.0
+ru_utime ->	0.0
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	1
+ru_maxrss ->	349400
+ru_minflt ->	87416
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	18
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	503
+ru_oublock ->	12888
+ru_stime ->	0.216013
+ru_utime ->	9.080567
+
+=========== ======== ============
+		
+
+
+======================================================
+*********************************************************
+Start logging 20130224233706
+ ../Util/Log.pyc
+
+[23.37.06]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.libsvmEval_130224233706.log):
+/home/xj229/tools/liblinear-1.93/train -v 4 /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.libsvm
+[23.39.02]	Cross Validation Accuracy = 41.1236%
+
+[23.39.02]	
+
+Perfmon Summary:
+Time Used(s): 116.824634
+Memory Used (Mb): 31.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	0
+ru_minflt ->	0
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	0
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	0
+ru_oublock ->	0
+ru_stime ->	0.0
+ru_utime ->	0.0
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	31944
+ru_minflt ->	34165
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	118
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	4
+ru_oublock ->	32
+ru_stime ->	0.084005
+ru_utime ->	116.415275
+
+=========== ======== ============
+		
+
+
+======================================================
+*********************************************************
+Start logging 20130224234115
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[23.41.15]	Start Weka evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP
+[23.41.15]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.wekaEval_130224234115.log):
+java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.arff
+
+
+======================================================
+*********************************************************
+Start logging 20130224234336
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[23.43.36]	Start Weka evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP
+[23.43.36]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.wekaEval_130224234336.log):
+java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.arff
+
+
+======================================================
+*********************************************************
+Start logging 20130224234418
+ ../Util/Log.pyc
+
+[23.44.18]	Start Weka evaluation: /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP
+[23.44.18]	Executing command (redirect to file: /home/xj229/logs/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.wekaEval_130224234418.log):
+java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.arff
+[02.11.16]	Correctly Classified Instances       54958               26.966  %
+Incorrectly Classified Instances    148847               73.034  %
+
+[02.11.16]	
+
+Perfmon Summary:
+Time Used(s): 8817.972936
+Memory Used (Mb): 2702.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	0
+ru_minflt ->	0
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	0
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	0
+ru_oublock ->	0
+ru_stime ->	0.0
+ru_utime ->	0.0
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	1
+ru_maxrss ->	2767624
+ru_minflt ->	1053280
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	22473
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	562769
+ru_oublock ->	9416
+ru_stime ->	10.620663
+ru_utime ->	8957.003777
 
 =========== ======== ============
 		

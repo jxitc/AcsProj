@@ -13,6 +13,8 @@ sys.path.append(os.path.dirname(__file__))
 
 from Util.Log import *
 from Util.ConfigFile import *
+from Util.Perfmon import *
+
 from ShCaller import *
 
 class WekaSh:
@@ -86,13 +88,64 @@ class WekaSh:
 		cmdList.append(oLibSVMFile)
 		
 		self.__shCaller.Call(cmdList)
-
 	
+	def RunEval(self, testSetPath):
+		"""
+		Run evaluation of libsvm
+		
+		java -Xmx15000M -cp weka.jar weka.classifiers.bayes.NaiveBayes -v \
+  	-c first -x 4 -t ~/data/7nat_lvl123_6000each_bog.arff \
+  	-d
+		"""
+		
+
+		(folderName, fName) = os.path.split(testSetPath)
+		(fNameWoExt, ext) = os.path.splitext(testSetPath)
+		(fName, extName) = os.path.splitext(fName)
+
+		# Constructing command list
+		nCvFold = WekaSh.__cfg.GetConfig("WEKA_CVFOLD")
+		iniPara = "java -cp %s weka.classifiers.bayes.NaiveBayes -v " \
+							"-c first -x %s" % (WekaSh.__wekaJar, nCvFold)
+		cmdList = iniPara.split(' ')
+
+		nbModelPath = fNameWoExt + ".nbmodel"
+
+		cmdList.append('-t')
+		cmdList.append(testSetPath)
+
+			
+		# Constructing redirecting log
+		import time
+		timeStamp = time.strftime("%y%m%d%H%M%S", time.localtime())
+		rdFile = fName + ".wekaEval_%s.log" % timeStamp
+
+		# Run
+		#cmdList = "java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.arff".split(' ')
+		WekaSh.__shCaller.RedirectedCall(cmdList, rdFile)
+
+		getRslt = WekaSh.__shCaller.GetGrep('Classified', "/home/xj229/logs/" + rdFile)
+		print(getRslt)
+		WekaSh.__log.WriteLog(getRslt)
+
 
 if __name__ == '__main__':
 	ws = WekaSh()
-	ipt = "../data/7nat_lvl123_6000each_bf.arff"
-	opt = "../data/7nat_lvl123_6000each_bog.arff"
+	
+	pfm = Perfmon()
+	pfm.Start()
+	
+	
+#	ipt = "../data/7nat_lvl123_6000each_bf.arff"
+#	opt = "../data/7nat_lvl123_6000each_bog.arff"
+#
+#	ws.StringToWordVector(ipt,opt)
 
-	ws.StringToWordVector(ipt,opt)
-
+	testSet = "/home/xj229/data/short_arfftest.arff"
+	ws.RunEval(testSet)
+	
+	pfm.Stop()
+	msg = pfm.GetSummary()
+	print(msg)
+	lg = Log()
+	lg.WriteLog(msg)
