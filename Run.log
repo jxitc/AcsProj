@@ -1488,3 +1488,1234 @@ ru_utime ->	8957.003777
 
 =========== ======== ============
 		
+
+
+======================================================
+*********************************************************
+Start logging 20130225204857
+ ../Util/Log.pyc
+
+[20.48.57]	
+
+Processing cn
+
+
+======================================================
+*********************************************************
+Start logging 20130225205046
+ ../Util/Log.pyc
+
+[20.50.46]	
+
+Processing cn
+[20.50.48]	
+SubSetCriteria Summary:
+Nationality	[cn]
+
+[20.50.48]	Write 162192 wid to widlist /home/xj229/workspace/AcsProj/data/cn_lvlall.widlist
+[20.50.49]	
+
+Processing fr
+[20.50.52]	
+SubSetCriteria Summary:
+Nationality	[fr]
+
+[20.50.52]	Write 14062 wid to widlist /home/xj229/workspace/AcsProj/data/fr_lvlall.widlist
+[20.50.52]	
+
+Processing de
+[20.50.54]	
+SubSetCriteria Summary:
+Nationality	[de]
+
+[20.50.54]	Write 17022 wid to widlist /home/xj229/workspace/AcsProj/data/de_lvlall.widlist
+[20.50.54]	
+
+Processing mx
+[20.50.57]	
+SubSetCriteria Summary:
+Nationality	[mx]
+
+[20.50.57]	Write 15800 wid to widlist /home/xj229/workspace/AcsProj/data/mx_lvlall.widlist
+[20.50.57]	
+
+Processing ru
+[20.51.00]	
+SubSetCriteria Summary:
+Nationality	[ru]
+
+[20.51.00]	Write 63421 wid to widlist /home/xj229/workspace/AcsProj/data/ru_lvlall.widlist
+[20.51.00]	
+
+Processing br
+[20.51.03]	
+SubSetCriteria Summary:
+Nationality	[br]
+
+[20.51.03]	Write 71047 wid to widlist /home/xj229/workspace/AcsProj/data/br_lvlall.widlist
+[20.51.03]	
+
+Processing it
+[20.51.06]	
+SubSetCriteria Summary:
+Nationality	[it]
+
+[20.51.06]	Write 19247 wid to widlist /home/xj229/workspace/AcsProj/data/it_lvlall.widlist
+
+
+======================================================
+*********************************************************
+Start logging 20130225205207
+ ../Util/Log.pyc
+
+[20.52.07]	
+
+Processing cn
+[20.52.09]	
+SubSetCriteria Summary:
+LevelNo	[1, 2, 3]
+Nationality	[cn]
+
+[20.52.09]	Write 63795 wid to widlist /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
+[20.52.09]	
+
+Processing fr
+[20.52.13]	
+SubSetCriteria Summary:
+LevelNo	[1, 2, 3]
+Nationality	[fr]
+
+[20.52.13]	Write 5758 wid to widlist /home/xj229/workspace/AcsProj/data/fr_lvl123.widlist
+[20.52.13]	
+
+Processing de
+[20.52.16]	
+SubSetCriteria Summary:
+LevelNo	[1, 2, 3]
+Nationality	[de]
+
+[20.52.16]	Write 6107 wid to widlist /home/xj229/workspace/AcsProj/data/de_lvl123.widlist
+[20.52.16]	
+
+Processing mx
+[20.52.19]	
+SubSetCriteria Summary:
+LevelNo	[1, 2, 3]
+Nationality	[mx]
+
+[20.52.19]	Write 9488 wid to widlist /home/xj229/workspace/AcsProj/data/mx_lvl123.widlist
+[20.52.19]	
+
+Processing ru
+[20.52.22]	
+SubSetCriteria Summary:
+LevelNo	[1, 2, 3]
+Nationality	[ru]
+
+[20.52.22]	Write 14362 wid to widlist /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
+[20.52.22]	
+
+Processing br
+[20.52.26]	
+SubSetCriteria Summary:
+LevelNo	[1, 2, 3]
+Nationality	[br]
+
+[20.52.26]	Write 41969 wid to widlist /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
+[20.52.26]	
+
+Processing it
+[20.52.29]	
+SubSetCriteria Summary:
+LevelNo	[1, 2, 3]
+Nationality	[it]
+
+[20.52.29]	Write 6041 wid to widlist /home/xj229/workspace/AcsProj/data/it_lvl123.widlist
+
+
+======================================================
+*********************************************************
+Start logging 20130225210031
+ ../Util/Log.pyc
+
+[21.00.32]	
+
+Processing cn
+[21.00.32]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
+[21.00.32]	
+
+Processing br
+[21.00.32]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
+[21.00.32]	
+
+Processing ru
+[21.00.32]	Read 14362 wid from file /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
+[21.00.32]	Output 3 nat lvl 123 15000 each sensdata to /home/xj229/workspace/AcsProj/data/3nat_lvl123_15K.sen
+
+
+======================================================
+*********************************************************
+Start logging 20130225210056
+ ../Util/Log.pyc
+
+[21.00.57]	
+
+Processing cn
+[21.00.57]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
+[21.00.57]	
+
+Processing br
+[21.00.57]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
+[21.00.57]	
+
+Processing ru
+[21.00.57]	Read 14362 wid from file /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
+[21.00.57]	Output 3 nat lvl 123 15000 each sensdata to /home/xj229/workspace/AcsProj/data/3nat_lvl123_15K.sen
+
+
+======================================================
+*********************************************************
+Start logging 20130225210230
+ ../Util/Log.pyc
+
+[21.02.31]	
+
+Processing cn
+[21.02.31]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
+[21.02.31]	
+
+Processing br
+[21.02.31]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
+[21.02.31]	
+
+Processing ru
+[21.02.31]	Read 14362 wid from file /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
+[21.02.31]	Output 3 nat lvl 123 15000 each sensdata to /home/xj229/workspace/AcsProj/data/3nat_lvl123_15K.sen
+[21.02.48]	240168 sentences has been wrote to /home/xj229/workspace/AcsProj/data/3nat_lvl123_15K.sen
+
+
+======================================================
+*********************************************************
+Start logging 20130225210716
+ ../Util/Log.pyc
+
+[21.07.17]	
+
+Processing cn
+[21.07.17]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
+[21.07.17]	
+
+Processing br
+[21.07.17]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
+[21.07.17]	Output 2 nat lvl 123 42000 each sensdata to /home/xj229/workspace/AcsProj/data/2nat_lvl123_42.sen
+
+
+======================================================
+*********************************************************
+Start logging 20130225210733
+ ../Util/Log.pyc
+
+[21.07.34]	
+
+Processing cn
+[21.07.34]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
+[21.07.34]	
+
+Processing br
+[21.07.34]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
+[21.07.34]	Output 2 nat lvl 123 42000 each sensdata to /home/xj229/workspace/AcsProj/data/2nat_lvl123_42K.sen
+[21.07.51]	437566 sentences has been wrote to /home/xj229/workspace/AcsProj/data/2nat_lvl123_42K.sen
+
+
+======================================================
+*********************************************************
+Start logging 20130225210756
+ ../Util/Log.pyc
+
+[21.07.57]	
+
+Processing cn
+[21.07.57]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
+[21.07.57]	
+
+Processing br
+[21.07.57]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
+[21.07.57]	Output 2 nat lvl 123 42000 each sensdata to /home/xj229/workspace/AcsProj/data/2nat_lvl123_42K.sen
+[21.08.14]	437566 sentences has been wrote to /home/xj229/workspace/AcsProj/data/2nat_lvl123_42K.sen
+
+
+======================================================
+*********************************************************
+Start logging 20130225231730
+ ../Util/Log.py
+
+[23.17.30]	%s: Start constructing Bog
+
+
+======================================================
+*********************************************************
+Start logging 20130225231810
+ ../Util/Log.pyc
+
+[23.18.10]	%s: Start constructing Bog
+
+
+======================================================
+*********************************************************
+Start logging 20130225231842
+ ../Util/Log.pyc
+
+[23.18.42]	%s: Start constructing Bog
+[23.18.44]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.arff
+[23.18.50]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:5 -alphanumonly:False
+[23.18.50]	[BogBuilder] First pass vocab scan, #vocab = 33167
+[23.18.50]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6885
+[23.19.00]	Done! Number of instance wrote: 240149
+[23.19.00]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.libsvm
+
+
+======================================================
+*********************************************************
+Start logging 20130225231927
+ ../Util/Log.pyc
+
+[23.19.27]	M5_L_STM: Start constructing Bog
+[23.19.28]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.arff
+[23.19.35]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:5 -alphanumonly:False
+[23.19.35]	[BogBuilder] First pass vocab scan, #vocab = 33167
+[23.19.35]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6885
+[23.19.44]	Done! Number of instance wrote: 240149
+[23.19.44]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.libsvm
+[23.19.56]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.libsvm
+
+[23.19.56]	M10_L_STM: Start constructing Bog
+[23.19.58]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM.arff
+[23.20.05]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:10 -alphanumonly:False
+[23.20.05]	[BogBuilder] First pass vocab scan, #vocab = 33167
+[23.20.05]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4192
+[23.20.14]	Done! Number of instance wrote: 240132
+[23.20.14]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM.libsvm
+[23.20.22]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM.libsvm
+
+[23.20.22]	M5_STM: Start constructing Bog
+[23.20.24]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M5_STM.arff
+[23.20.30]	BOG setting: BogBuilder -stmmer:False -lower:False -minFreq:5 -alphanumonly:False
+[23.20.30]	[BogBuilder] First pass vocab scan, #vocab = 38237
+[23.20.30]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7725
+[23.20.39]	Done! Number of instance wrote: 240139
+[23.20.39]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M5_STM.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M5_STM.libsvm
+[23.20.39]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M5_STM.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M5_STM.libsvm
+
+[23.20.39]	M5_L: Start constructing Bog
+[23.20.42]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M5_L.arff
+[23.20.48]	BOG setting: BogBuilder -stmmer:False -lower:False -minFreq:5 -alphanumonly:False
+[23.20.48]	[BogBuilder] First pass vocab scan, #vocab = 38237
+[23.20.48]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7725
+[23.20.57]	Done! Number of instance wrote: 240139
+[23.20.57]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M5_L.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M5_L.libsvm
+[23.20.57]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L.libsvm
+
+[23.20.57]	M5_L_STM_ALPHANUM: Start constructing Bog
+[23.20.59]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_ALPHANUM.arff
+[23.21.21]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
+[23.21.21]	[BogBuilder] First pass vocab scan, #vocab = 28747
+[23.21.21]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6130
+[23.21.45]	Done! Number of instance wrote: 240151
+[23.21.45]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_ALPHANUM.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_ALPHANUM.libsvm
+[23.21.56]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_ALPHANUM.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_ALPHANUM.libsvm
+
+[23.21.56]	M5_L_STM_RMSTP: Start constructing Bog
+[23.21.58]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_RMSTP.arff
+[23.22.19]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
+[23.22.19]	[BogBuilder] First pass vocab scan, #vocab = 28747
+[23.22.19]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6130
+[23.22.44]	Done! Number of instance wrote: 240151
+[23.22.44]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_RMSTP.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_RMSTP.libsvm
+[23.22.54]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_RMSTP.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_RMSTP.libsvm
+
+
+
+======================================================
+*********************************************************
+Start logging 20130225233203
+ ../Util/Log.pyc
+
+[23.32.03]	M5_L_STM: Start constructing Bog
+[23.32.04]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.arff
+[23.32.11]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:5 -alphanumonly:False
+[23.32.11]	[BogBuilder] First pass vocab scan, #vocab = 33167
+[23.32.11]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6885
+[23.32.21]	Done! Number of instance wrote: 240149
+[23.32.21]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.libsvm
+[23.32.32]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.libsvm
+
+[23.32.32]	M10_L_STM: Start constructing Bog
+[23.32.34]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM.arff
+[23.32.42]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:10 -alphanumonly:False
+[23.32.42]	[BogBuilder] First pass vocab scan, #vocab = 33167
+[23.32.42]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4192
+[23.32.51]	Done! Number of instance wrote: 240132
+[23.32.51]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM.libsvm
+[23.32.59]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM.libsvm
+
+[23.32.59]	M5_STM: Start constructing Bog
+[23.33.01]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M5_STM.arff
+[23.33.08]	BOG setting: BogBuilder -stmmer:False -lower:False -minFreq:5 -alphanumonly:False
+[23.33.08]	[BogBuilder] First pass vocab scan, #vocab = 38237
+[23.33.08]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7725
+[23.33.17]	Done! Number of instance wrote: 240139
+[23.33.17]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M5_STM.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M5_STM.libsvm
+[23.33.17]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M5_STM.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M5_STM.libsvm
+
+[23.33.17]	M5_L: Start constructing Bog
+[23.33.20]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M5_L.arff
+[23.33.26]	BOG setting: BogBuilder -stmmer:False -lower:False -minFreq:5 -alphanumonly:False
+[23.33.26]	[BogBuilder] First pass vocab scan, #vocab = 38237
+[23.33.26]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7725
+[23.33.35]	Done! Number of instance wrote: 240139
+[23.33.35]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M5_L.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M5_L.libsvm
+[23.33.35]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L.libsvm
+
+[23.33.35]	M5_L_STM_ALPHANUM: Start constructing Bog
+[23.33.38]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_ALPHANUM.arff
+[23.33.59]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
+[23.33.59]	[BogBuilder] First pass vocab scan, #vocab = 28747
+[23.33.59]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6130
+[23.34.24]	Done! Number of instance wrote: 240151
+[23.34.24]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_ALPHANUM.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_ALPHANUM.libsvm
+[23.34.34]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_ALPHANUM.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_ALPHANUM.libsvm
+
+[23.34.34]	M5_L_STM_RMSTP: Start constructing Bog
+[23.34.37]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_RMSTP.arff
+[23.34.58]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
+[23.34.58]	[BogBuilder] First pass vocab scan, #vocab = 28747
+[23.34.58]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6130
+[23.35.23]	Done! Number of instance wrote: 240151
+[23.35.23]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_RMSTP.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_RMSTP.libsvm
+[23.35.34]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_RMSTP.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_RMSTP.libsvm
+
+
+
+======================================================
+*********************************************************
+Start logging 20130225235254
+ ../Util/Log.pyc
+
+[23.52.54]	M5_L_STM: Start constructing Bog
+[23.52.55]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.arff
+[23.53.02]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:5 -alphanumonly:False
+[23.53.02]	[BogBuilder] First pass vocab scan, #vocab = 33167
+[23.53.02]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6885
+[23.53.11]	Done! Number of instance wrote: 240149
+[23.53.11]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.libsvm
+[23.53.23]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.libsvm
+
+[23.53.23]	M10_L_STM: Start constructing Bog
+[23.53.24]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM.arff
+[23.53.31]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:10 -alphanumonly:False
+[23.53.31]	[BogBuilder] First pass vocab scan, #vocab = 33167
+[23.53.31]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4192
+[23.53.40]	Done! Number of instance wrote: 240132
+[23.53.40]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM.libsvm
+[23.53.48]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM.libsvm
+
+[23.53.48]	M5_STM: Start constructing Bog
+[23.53.50]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M5_STM.arff
+[23.53.56]	BOG setting: BogBuilder -stmmer:False -lower:False -minFreq:5 -alphanumonly:False
+[23.53.56]	[BogBuilder] First pass vocab scan, #vocab = 38237
+[23.53.56]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7725
+[23.54.05]	Done! Number of instance wrote: 240139
+[23.54.05]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M5_STM.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M5_STM.libsvm
+[23.54.17]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M5_STM.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M5_STM.libsvm
+
+[23.54.17]	M5_L: Start constructing Bog
+[23.54.19]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M5_L.arff
+[23.54.25]	BOG setting: BogBuilder -stmmer:False -lower:False -minFreq:5 -alphanumonly:False
+[23.54.25]	[BogBuilder] First pass vocab scan, #vocab = 38237
+[23.54.25]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7725
+[23.54.35]	Done! Number of instance wrote: 240139
+[23.54.35]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M5_L.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M5_L.libsvm
+[23.54.47]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L.libsvm
+
+[23.54.47]	M5_L_STM_ALPHANUM: Start constructing Bog
+[23.54.49]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_ALPHANUM.arff
+[23.55.11]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
+[23.55.11]	[BogBuilder] First pass vocab scan, #vocab = 28747
+[23.55.11]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6130
+[23.55.36]	Done! Number of instance wrote: 240151
+[23.55.36]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_ALPHANUM.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_ALPHANUM.libsvm
+[23.55.47]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_ALPHANUM.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_ALPHANUM.libsvm
+
+[23.55.47]	M5_L_STM_RMSTP: Start constructing Bog
+[23.55.49]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_RMSTP.arff
+[23.56.10]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
+[23.56.10]	[BogBuilder] First pass vocab scan, #vocab = 28747
+[23.56.10]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6130
+[23.56.35]	Done! Number of instance wrote: 240151
+[23.56.35]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_RMSTP.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_RMSTP.libsvm
+[23.56.46]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_RMSTP.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_RMSTP.libsvm
+
+
+
+======================================================
+*********************************************************
+Start logging 20130225235918
+ ../Util/Log.pyc
+
+[23.59.18]	Start Weka evaluation: /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM
+[23.59.18]	Executing command (redirect to file: /home/xj229/logs/3nat_lvl123_15K.bog_M5_L_STM.wekaEval_130225235918.log):
+java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.arff
+[02.43.45]	Correctly Classified Instances      111742               46.5303 %
+Incorrectly Classified Instances    128407               53.4697 %
+
+[02.43.45]	
+
+Perfmon Summary:
+Time Used(s): 9867.643923
+Memory Used (Mb): 2699.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	0
+ru_minflt ->	0
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	0
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	0
+ru_oublock ->	0
+ru_stime ->	0.0
+ru_utime ->	0.0
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	1
+ru_maxrss ->	2764160
+ru_minflt ->	861145
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	17274
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	424398
+ru_oublock ->	8104
+ru_stime ->	7.356459
+ru_utime ->	9928.340482
+
+=========== ======== ============
+		
+[02.43.45]	Start Weka evaluation: /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM
+[02.43.45]	Executing command (redirect to file: /home/xj229/logs/3nat_lvl123_15K.bog_M10_L_STM.wekaEval_130226024345.log):
+java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM.arff
+[04.18.16]	Correctly Classified Instances      111848               46.5777 %
+Incorrectly Classified Instances    128284               53.4223 %
+
+[04.18.16]	
+
+Perfmon Summary:
+Time Used(s): 5670.518185
+Memory Used (Mb): 1.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	1
+ru_maxrss ->	2764160
+ru_minflt ->	861145
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	17274
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	424398
+ru_oublock ->	8104
+ru_stime ->	7.356459
+ru_utime ->	9928.340482
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	2
+ru_maxrss ->	2765252
+ru_minflt ->	1662339
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	26203
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	678982
+ru_oublock ->	12808
+ru_stime ->	11.332708
+ru_utime ->	15625.908558
+
+=========== ======== ============
+		
+[04.18.16]	Start Weka evaluation: /home/xj229/data/3nat_lvl123_15K.bog_M5_STM
+[04.18.16]	Executing command (redirect to file: /home/xj229/logs/3nat_lvl123_15K.bog_M5_STM.wekaEval_130226041816.log):
+java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/3nat_lvl123_15K.bog_M5_STM.arff
+[07.12.13]	Correctly Classified Instances      110876               46.1716 %
+Incorrectly Classified Instances    129263               53.8284 %
+
+[07.12.13]	
+
+Perfmon Summary:
+Time Used(s): 10437.598323
+Memory Used (Mb): 4.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	2
+ru_maxrss ->	2765252
+ru_minflt ->	1662339
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	26203
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	678982
+ru_oublock ->	12808
+ru_stime ->	11.332708
+ru_utime ->	15625.908558
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	3
+ru_maxrss ->	2769300
+ru_minflt ->	2500110
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	42211
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	1191072
+ru_oublock ->	21288
+ru_stime ->	18.73317
+ru_utime ->	26101.455239
+
+=========== ======== ============
+		
+[07.12.13]	Start Weka evaluation: /home/xj229/data/3nat_lvl123_15K.bog_M5_L
+[07.12.13]	Executing command (redirect to file: /home/xj229/logs/3nat_lvl123_15K.bog_M5_L.wekaEval_130226071213.log):
+java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/3nat_lvl123_15K.bog_M5_L.arff
+[10.03.22]	Correctly Classified Instances      110876               46.1716 %
+Incorrectly Classified Instances    129263               53.8284 %
+
+[10.03.22]	
+
+Perfmon Summary:
+Time Used(s): 10268.454716
+Memory Used (Mb): 0.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	3
+ru_maxrss ->	2769300
+ru_minflt ->	2500110
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	42211
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	1191072
+ru_oublock ->	21288
+ru_stime ->	18.73317
+ru_utime ->	26101.455239
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	4
+ru_maxrss ->	2769300
+ru_minflt ->	3291959
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	57827
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	1675845
+ru_oublock ->	29728
+ru_stime ->	25.701606
+ru_utime ->	36409.607458
+
+=========== ======== ============
+		
+[10.03.22]	Start Weka evaluation: /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_ALPHANUM
+[10.03.22]	Executing command (redirect to file: /home/xj229/logs/3nat_lvl123_15K.bog_M5_L_STM_ALPHANUM.wekaEval_130226100322.log):
+java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_ALPHANUM.arff
+[12.09.09]	Correctly Classified Instances      113045               47.0725 %
+Incorrectly Classified Instances    127106               52.9275 %
+
+[12.09.09]	
+
+Perfmon Summary:
+Time Used(s): 7547.225529
+Memory Used (Mb): 0.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	4
+ru_maxrss ->	2769300
+ru_minflt ->	3291959
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	57827
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	1675845
+ru_oublock ->	29728
+ru_stime ->	25.701606
+ru_utime ->	36409.607458
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	5
+ru_maxrss ->	2769300
+ru_minflt ->	4042032
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	69233
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	2070453
+ru_oublock ->	36200
+ru_stime ->	31.441965
+ru_utime ->	43986.200965
+
+=========== ======== ============
+		
+[12.09.09]	Start Weka evaluation: /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_RMSTP
+[12.09.09]	Executing command (redirect to file: /home/xj229/logs/3nat_lvl123_15K.bog_M5_L_STM_RMSTP.wekaEval_130226120909.log):
+java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_RMSTP.arff
+[14.24.46]	Correctly Classified Instances      113045               47.0725 %
+Incorrectly Classified Instances    127106               52.9275 %
+
+[14.24.46]	
+
+Perfmon Summary:
+Time Used(s): 8136.933073
+Memory Used (Mb): 0.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	5
+ru_maxrss ->	2769300
+ru_minflt ->	4042032
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	69233
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	2070453
+ru_oublock ->	36200
+ru_stime ->	31.441965
+ru_utime ->	43986.200965
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	6
+ru_maxrss ->	2769300
+ru_minflt ->	4796417
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	81676
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	2471550
+ru_oublock ->	42880
+ru_stime ->	37.366335
+ru_utime ->	52153.723404
+
+=========== ======== ============
+		
+
+
+======================================================
+*********************************************************
+Start logging 20130228140928
+ ../Util/Log.pyc
+
+[14.09.28]	nFold Splitting! Original data set size: 208935
+New nFold result size:
+	Fold 0 -> 52227
+	Fold 1 -> 52227
+	Fold 2 -> 52227
+	Fold 3 -> 52237
+
+[14.09.28]	Fold 0 test, 52227 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[14.09.28]	Fold 0 train, 156681 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[14.09.28]	Fold 1 test, 52227 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[14.09.29]	Fold 1 train, 156681 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[14.09.29]	Fold 2 test, 52227 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[14.09.29]	Fold 2 train, 156681 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[14.09.29]	Fold 3 test, 52237 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+[14.09.29]	Fold 3 train, 156711 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+
+
+======================================================
+*********************************************************
+Start logging 20130228142913
+ ../Util/Log.pyc
+
+[14.29.13]	nFold Splitting! Original data set size: 208935
+New nFold result size:
+	Fold 0 -> 52227
+	Fold 1 -> 52227
+	Fold 2 -> 52227
+	Fold 3 -> 52237
+Total = 208918
+
+[14.29.13]	Fold 0 test, 52227 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[14.29.13]	Fold 0 train, 156681 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[14.29.13]	Fold 1 test, 52227 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[14.29.14]	Fold 1 train, 156681 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[14.29.14]	Fold 2 test, 52227 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[14.29.14]	Fold 2 train, 156681 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[14.29.14]	Fold 3 test, 52237 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+[14.29.14]	Fold 3 train, 156711 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+
+
+======================================================
+*********************************************************
+Start logging 20130228142936
+ ../Util/Log.pyc
+
+[14.29.36]	nFold Splitting! Original data set size: 208935
+New nFold result size:
+	Fold 0 -> 52227
+	Fold 1 -> 52227
+	Fold 2 -> 52227
+	Fold 3 -> 52227
+Total = 208908
+
+[14.29.36]	Fold 0 test, 52227 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[14.29.36]	Fold 0 train, 156681 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[14.29.36]	Fold 1 test, 52227 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[14.29.36]	Fold 1 train, 156681 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[14.29.36]	Fold 2 test, 52227 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[14.29.36]	Fold 2 train, 156681 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[14.29.36]	Fold 3 test, 52227 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+[14.29.36]	Fold 3 train, 156681 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+
+
+======================================================
+*********************************************************
+Start logging 20130228143009
+ ../Util/Log.pyc
+
+[14.30.09]	nFold Splitting! Original data set size: 208935
+New nFold result size:
+	Fold 0 -> 52227
+	Fold 1 -> 52227
+	Fold 2 -> 52227
+	Fold 3 -> 52237
+Total = 208918
+
+[14.30.09]	Fold 0 test, 52227 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[14.30.09]	Fold 0 train, 156681 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[14.30.09]	Fold 1 test, 52227 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[14.30.10]	Fold 1 train, 156681 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[14.30.10]	Fold 2 test, 52227 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[14.30.10]	Fold 2 train, 156681 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[14.30.10]	Fold 3 test, 52237 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+[14.30.10]	Fold 3 train, 156711 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+
+
+======================================================
+*********************************************************
+Start logging 20130228143141
+ ../Util/Log.pyc
+
+[14.31.41]	nFold Splitting! Original data set size: 208935
+New nFold result size:
+	Fold 0 -> 52227
+	Fold 1 -> 52227
+	Fold 2 -> 52227
+	Fold 3 -> 52237
+Total = 208918
+
+[14.31.41]	Fold 0 test, 52227 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[14.31.41]	Fold 0 train, 156681 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[14.31.41]	Fold 1 test, 52227 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[14.31.41]	Fold 1 train, 156681 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[14.31.41]	Fold 2 test, 52227 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[14.31.41]	Fold 2 train, 156681 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[14.31.41]	Fold 3 test, 52237 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+[14.31.41]	Fold 3 train, 156711 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+
+
+======================================================
+*********************************************************
+Start logging 20130228143306
+ ../Util/Log.pyc
+
+[14.33.06]	nFold Splitting! Original data set size: 208935
+New nFold result size:
+	Fold 0 -> 52232
+	Fold 1 -> 52232
+	Fold 2 -> 52232
+	Fold 3 -> 54058
+Total = 210754
+
+[14.33.06]	Fold 0 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[14.33.06]	Fold 0 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[14.33.06]	Fold 1 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[14.33.07]	Fold 1 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[14.33.07]	Fold 2 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[14.33.07]	Fold 2 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[14.33.07]	Fold 3 test, 54058 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+[14.33.07]	Fold 3 train, 162174 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+
+
+======================================================
+*********************************************************
+Start logging 20130228143527
+ ../Util/Log.pyc
+
+[14.35.27]	nFold Splitting! Original data set size: 208935
+New nFold result size:
+	Fold 0 -> 52232
+	Fold 1 -> 52232
+	Fold 2 -> 52232
+	Fold 3 -> 54058
+Total = 210754
+
+[14.35.27]	Fold 0 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[14.35.27]	Fold 0 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[14.35.27]	Fold 1 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[14.35.27]	Fold 1 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[14.35.27]	Fold 2 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+
+
+======================================================
+*********************************************************
+Start logging 20130228144631
+ ../Util/Log.pyc
+
+[14.46.31]	nFold Splitting! Original data set size: 208935
+New nFold result size:
+	Fold 0 -> 52232
+	Fold 1 -> 52232
+	Fold 2 -> 52232
+	Fold 3 -> 54058
+Total = 210754
+
+[14.46.31]	Fold 0 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[14.46.31]	Fold 0 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[14.46.31]	Fold 1 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[14.46.32]	Fold 1 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[14.46.32]	Fold 2 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[14.46.32]	Fold 2 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[14.46.32]	Fold 3 test, 54058 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+[14.46.32]	Fold 3 train, 162174 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+
+
+======================================================
+*********************************************************
+Start logging 20130228145605
+ ../Util/Log.pyc
+
+[14.56.05]	nFold Splitting! Original data set size: 208935
+New nFold result size:
+	Fold 0 -> 52232
+	Fold 1 -> 52232
+	Fold 2 -> 52232
+	Fold 3 -> 54058
+Total = 210754
+
+[14.56.05]	Fold 0 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[14.56.05]	Fold 0 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[14.56.05]	Fold 1 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[14.56.05]	Fold 1 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[14.56.05]	Fold 2 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[14.56.06]	Fold 2 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[14.56.06]	Fold 3 test, 54058 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+[14.56.06]	Fold 3 train, 162174 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+
+
+======================================================
+*********************************************************
+Start logging 20130228145637
+ ../Util/Log.pyc
+
+[14.56.37]	nFold Splitting! Original data set size: 208935
+New nFold result size:
+	Fold 0 -> 52232
+	Fold 1 -> 52232
+	Fold 2 -> 52232
+	Fold 3 -> 52232
+Total = 208928
+
+[14.56.37]	Fold 0 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[14.56.37]	Fold 0 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[14.56.37]	Fold 1 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[14.56.38]	Fold 1 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[14.56.38]	Fold 2 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[14.56.38]	Fold 2 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[14.56.38]	Fold 3 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+[14.56.38]	Fold 3 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+
+
+======================================================
+*********************************************************
+Start logging 20130228150055
+ ../Util/Log.pyc
+
+[15.00.55]	nFold Splitting! Original data set size: 208935
+New nFold result size:
+	Fold 0 -> 52232
+	Fold 1 -> 52232
+	Fold 2 -> 52232
+	Fold 3 -> 52239
+Total = 208935
+
+[15.00.55]	Fold 0 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[15.00.55]	Fold 0 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[15.00.55]	Fold 1 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[15.00.55]	Fold 1 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[15.00.55]	Fold 2 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[15.00.55]	Fold 2 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[15.00.55]	Fold 3 test, 52239 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+[15.00.55]	Fold 3 train, 156717 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+
+
+======================================================
+*********************************************************
+Start logging 20130228150232
+ ../Util/Log.pyc
+
+[15.02.32]	nFold Splitting! Original data set size: 208935
+New nFold result size:
+	Fold 0 -> 52232
+	Fold 1 -> 52232
+	Fold 2 -> 52232
+	Fold 3 -> 52239
+Total = 208935
+
+[15.02.32]	Fold 0 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[15.02.32]	Fold 0 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[15.02.32]	Fold 1 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[15.02.32]	Fold 1 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[15.02.32]	Fold 2 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[15.02.32]	Fold 2 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[15.02.32]	Fold 3 test, 52239 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+[15.02.32]	Fold 3 train, 156717 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+
+
+======================================================
+*********************************************************
+Start logging 20130228150302
+ ../Util/Log.pyc
+
+[15.03.02]	nFold Splitting! Original data set size: 208935
+New nFold result size:
+	Fold 0 -> 52232
+	Fold 1 -> 52232
+	Fold 2 -> 52232
+	Fold 3 -> 52239
+Total = 208935
+
+[15.03.02]	Fold 0 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[15.03.02]	Fold 0 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[15.03.03]	Fold 1 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[15.03.03]	Fold 1 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[15.03.03]	Fold 2 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[15.03.03]	Fold 2 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[15.03.03]	Fold 3 test, 52239 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+[15.03.03]	Fold 3 train, 156717 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+
+
+======================================================
+*********************************************************
+Start logging 20130228150330
+ ../Util/Log.pyc
+
+[15.03.30]	nFold Splitting! Original data set size: 208935
+New nFold result size:
+	Fold 0 -> 52232
+	Fold 1 -> 52232
+	Fold 2 -> 52232
+	Fold 3 -> 52239
+Total = 208935
+
+[15.03.30]	Fold 0 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[15.03.30]	Fold 0 train, 156703 data, output to /home/xj229/test/testSVM_CV4/fold0_tst.svm
+[15.03.31]	Fold 1 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[15.03.31]	Fold 1 train, 156703 data, output to /home/xj229/test/testSVM_CV4/fold1_tst.svm
+[15.03.31]	Fold 2 test, 52232 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[15.03.31]	Fold 2 train, 156703 data, output to /home/xj229/test/testSVM_CV4/fold2_tst.svm
+[15.03.31]	Fold 3 test, 52239 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+[15.03.31]	Fold 3 train, 156696 data, output to /home/xj229/test/testSVM_CV4/fold3_tst.svm
+
+
+======================================================
+*********************************************************
+Start logging 20130228150457
+ ../Util/Log.pyc
+
+[15.04.57]	nFold Splitting! Original data set size: 240132
+New nFold result size:
+	Fold 0 -> 60031
+	Fold 1 -> 60031
+	Fold 2 -> 60031
+	Fold 3 -> 60039
+Total = 240132
+
+[15.04.57]	Fold 0 test, 60031 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM_CV4/fold0_tst.libsvm
+[15.04.57]	Fold 0 train, 180101 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM_CV4/fold0_tst.libsvm
+[15.04.57]	Fold 1 test, 60031 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM_CV4/fold1_tst.libsvm
+[15.04.57]	Fold 1 train, 180101 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM_CV4/fold1_tst.libsvm
+[15.04.57]	Fold 2 test, 60031 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM_CV4/fold2_tst.libsvm
+[15.04.57]	Fold 2 train, 180101 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM_CV4/fold2_tst.libsvm
+[15.04.57]	Fold 3 test, 60039 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM_CV4/fold3_tst.libsvm
+[15.04.57]	Fold 3 train, 180093 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM_CV4/fold3_tst.libsvm

@@ -71,7 +71,85 @@ class BogBuilder:
 			self.__rmStopWords = False
 
 		self.__minFreq = int(cf.GetConfig("BOG_MINFREQ"))
+
+	def __getConfigStr(self):
+		"""
+		Get the config string such as M10_L_STM
+		"""
+
+		cfgStr = "M%d" % self.__minFreq
+
+		if self.__isToLower:
+			cfgStr += "_L"
+
+		if self.__isAlphaNumOnly:
+			cfgStr += "_ALPHANUM"
+
+		if self.__isUseStemmer:
+			cfgStr += "_STM"
+
+		if self.__rmStopWords:
+			cfgStr += "_RMSTP"
+
+		return cfgStr
+
+	def SetConfigByStr(self, cfgStr):
+		"""
+		Set the configuration by string, such as 7nat_5K_M10_L_STM.arff etc
+		"""
+		import re
 		
+		# build a set of rex
+		pat = r'(_|^)M(?P<MINFREQ>\d{1,2})[_\.]'
+		rexMF = re.compile(pat)
+
+		pat = r'_L[_\.]'
+		rexLower = re.compile(pat)
+
+		pat = r'_STM[_\.]'
+		rexStm = re.compile(pat)
+		
+		pat = r'_ALPHANUM[_\.]'
+		rexAlphaNum = re.compile(pat)
+
+		pat = r'_RMSTP[_\.]'
+		rexRmstp = re.compile(pat)
+
+		
+		# Start set config values
+		m = rexMF.search(cfgStr)
+		if m is None:
+			print cfgStr	
+		self.__minFreq = int(m.group('MINFREQ'))
+
+		m = rexStm.search(cfgStr)
+		if not m is None:
+			self.__isUseStemmer = True
+		else:
+			self.__isUseStemmer = False
+
+		m = rexLower.search(cfgStr)
+		if not m is None:
+			self.__isToLower = True
+		else:
+			self.__isToLower = False
+
+		m = rexAlphaNum.search(cfgStr)
+		if not m is None:
+			self.__isAlphaNumOnly = True
+		else:
+			self.__isAlphaNumOnly = False
+
+		m = rexRmstp.search(cfgStr)
+		self.__stopWordsVocab = None
+		if not m is None:
+			self.__rmStopWords = True
+			self.__stopWordsVocab = Vocab()
+			stopList = cf.GetConfig("STOPLIST")
+			self.__stopWordsVocab.Read(stopList)
+		else:
+			self.__rmStopWords = False
+
 
 	def _getCvSplitRange(self, nFold, nData):
 		# TODO
@@ -159,13 +237,10 @@ class BogBuilder:
 		if tok == '':
 			return None
 
-
-
 		if self.isAllNonASCII(tok):
 			#print tok
 			return None
 
-		
 		# substitution some char
 		
 		if tok.find("'") != -1:
@@ -301,7 +376,9 @@ class BogBuilder:
 				continue
 			strNatClasses += "%s," % n
 		strNatClasses = strNatClasses[0:-1] + "}"
-		ab.AddAttr(classColStr, strNatClasses)
+		
+		#Add Class lable attribute
+		ab.AddAttr("CLS::" + classColStr, strNatClasses)
 
 		# add other bog attributes
 		for (word, freq) in sortedVocab:
@@ -309,8 +386,6 @@ class BogBuilder:
 
 		ab.WriteAttr()
 		
-
-
 
 		# OK Finally, start writing data!
 
@@ -413,8 +488,43 @@ class BogBuilder:
 			ab.AddData(attrList)
 			
 		
+def main_SetOfBogs():
+	
+	cfgStrList = ['M5_L_STM', \
+								'M10_L_STM', \
+								'M5_STM', \
+								'M5_L', \
+								'M5_L_STM_ALPHANUM', \
+								'M5_L_STM_RMSTP']
 
-if __name__ == '__main__':
+	iSenFile = '/home/xj229/data/3nat_lvl123_15K.sen'
+	#iSenFile = '/home/xj229/data/2nat_lvl123_42K.sen'
+
+	ws = WekaSh()
+	lg = Log()
+
+	for cfgStr in cfgStrList:
+		lg.PrintWriteLog("%s: Start constructing Bog" % cfgStr)
+		
+		bb = BogBuilder()
+		bb.SetConfigByStr(cfgStr)
+
+		# Set output arff path
+		(fullNamePath, fExt) = os.path.splitext(iSenFile)
+		oArffFile = '%s.bog_%s.arff' % (fullNamePath, cfgStr)
+		
+		# Get arff bog file for weka
+		bb.GetBog(iSenFile, oArffFile)
+
+		# Convert arff to libSVM
+		oLibSVMFile = '%s.bog_%s.libsvm' % (fullNamePath, cfgStr)
+		
+		ws.LibSVMSaver(oArffFile, oLibSVMFile)
+
+		lg.PrintWriteLog("Finished, output to:\n%s\n%s\n" \
+										 % (oArffFile, oLibSVMFile))
+	
+def main_prevBog():
 	pfm = Perfmon()
 	
 	pfm.Start()
@@ -441,3 +551,7 @@ if __name__ == '__main__':
 	print(msg)
 	lg = Log()
 	lg.WriteLog(msg)
+
+if __name__ == '__main__':
+	main_SetOfBogs()
+

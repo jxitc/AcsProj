@@ -66,6 +66,14 @@ class Log:
 		Log.RunLogWriter.write("[%s]\t%s\n" % (self.GetTimeStamp(), msg))
 		Log.RunLogWriter.flush()
 
+	def PrintWriteLog(self, msg):
+		"""
+		Print to stdout, and write message to log file
+		"""
+		print(msg)
+		self.WriteLog(msg)
+
+
 # Testing...
 if __name__ == '__main__':
 	print('Start module self testing ... ')

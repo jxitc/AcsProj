@@ -6,11 +6,8 @@ Created on 2013-2-7
 
 
 import sys,os
-sys.path.append(os.path.join(os.path.dirname(__file__), 'Weka'))
-sys.path.append(os.path.join(os.path.dirname(__file__), 'Util'))
-sys.path.append(os.path.join(os.path.dirname(__file__), 'Script'))
-sys.path.append(os.path.dirname(__file__))
-
+sys.path.append('../')
+sys.path.append('./')
 
 from Corpus.WritingData import *
 from Corpus.SensData import *
@@ -33,9 +30,6 @@ class SubsetGetter:
 			self.WdObj = WritingData()
 			self.WdObj.Read(cf.GetConfig("WRITINGDATA"))
 
-		if self.SdObj is None:
-			self.SdObj = SensData()
-			self.SdObj.Read(cf.GetConfig("SENSDATA"))
 
 		self.__criSet = SubSetCriteria()
 		self.__criSet.SetWritingDataObj(self.WdObj)
@@ -125,6 +119,11 @@ class SubsetGetter:
 
 		fw = open(outputFn, 'w')
 		
+		if self.SdObj is None:
+			cf = ConfigFile()
+			self.SdObj = SensData()
+			self.SdObj.Read(cf.GetConfig("SENSDATA"))
+
 		sensDataDict = self.SdObj.GetSensDict()
 		
 		lg = Log()
@@ -224,14 +223,53 @@ def main_Combine7natlvl123SubsetWid():
 	sg = SubsetGetter()
 
 	widListAll = []
-	for nat in ['cn','fr','de','mx','ru','br','it']:
+	#for nat in ['cn','fr','de','mx','ru','br','it']:
+	for nat in ['cn','br']:
 		lg.WriteLog("\n\nProcessing " + nat)
 
 	
 		widList = sg.ReadWidList(cf.GetConfig("DATAFOLDER") + \
 										   "/%s_lvl123" % nat + ".widlist")
 		#max 10000
-		if len(widList) >= 6000:
+		maxCnt = 42000
+		if len(widList) >= maxCnt:
+			widList = widList[0:maxCnt]
+			
+		widListAll.extend(widList)
+	
+	outputPath = cf.GetConfig("DATAFOLDER") + "/2nat_lvl123_42K.sen"
+	lg.WriteLog("Output 2 nat lvl 123 42000 each sensdata to " + outputPath)
+	sg.OutputSubset(widListAll, outputPath)
+
+def main_Get3NatLvl123():
+	sg = SubsetGetter()
+
+
+	widListAll = []
+	for nat in ['cn','fr','de','mx','ru','br','it']:
+		lg.WriteLog("\n\nProcessing " + nat)
+
+#		cn -> 162256
+#		br -> 71182
+#		ru -> 63470
+#		it -> 19304
+#		de -> 17030
+#		mx -> 15802
+#		fr -> 14067
+#		sa -> 7743
+#		us -> 6712
+#		jp -> 6027
+	
+		sg.AddCriteria("Nationality", nat)
+		sg.AddCriteria("LevelNo", 1)
+		sg.AddCriteria("LevelNo", 2)
+		sg.AddCriteria("LevelNo", 3)
+
+		#widList = 
+		
+		#max 10000
+		maxCount = 100000
+		if len(widList) >= maxCount:
 			widList = widList[0:6000]
 			
 		widListAll.extend(widList)
@@ -239,6 +277,7 @@ def main_Combine7natlvl123SubsetWid():
 	outputPath = cf.GetConfig("DATAFOLDER") + "/7nat_lvl123_6000each.sen"
 	lg.WriteLog("Output 7 nat lvl 123 conbined sensdata to " + outputPath)
 	sg.OutputSubset(widListAll, outputPath)
+	
 
 
 if __name__ == '__main__':

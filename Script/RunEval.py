@@ -21,7 +21,18 @@ def RunNatClassifyig():
 						 "7nat_lvl123_6000each.bog_M5_STM" \
 						]
 
-	testSet = ["7nat_lvl123_6000each.bog_M5_L_STM_RMSTP"]
+	cfgStrList = ['M5_L_STM', \
+								'M10_L_STM', \
+								'M5_STM', \
+								'M5_L', \
+								'M5_L_STM_ALPHANUM', \
+								'M5_L_STM_RMSTP']
+
+	testSet = []
+	baseStr = "3nat_lvl123_15K.bog"
+	for cfg in cfgStrList:
+		testSet.append("3nat_lvl123_15K.bog_" + cfg)
+
 	testFolder = "/home/xj229/data/"
 	
 	lg = Log()
