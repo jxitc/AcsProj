@@ -2719,3 +2719,723 @@ Total = 240132
 [15.04.57]	Fold 2 train, 180101 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM_CV4/fold2_tst.libsvm
 [15.04.57]	Fold 3 test, 60039 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM_CV4/fold3_tst.libsvm
 [15.04.57]	Fold 3 train, 180093 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM_CV4/fold3_tst.libsvm
+
+
+======================================================
+*********************************************************
+Start logging 20130302131554
+ ../Util/Log.pyc
+
+[13.15.54]	lable [1]: tp=15878, fp=6336, fn=11101, tn=36110, total=69425
+P=0.71, R=0.59, F1=0.32
+
+[13.15.54]	lable [0]: tp=9632, fp=10055, fn=5572, tn=36110, total=61369
+P=0.49, R=0.63, F1=0.28
+
+[13.15.54]	lable [2]: tp=10600, fp=7530, fn=7248, tn=36110, total=61488
+P=0.58, R=0.59, F1=0.29
+
+[13.15.54]	Average F1 = 0.30
+Accuracy = 36110/60031 = 0.601523
+
+
+======================================================
+*********************************************************
+Start logging 20130302131804
+ ../Util/Log.pyc
+
+[13.18.04]	lable [1]: tp=15878, fp=6336, fn=11101, tn=36110, total=69425
+P=0.71, R=0.59, F1=0.32
+
+[13.18.04]	lable [0]: tp=9632, fp=10055, fn=5572, tn=36110, total=61369
+P=0.49, R=0.63, F1=0.28
+
+[13.18.04]	lable [2]: tp=10600, fp=7530, fn=7248, tn=36110, total=61488
+P=0.58, R=0.59, F1=0.29
+
+[13.18.04]	Average F1 = 0.30
+Accuracy = 36110/60031 = 0.601523
+
+
+======================================================
+*********************************************************
+Start logging 20130302131819
+ ../Util/Log.pyc
+
+[13.18.19]	lable [1]: tp=15878, fp=6336, fn=11101, tn=36110, total=69425
+P=0.71, R=0.59, F1=0.32
+
+[13.18.19]	lable [0]: tp=9632, fp=10055, fn=5572, tn=36110, total=61369
+P=0.49, R=0.63, F1=0.28
+
+[13.18.19]	lable [2]: tp=10600, fp=7530, fn=7248, tn=36110, total=61488
+P=0.58, R=0.59, F1=0.29
+
+[13.18.19]	Average F1 = 0.30
+Accuracy = 36110/60031 = 0.601523
+
+
+======================================================
+*********************************************************
+Start logging 20130302132753
+ ../Util/Log.pyc
+
+[13.27.53]	lable [1]: tp=15878, fp=6336, fn=11101, tn=36110, total=69425
+P=0.71, R=0.59, F1=0.32
+
+[13.27.53]	lable [0]: tp=9632, fp=10055, fn=5572, tn=36110, total=61369
+P=0.49, R=0.63, F1=0.28
+
+[13.27.53]	lable [2]: tp=10600, fp=7530, fn=7248, tn=36110, total=61488
+P=0.58, R=0.59, F1=0.29
+
+[13.27.53]	Average F1 = 0.30
+Accuracy = 36110/60031 = 0.601523
+
+
+======================================================
+*********************************************************
+Start logging 20130302132808
+ ../Util/Log.pyc
+
+[13.28.08]	lable [1]: tp=15878, fp=6336, fn=11101, tn=36110, total=69425
+P=0.71, R=0.59, F1=0.32
+
+[13.28.08]	lable [0]: tp=9632, fp=10055, fn=5572, tn=36110, total=61369
+P=0.49, R=0.63, F1=0.28
+
+[13.28.08]	lable [2]: tp=10600, fp=7530, fn=7248, tn=36110, total=61488
+P=0.58, R=0.59, F1=0.29
+
+[13.28.08]	Average F1 = 0.30
+Accuracy = 36110/60031 = 0.601523
+
+
+======================================================
+*********************************************************
+Start logging 20130302132906
+ ../Util/Log.pyc
+
+[13.29.06]	lable [1]: tp=15878, fp=6336, fn=11101, tn=36110, total=69425
+P=0.71, R=0.59, F1=0.32
+
+[13.29.06]	lable [0]: tp=9632, fp=10055, fn=5572, tn=36110, total=61369
+P=0.49, R=0.63, F1=0.28
+
+[13.29.06]	lable [2]: tp=10600, fp=7530, fn=7248, tn=36110, total=61488
+P=0.58, R=0.59, F1=0.29
+
+[13.29.06]	Average F1 = 0.30
+Accuracy = 36110/60031 = 0.601523
+
+
+======================================================
+*********************************************************
+Start logging 20130302132950
+ ../Util/Log.pyc
+
+[13.29.50]	lable [1]: tp=2, fp=2, fn=1, tn=5, total=10
+P=0.50, R=0.67, F1=0.29
+
+[13.29.50]	lable [0]: tp=1, fp=2, fn=2, tn=5, total=10
+P=0.33, R=0.33, F1=0.17
+
+[13.29.50]	lable [2]: tp=2, fp=1, fn=2, tn=5, total=10
+P=0.67, R=0.50, F1=0.29
+
+[13.29.50]	Average F1 = 0.25
+Accuracy = 5/10 = 0.500000
+
+
+======================================================
+*********************************************************
+Start logging 20130302133345
+ ../Util/Log.pyc
+
+[13.33.45]	lable [1]: tp=2, fp=1, fn=2, tn=5, total=10
+P=0.67, R=0.50, F1=0.29
+
+[13.33.45]	lable [0]: tp=1, fp=2, fn=2, tn=5, total=10
+P=0.33, R=0.33, F1=0.17
+
+[13.33.45]	lable [2]: tp=2, fp=2, fn=1, tn=5, total=10
+P=0.50, R=0.67, F1=0.29
+
+[13.33.45]	Average F1 = 0.25
+Accuracy = 5/10 = 0.500000
+
+
+======================================================
+*********************************************************
+Start logging 20130302133505
+ ../Util/Log.pyc
+
+[13.35.05]	lable [1]: tp=2, fp=1, fn=2, tn=3, total=8
+P=0.67, R=0.50, F1=0.29
+
+[13.35.05]	lable [0]: tp=1, fp=2, fn=2, tn=4, total=9
+P=0.33, R=0.33, F1=0.17
+
+[13.35.05]	lable [2]: tp=2, fp=2, fn=1, tn=3, total=8
+P=0.50, R=0.67, F1=0.29
+
+[13.35.05]	Average F1 = 0.25
+Accuracy = 5/10 = 0.500000
+
+
+======================================================
+*********************************************************
+Start logging 20130302133944
+ ../Util/Log.pyc
+
+[13.39.44]	lable [1]: tp=2, fp=1, fn=2, tn=5, total=10
+P=0.67, R=0.50, F1=0.29
+
+[13.39.44]	lable [0]: tp=1, fp=2, fn=2, tn=5, total=10
+P=0.33, R=0.33, F1=0.17
+
+[13.39.44]	lable [2]: tp=2, fp=2, fn=1, tn=5, total=10
+P=0.50, R=0.67, F1=0.29
+
+[13.39.44]	Average F1 = 0.25
+Accuracy = 5/10 = 0.500000
+
+
+======================================================
+*********************************************************
+Start logging 20130302134011
+ ../Util/Log.pyc
+
+[13.40.11]	lable [1]: tp=15878, fp=11101, fn=6336, tn=26716, total=60031
+P=0.59, R=0.71, F1=0.32
+
+[13.40.11]	lable [0]: tp=9632, fp=5572, fn=10055, tn=34772, total=60031
+P=0.63, R=0.49, F1=0.28
+
+[13.40.11]	lable [2]: tp=10600, fp=7248, fn=7530, tn=34653, total=60031
+P=0.59, R=0.58, F1=0.29
+
+[13.40.11]	Average F1 = 0.30
+Accuracy = 36110/60031 = 0.601523
+
+
+======================================================
+*********************************************************
+Start logging 20130304205839
+ ../Util/Log.pyc
+
+[20.58.39]	M5_L_STM: Start constructing Bog
+[20.58.40]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_all.sen ->
+ /home/xj229/data/7nat_lvl123_all.bog_M5_L_STM.arff
+[20.58.49]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:5 -alphanumonly:False
+[20.58.49]	[BogBuilder] First pass vocab scan, #vocab = 43596
+[20.58.49]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 8958
+[20.59.02]	Done! Number of instance wrote: 287364
+[20.59.02]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_all.bog_M5_L_STM.arff -o /home/xj229/data/7nat_lvl123_all.bog_M5_L_STM.libsvm
+[20.59.19]	Finished, output to:
+/home/xj229/data/7nat_lvl123_all.bog_M5_L_STM.arff
+/home/xj229/data/7nat_lvl123_all.bog_M5_L_STM.libsvm
+
+[20.59.19]	M10_L_STM: Start constructing Bog
+[20.59.21]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_all.sen ->
+ /home/xj229/data/7nat_lvl123_all.bog_M10_L_STM.arff
+[20.59.30]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:10 -alphanumonly:False
+[20.59.30]	[BogBuilder] First pass vocab scan, #vocab = 43596
+[20.59.30]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 5425
+[20.59.42]	Done! Number of instance wrote: 287339
+[20.59.42]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_all.bog_M10_L_STM.arff -o /home/xj229/data/7nat_lvl123_all.bog_M10_L_STM.libsvm
+[20.59.54]	Finished, output to:
+/home/xj229/data/7nat_lvl123_all.bog_M10_L_STM.arff
+/home/xj229/data/7nat_lvl123_all.bog_M10_L_STM.libsvm
+
+[20.59.54]	M5_STM: Start constructing Bog
+[20.59.56]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_all.sen ->
+ /home/xj229/data/7nat_lvl123_all.bog_M5_STM.arff
+[21.00.04]	BOG setting: BogBuilder -stmmer:False -lower:False -minFreq:5 -alphanumonly:False
+[21.00.04]	[BogBuilder] First pass vocab scan, #vocab = 51114
+[21.00.04]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 10134
+[21.00.16]	Done! Number of instance wrote: 287349
+[21.00.16]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_all.bog_M5_STM.arff -o /home/xj229/data/7nat_lvl123_all.bog_M5_STM.libsvm
+[21.00.35]	Finished, output to:
+/home/xj229/data/7nat_lvl123_all.bog_M5_STM.arff
+/home/xj229/data/7nat_lvl123_all.bog_M5_STM.libsvm
+
+[21.00.35]	M5_L: Start constructing Bog
+[21.00.37]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_all.sen ->
+ /home/xj229/data/7nat_lvl123_all.bog_M5_L.arff
+[21.00.45]	BOG setting: BogBuilder -stmmer:False -lower:False -minFreq:5 -alphanumonly:False
+[21.00.45]	[BogBuilder] First pass vocab scan, #vocab = 51114
+[21.00.45]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 10134
+[21.00.57]	Done! Number of instance wrote: 287349
+[21.00.57]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_all.bog_M5_L.arff -o /home/xj229/data/7nat_lvl123_all.bog_M5_L.libsvm
+[21.01.17]	Finished, output to:
+/home/xj229/data/7nat_lvl123_all.bog_M5_L.arff
+/home/xj229/data/7nat_lvl123_all.bog_M5_L.libsvm
+
+[21.01.17]	M5_L_STM_ALPHANUM: Start constructing Bog
+[21.01.18]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_all.sen ->
+ /home/xj229/data/7nat_lvl123_all.bog_M5_L_STM_ALPHANUM.arff
+[21.01.46]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
+[21.01.46]	[BogBuilder] First pass vocab scan, #vocab = 37632
+[21.01.46]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7797
+[21.02.19]	Done! Number of instance wrote: 287369
+[21.02.19]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_all.bog_M5_L_STM_ALPHANUM.arff -o /home/xj229/data/7nat_lvl123_all.bog_M5_L_STM_ALPHANUM.libsvm
+[21.02.34]	Finished, output to:
+/home/xj229/data/7nat_lvl123_all.bog_M5_L_STM_ALPHANUM.arff
+/home/xj229/data/7nat_lvl123_all.bog_M5_L_STM_ALPHANUM.libsvm
+
+[21.02.34]	M5_L_STM_RMSTP: Start constructing Bog
+[21.02.35]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_all.sen ->
+ /home/xj229/data/7nat_lvl123_all.bog_M5_L_STM_RMSTP.arff
+[21.03.03]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
+[21.03.03]	[BogBuilder] First pass vocab scan, #vocab = 37632
+[21.03.03]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7797
+[21.03.36]	Done! Number of instance wrote: 287369
+[21.03.36]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_all.bog_M5_L_STM_RMSTP.arff -o /home/xj229/data/7nat_lvl123_all.bog_M5_L_STM_RMSTP.libsvm
+[21.03.51]	Finished, output to:
+/home/xj229/data/7nat_lvl123_all.bog_M5_L_STM_RMSTP.arff
+/home/xj229/data/7nat_lvl123_all.bog_M5_L_STM_RMSTP.libsvm
+
+
+
+======================================================
+*********************************************************
+Start logging 20130304211605
+ ../Util/Log.pyc
+
+[21.16.05]	M5_L_STM: Start constructing Bog
+[21.16.06]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.arff
+[21.16.13]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:5 -alphanumonly:False
+[21.16.13]	[BogBuilder] First pass vocab scan, #vocab = 33167
+[21.16.13]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6885
+[21.16.23]	Done! Number of instance wrote: 240149
+[21.16.23]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.libsvm
+[21.16.35]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM.libsvm
+
+[21.16.35]	M10_L_STM: Start constructing Bog
+[21.16.36]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM.arff
+[21.16.43]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:10 -alphanumonly:False
+[21.16.43]	[BogBuilder] First pass vocab scan, #vocab = 33167
+[21.16.43]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4192
+[21.16.53]	Done! Number of instance wrote: 240132
+[21.16.53]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM.libsvm
+[21.17.01]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM.libsvm
+
+[21.17.01]	M5_STM: Start constructing Bog
+[21.17.03]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M5_STM.arff
+[21.17.09]	BOG setting: BogBuilder -stmmer:False -lower:False -minFreq:5 -alphanumonly:False
+[21.17.09]	[BogBuilder] First pass vocab scan, #vocab = 38237
+[21.17.09]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7725
+[21.17.19]	Done! Number of instance wrote: 240139
+[21.17.19]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M5_STM.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M5_STM.libsvm
+[21.17.31]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M5_STM.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M5_STM.libsvm
+
+[21.17.31]	M5_L: Start constructing Bog
+[21.17.33]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M5_L.arff
+[21.17.39]	BOG setting: BogBuilder -stmmer:False -lower:False -minFreq:5 -alphanumonly:False
+[21.17.39]	[BogBuilder] First pass vocab scan, #vocab = 38237
+[21.17.39]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7725
+[21.17.49]	Done! Number of instance wrote: 240139
+[21.17.49]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M5_L.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M5_L.libsvm
+[21.18.01]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L.libsvm
+
+[21.18.01]	M5_L_STM_ALPHANUM: Start constructing Bog
+[21.18.03]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_ALPHANUM.arff
+[21.18.25]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
+[21.18.25]	[BogBuilder] First pass vocab scan, #vocab = 28747
+[21.18.25]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6130
+[21.18.50]	Done! Number of instance wrote: 240151
+[21.18.50]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_ALPHANUM.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_ALPHANUM.libsvm
+[21.19.01]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_ALPHANUM.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_ALPHANUM.libsvm
+
+[21.19.01]	M5_L_STM_RMSTP: Start constructing Bog
+[21.19.02]	BogBuilder.GetBog(
+/home/xj229/data/3nat_lvl123_15K.sen ->
+ /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_RMSTP.arff
+[21.19.24]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
+[21.19.24]	[BogBuilder] First pass vocab scan, #vocab = 28747
+[21.19.24]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6130
+[21.19.50]	Done! Number of instance wrote: 240151
+[21.19.50]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_RMSTP.arff -o /home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_RMSTP.libsvm
+[21.20.00]	Finished, output to:
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_RMSTP.arff
+/home/xj229/data/3nat_lvl123_15K.bog_M5_L_STM_RMSTP.libsvm
+
+
+
+======================================================
+*********************************************************
+Start logging 20130304212317
+ ../Util/Log.pyc
+
+[21.23.17]	nFold Splitting! Original data set size: 240132
+New nFold result size:
+	Fold 0 -> 60031
+	Fold 1 -> 60031
+	Fold 2 -> 60031
+	Fold 3 -> 60039
+Total = 240132
+
+[21.23.17]	Fold 0 test, 60031 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM_CV4/fold0_tst.libsvm
+[21.23.17]	Fold 0 train, 180101 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM_CV4/fold0_tst.libsvm
+[21.23.17]	Fold 1 test, 60031 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM_CV4/fold1_tst.libsvm
+[21.23.17]	Fold 1 train, 180101 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM_CV4/fold1_tst.libsvm
+[21.23.17]	Fold 2 test, 60031 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM_CV4/fold2_tst.libsvm
+[21.23.17]	Fold 2 train, 180101 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM_CV4/fold2_tst.libsvm
+[21.23.17]	Fold 3 test, 60039 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM_CV4/fold3_tst.libsvm
+[21.23.18]	Fold 3 train, 180093 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM_CV4/fold3_tst.libsvm
+
+
+======================================================
+*********************************************************
+Start logging 20130304213940
+ ../Util/Log.pyc
+
+[21.39.40]	M5_L_STM: Start constructing Bog
+[21.39.41]	BogBuilder.GetBog(
+/home/xj229/data/2nat_lvl123_42K.sen ->
+ /home/xj229/data/2nat_lvl123_42K.bog_M5_L_STM.arff
+[21.39.54]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:5 -alphanumonly:False
+[21.39.54]	[BogBuilder] First pass vocab scan, #vocab = 47117
+[21.39.54]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 9814
+[21.40.13]	Done! Number of instance wrote: 437540
+[21.40.13]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/2nat_lvl123_42K.bog_M5_L_STM.arff -o /home/xj229/data/2nat_lvl123_42K.bog_M5_L_STM.libsvm
+[21.40.40]	Finished, output to:
+/home/xj229/data/2nat_lvl123_42K.bog_M5_L_STM.arff
+/home/xj229/data/2nat_lvl123_42K.bog_M5_L_STM.libsvm
+
+[21.40.40]	M10_L_STM: Start constructing Bog
+[21.40.41]	BogBuilder.GetBog(
+/home/xj229/data/2nat_lvl123_42K.sen ->
+ /home/xj229/data/2nat_lvl123_42K.bog_M10_L_STM.arff
+[21.40.54]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:10 -alphanumonly:False
+[21.40.54]	[BogBuilder] First pass vocab scan, #vocab = 47117
+[21.40.54]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 5863
+[21.41.13]	Done! Number of instance wrote: 437536
+[21.41.13]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/2nat_lvl123_42K.bog_M10_L_STM.arff -o /home/xj229/data/2nat_lvl123_42K.bog_M10_L_STM.libsvm
+[21.41.31]	Finished, output to:
+/home/xj229/data/2nat_lvl123_42K.bog_M10_L_STM.arff
+/home/xj229/data/2nat_lvl123_42K.bog_M10_L_STM.libsvm
+
+[21.41.31]	M5_STM: Start constructing Bog
+[21.41.32]	BogBuilder.GetBog(
+/home/xj229/data/2nat_lvl123_42K.sen ->
+ /home/xj229/data/2nat_lvl123_42K.bog_M5_STM.arff
+[21.41.45]	BOG setting: BogBuilder -stmmer:False -lower:False -minFreq:5 -alphanumonly:False
+[21.41.45]	[BogBuilder] First pass vocab scan, #vocab = 55750
+[21.41.45]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 11157
+[21.42.02]	Done! Number of instance wrote: 437528
+[21.42.02]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/2nat_lvl123_42K.bog_M5_STM.arff -o /home/xj229/data/2nat_lvl123_42K.bog_M5_STM.libsvm
+[21.42.34]	Finished, output to:
+/home/xj229/data/2nat_lvl123_42K.bog_M5_STM.arff
+/home/xj229/data/2nat_lvl123_42K.bog_M5_STM.libsvm
+
+[21.42.34]	M5_L: Start constructing Bog
+[21.42.36]	BogBuilder.GetBog(
+/home/xj229/data/2nat_lvl123_42K.sen ->
+ /home/xj229/data/2nat_lvl123_42K.bog_M5_L.arff
+[21.42.48]	BOG setting: BogBuilder -stmmer:False -lower:False -minFreq:5 -alphanumonly:False
+[21.42.48]	[BogBuilder] First pass vocab scan, #vocab = 55750
+[21.42.48]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 11157
+[21.43.06]	Done! Number of instance wrote: 437528
+[21.43.06]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/2nat_lvl123_42K.bog_M5_L.arff -o /home/xj229/data/2nat_lvl123_42K.bog_M5_L.libsvm
+[21.43.38]	Finished, output to:
+/home/xj229/data/2nat_lvl123_42K.bog_M5_L.arff
+/home/xj229/data/2nat_lvl123_42K.bog_M5_L.libsvm
+
+[21.43.38]	M5_L_STM_ALPHANUM: Start constructing Bog
+[21.43.39]	BogBuilder.GetBog(
+/home/xj229/data/2nat_lvl123_42K.sen ->
+ /home/xj229/data/2nat_lvl123_42K.bog_M5_L_STM_ALPHANUM.arff
+[21.44.20]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
+[21.44.20]	[BogBuilder] First pass vocab scan, #vocab = 41030
+[21.44.20]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 8742
+[21.45.07]	Done! Number of instance wrote: 437541
+[21.45.07]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/2nat_lvl123_42K.bog_M5_L_STM_ALPHANUM.arff -o /home/xj229/data/2nat_lvl123_42K.bog_M5_L_STM_ALPHANUM.libsvm
+[21.45.31]	Finished, output to:
+/home/xj229/data/2nat_lvl123_42K.bog_M5_L_STM_ALPHANUM.arff
+/home/xj229/data/2nat_lvl123_42K.bog_M5_L_STM_ALPHANUM.libsvm
+
+[21.45.31]	M5_L_STM_RMSTP: Start constructing Bog
+[21.45.33]	BogBuilder.GetBog(
+/home/xj229/data/2nat_lvl123_42K.sen ->
+ /home/xj229/data/2nat_lvl123_42K.bog_M5_L_STM_RMSTP.arff
+[21.46.13]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
+[21.46.13]	[BogBuilder] First pass vocab scan, #vocab = 41030
+[21.46.13]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 8742
+[21.47.01]	Done! Number of instance wrote: 437541
+[21.47.01]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/2nat_lvl123_42K.bog_M5_L_STM_RMSTP.arff -o /home/xj229/data/2nat_lvl123_42K.bog_M5_L_STM_RMSTP.libsvm
+[21.47.24]	Finished, output to:
+/home/xj229/data/2nat_lvl123_42K.bog_M5_L_STM_RMSTP.arff
+/home/xj229/data/2nat_lvl123_42K.bog_M5_L_STM_RMSTP.libsvm
+
+
+
+======================================================
+*********************************************************
+Start logging 20130304230901
+ ../Util/Log.pyc
+
+[23.09.01]	M5_L_STM: Start constructing Bog
+[23.09.03]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.arff
+[23.09.09]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:5 -alphanumonly:False
+[23.09.09]	[BogBuilder] First pass vocab scan, #vocab = 36047
+[23.09.09]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 7476
+[23.09.19]	Done! Number of instance wrote: 208903
+[23.09.19]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.arff -o /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.libsvm
+[23.09.30]	Finished, output to:
+/home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.arff
+/home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM.libsvm
+
+[23.09.30]	M10_L_STM: Start constructing Bog
+[23.09.31]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.arff
+[23.09.38]	BOG setting: BogBuilder -stmmer:False -lower:True -minFreq:10 -alphanumonly:False
+[23.09.38]	[BogBuilder] First pass vocab scan, #vocab = 36047
+[23.09.38]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 4490
+[23.09.47]	Done! Number of instance wrote: 208879
+[23.09.47]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.arff -o /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.libsvm
+[23.09.54]	Finished, output to:
+/home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.arff
+/home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.libsvm
+
+[23.09.54]	M5_STM: Start constructing Bog
+[23.09.56]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_STM.arff
+[23.10.02]	BOG setting: BogBuilder -stmmer:False -lower:False -minFreq:5 -alphanumonly:False
+[23.10.02]	[BogBuilder] First pass vocab scan, #vocab = 42191
+[23.10.02]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 8495
+[23.10.11]	Done! Number of instance wrote: 208890
+[23.10.11]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_6000each.bog_M5_STM.arff -o /home/xj229/data/7nat_lvl123_6000each.bog_M5_STM.libsvm
+[23.10.23]	Finished, output to:
+/home/xj229/data/7nat_lvl123_6000each.bog_M5_STM.arff
+/home/xj229/data/7nat_lvl123_6000each.bog_M5_STM.libsvm
+
+[23.10.23]	M5_L: Start constructing Bog
+[23.10.25]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.arff
+[23.10.31]	BOG setting: BogBuilder -stmmer:False -lower:False -minFreq:5 -alphanumonly:False
+[23.10.31]	[BogBuilder] First pass vocab scan, #vocab = 42191
+[23.10.31]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 8495
+[23.10.40]	Done! Number of instance wrote: 208890
+[23.10.40]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.arff -o /home/xj229/data/7nat_lvl123_6000each.bog_M5_L.libsvm
+[23.10.52]	Finished, output to:
+/home/xj229/data/7nat_lvl123_6000each.bog_M5_L.arff
+/home/xj229/data/7nat_lvl123_6000each.bog_M5_L.libsvm
+
+[23.10.52]	M5_L_STM_ALPHANUM: Start constructing Bog
+[23.10.54]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.arff
+
+
+======================================================
+*********************************************************
+Start logging 20130304231114
+ ../Util/Log.pyc
+
+[23.11.14]	nFold Splitting! Original data set size: 240139
+New nFold result size:
+	Fold 0 -> 60033
+	Fold 1 -> 60033
+	Fold 2 -> 60033
+	Fold 3 -> 60040
+Total = 240139
+
+[23.11.14]	Fold 0 test, 60033 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold0_tst.libsvm
+[23.11.14]	Fold 0 train, 180106 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold0_tst.libsvm
+[23.11.14]	Fold 1 test, 60033 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold1_tst.libsvm
+[23.11.15]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
+[23.11.15]	[BogBuilder] First pass vocab scan, #vocab = 30988
+[23.11.15]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6536
+[23.11.15]	Fold 1 train, 180106 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold1_tst.libsvm
+[23.11.15]	Fold 2 test, 60033 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold2_tst.libsvm
+[23.11.15]	Fold 2 train, 180106 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold2_tst.libsvm
+[23.11.15]	Fold 3 test, 60040 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold3_tst.libsvm
+[23.11.15]	Fold 3 train, 180099 data, output to /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold3_tst.libsvm
+[23.11.15]	Fold 0 Training: /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold0_trn.libsvm
+
+
+======================================================
+*********************************************************
+Start logging 20130304231139
+ ../Util/Log.pyc
+
+[23.11.39]	Fold 0 Training: /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold0_trn.libsvm
+[23.11.39]	/home/xj229/tools/liblinear-1.93/train /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold0_trn.libsvm /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold0_trn.libsvm.model
+[23.11.40]	Done! Number of instance wrote: 208906
+[23.11.40]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.arff -o /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.libsvm
+[23.11.50]	Finished, output to:
+/home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.arff
+/home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_ALPHANUM.libsvm
+
+[23.11.50]	M5_L_STM_RMSTP: Start constructing Bog
+[23.11.51]	BogBuilder.GetBog(
+/home/xj229/data/7nat_lvl123_6000each.sen ->
+ /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.arff
+[23.12.01]	Fold 0 Predicting: /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold0_trn.libsvm
+[23.12.01]	/home/xj229/tools/liblinear-1.93/predict /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold0_tst.libsvm /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold0_trn.libsvm.model /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold0_trn.libsvm.predict
+[23.12.01]	Evaluate on libsvm result:
+Gold: /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold0_tst.libsvm
+Sys:/home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold0_trn.libsvm.predict
+[23.12.01]	lable [1]: tp=15640, fp=9840, fn=6573, tn=27980, total=60033
+P=0.61, R=0.70, F1=0.33
+
+[23.12.01]	lable [0]: tp=10683, fp=5670, fn=9006, tn=34674, total=60033
+P=0.65, R=0.54, F1=0.30
+
+[23.12.01]	lable [2]: tp=10911, fp=7289, fn=7220, tn=34613, total=60033
+P=0.60, R=0.60, F1=0.30
+
+[23.12.01]	Average F1 = 0.31
+Accuracy = 37234/60033 = 0.620226
+[23.12.01]	Got evaluation for current fold, Avg. F1 = 0.31
+[23.12.01]	Fold 1 Training: /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold1_trn.libsvm
+[23.12.01]	/home/xj229/tools/liblinear-1.93/train /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold1_trn.libsvm /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold1_trn.libsvm.model
+[23.12.12]	BOG setting: BogBuilder -stmmer:True -lower:True -minFreq:5 -alphanumonly:False
+[23.12.12]	[BogBuilder] First pass vocab scan, #vocab = 30988
+[23.12.12]	[BogBuilder] Applied minimum frequency cut-off (#attr) #vocab = 6536
+[23.12.23]	Fold 1 Predicting: /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold1_trn.libsvm
+[23.12.23]	/home/xj229/tools/liblinear-1.93/predict /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold1_tst.libsvm /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold1_trn.libsvm.model /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold1_trn.libsvm.predict
+[23.12.23]	Evaluate on libsvm result:
+Gold: /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold1_tst.libsvm
+Sys:/home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold1_trn.libsvm.predict
+[23.12.23]	lable [1]: tp=15787, fp=10153, fn=6426, tn=27667, total=60033
+P=0.61, R=0.71, F1=0.33
+
+[23.12.23]	lable [0]: tp=10433, fp=6085, fn=9256, tn=34259, total=60033
+P=0.63, R=0.53, F1=0.29
+
+[23.12.23]	lable [2]: tp=10869, fp=6706, fn=7262, tn=35196, total=60033
+P=0.62, R=0.60, F1=0.30
+
+[23.12.23]	Average F1 = 0.31
+Accuracy = 37089/60033 = 0.617810
+[23.12.23]	Got evaluation for current fold, Avg. F1 = 0.31
+[23.12.23]	Fold 2 Training: /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold2_trn.libsvm
+[23.12.23]	/home/xj229/tools/liblinear-1.93/train /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold2_trn.libsvm /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold2_trn.libsvm.model
+[23.12.36]	Done! Number of instance wrote: 208906
+[23.12.36]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.arff -o /home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.libsvm
+[23.12.45]	Fold 2 Predicting: /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold2_trn.libsvm
+[23.12.45]	/home/xj229/tools/liblinear-1.93/predict /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold2_tst.libsvm /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold2_trn.libsvm.model /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold2_trn.libsvm.predict
+[23.12.45]	Evaluate on libsvm result:
+Gold: /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold2_tst.libsvm
+Sys:/home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold2_trn.libsvm.predict
+[23.12.45]	lable [1]: tp=15841, fp=9911, fn=6372, tn=27909, total=60033
+P=0.62, R=0.71, F1=0.33
+
+[23.12.45]	lable [0]: tp=10757, fp=5989, fn=8932, tn=34355, total=60033
+P=0.64, R=0.55, F1=0.30
+
+[23.12.45]	lable [2]: tp=10763, fp=6772, fn=7368, tn=35130, total=60033
+P=0.61, R=0.59, F1=0.30
+
+[23.12.45]	Average F1 = 0.31
+Accuracy = 37361/60033 = 0.622341
+[23.12.45]	Got evaluation for current fold, Avg. F1 = 0.31
+[23.12.45]	Fold 3 Training: /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold3_trn.libsvm
+[23.12.45]	/home/xj229/tools/liblinear-1.93/train /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold3_trn.libsvm /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold3_trn.libsvm.model
+[23.12.46]	Finished, output to:
+/home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.arff
+/home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.libsvm
+
+[23.13.05]	Fold 3 Predicting: /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold3_trn.libsvm
+[23.13.05]	/home/xj229/tools/liblinear-1.93/predict /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold3_tst.libsvm /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold3_trn.libsvm.model /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold3_trn.libsvm.predict
+[23.13.05]	Evaluate on libsvm result:
+Gold: /home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold3_tst.libsvm
+Sys:/home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4/fold3_trn.libsvm.predict
+[23.13.05]	lable [1]: tp=15780, fp=9985, fn=6436, tn=27839, total=60040
+P=0.61, R=0.71, F1=0.33
+
+[23.13.05]	lable [0]: tp=10738, fp=6086, fn=8952, tn=34264, total=60040
+P=0.64, R=0.55, F1=0.29
+
+[23.13.05]	lable [2]: tp=10629, fp=6822, fn=7505, tn=35084, total=60040
+P=0.61, R=0.59, F1=0.30
+
+[23.13.05]	Average F1 = 0.31
+Accuracy = 37147/60040 = 0.618704
+[23.13.05]	Got evaluation for current fold, Avg. F1 = 0.31
+[23.13.05]	Evaluation Done! Final after 4-fold Avg. F1 = 0.31
+[23.13.05]	
+
+Perfmon Summary:
+Time Used(s): 86.019949
+Memory Used (Mb): 33.000000
+=========== Prev Mem ============
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	0
+ru_minflt ->	0
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	0
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	0
+ru_oublock ->	0
+ru_stime ->	0.0
+ru_utime ->	0.0
+
+=========== ======== ============
+		
+=========== After Mem ===========
+n_fields ->	16
+n_sequence_fields ->	16
+n_unnamed_fields ->	0
+ru_idrss ->	0
+ru_inblock ->	0
+ru_isrss ->	0
+ru_ixrss ->	0
+ru_majflt ->	0
+ru_maxrss ->	33948
+ru_minflt ->	44133
+ru_msgrcv ->	0
+ru_msgsnd ->	0
+ru_nivcsw ->	368
+ru_nsignals ->	0
+ru_nswap ->	0
+ru_nvcsw ->	16
+ru_oublock ->	4536
+ru_stime ->	0.068004
+ru_utime ->	85.025313
+
+=========== ======== ============
+		

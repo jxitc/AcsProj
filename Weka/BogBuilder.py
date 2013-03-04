@@ -381,8 +381,9 @@ class BogBuilder:
 		ab.AddAttr("CLS::" + classColStr, strNatClasses)
 
 		# add other bog attributes
+		feType = '{0,1}' # should be norminal to save time
 		for (word, freq) in sortedVocab:
-			ab.AddAttr(word, 'numeric')
+			ab.AddAttr(word, feType)
 
 		ab.WriteAttr()
 		
@@ -497,8 +498,9 @@ def main_SetOfBogs():
 								'M5_L_STM_ALPHANUM', \
 								'M5_L_STM_RMSTP']
 
-	iSenFile = '/home/xj229/data/3nat_lvl123_15K.sen'
+	#iSenFile = '/home/xj229/data/3nat_lvl123_15K.sen'
 	#iSenFile = '/home/xj229/data/2nat_lvl123_42K.sen'
+	iSenFile = '/home/xj229/data/7nat_lvl123_6000each.sen'
 
 	ws = WekaSh()
 	lg = Log()

@@ -10,7 +10,9 @@ sys.path.append('../')
 from Util.Log import *
 from Util.ConfigFile import *
 from Util.Perfmon import *
+from Corpus.CvSplitter import *
 from ShCaller import *
+from Script.CvEvaluator import *
 
 class LibSvmSh:
 	"""
@@ -39,7 +41,7 @@ class LibSvmSh:
 			LibSvmSh.__shCaller = ShCaller()
       
 
-	def RunEval(self, testSetPath):
+	def RunEval_Accuracy(self, testSetPath):
 		"""
 		Run evaluation of libsvm
 		"""
@@ -62,6 +64,67 @@ class LibSvmSh:
 		getRslt = LibSvmSh.__shCaller.GetGrep('Accuracy', "/home/xj229/logs/" + rdFile)
 		print(getRslt)
 		LibSvmSh.__log.WriteLog(getRslt)
+
+	def RunEval(self, testSetPath):
+		"""
+		Run Evaluation of libsvm, with P/R/F
+		"""
+		
+		lg = LibSvmSh.__log
+
+		svmRoot = LibSvmSh.__cfg.GetConfig("LIBSVM_ROOT")
+		nFold = int(LibSvmSh.__cfg.GetConfig("LIBSVM_CVFOLD"))
+		
+		cvSp = CvSplitter()
+		nFoldList = cvSp.Split(testSetPath, nFold)
+
+		if len(nFoldList) != nFold:
+			print("Error in cross validation split")
+			print(nFoldList)
+			assert(0)
+
+		cvEval = CvEvaluator()
+
+		rsltFold = []
+		totalAvgF1 = 0.0
+		for i in range(nFold):
+			(fnTrn, fnTst) = nFoldList[i]
+
+			lg.PrintWriteLog("Fold %d Training: %s" % (i, fnTrn))
+
+			# Step 1: get prediction on each data
+			fnModel = fnTrn + ".model"
+			fnPredict = fnTrn + ".predict"
+
+			trnPara = "%s/train %s %s" % (svmRoot, fnTrn, fnModel)
+			trnCmdList = trnPara.split(' ')
+			LibSvmSh.__shCaller.Call(trnCmdList)
+
+			lg.PrintWriteLog("Fold %d Predicting: %s" % (i, fnTrn))
+			predPara = "%s/predict %s %s %s" % (svmRoot, fnTst, fnModel, fnPredict)
+			predCmdList = predPara.split(' ')
+			LibSvmSh.__shCaller.Call(predCmdList)
+			
+			
+			# Step 2: running statistics on predicted data, to get PRF
+			(dictP, dictR, dictF) = cvEval.Evaluate(fnTst, fnPredict)
+
+			allF1 = sum(dictF.values())
+			avgF1 = float(allF1) / float(len(dictF))
+			lg.PrintWriteLog("Got evaluation for current fold, Avg. F1 = %.2f" % avgF1)
+
+			totalAvgF1 += avgF1
+			
+
+			rsltFold.append((dictP, dictR, dictF))
+
+		# OK do statistics
+		AvgAvgF1 = totalAvgF1 / float(nFold)
+		lg.PrintWriteLog("Evaluation Done! Final after %d-fold Avg. F1 = %.2f" \
+										 % (nFold, AvgAvgF1))
+
+		
+
 	
 if __name__ == '__main__':
 	pfm = Perfmon()
@@ -69,7 +132,8 @@ if __name__ == '__main__':
 	pfm.Start()
 	
 	lss = LibSvmSh()
-	fn = '/home/xj229/data/7nat_lvl123_6000each.bog_M5_L_STM_RMSTP.libsvm'
+	fn = '/home/xj229/data/3nat_lvl123_15K.bog_M5_L.libsvm'
+
 	lss.RunEval(fn)
 	
 	pfm.Stop()

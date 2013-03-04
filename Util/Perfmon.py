@@ -7,7 +7,9 @@ import time
 import resource
 
 class Timer:
-
+	"""
+	Timer class
+	"""
 
 	def __init__(self):
 		self.__times = []
@@ -42,18 +44,16 @@ class Timer:
 		return e - s
 	
 
-		
-
-
 class Perfmon:
-
-
 	"""
 	Perfomance monitor, to get time / memory usage of 
 	python programme
 	"""
 
 	def __init__(self):
+		"""
+		Constructor
+		"""
 		self.__timer = Timer()
 		self.__status = 'NULL'
 		
@@ -61,9 +61,11 @@ class Perfmon:
 		self.__endRu = None # start resrouce usage
 
 	def __getResourceUsage(self):
-		# RUSAGE_SELF: for this process only (not include subprocess.call(...)
-		# RUSAGE_CHILD: Child process only, i.e. subprocess.call()
-		# RUSAGE_BOTH: both, but may not working on some system
+		"""
+		RUSAGE_SELF: for this process only (not include subprocess.call(...)
+		RUSAGE_CHILD: Child process only, i.e. subprocess.call()
+		RUSAGE_BOTH: both, but may not working on some system
+		"""
 		return resource.getrusage(resource.RUSAGE_CHILDREN)
 
 	def Start(self):

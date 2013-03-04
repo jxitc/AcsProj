@@ -131,6 +131,41 @@ class CvSplitter:
 			4.0 1659:1.0 2031:1.0 2363:1.0 3366:1.0 3604:1.0
 		"""
 		
+		# should return splitted test and train set
+		nFoldDataList = []
+
+		(nameFolder, nameFile) = os.path.split(libsvmFile)
+		(fName, fExt) = os.path.splitext(nameFile)
+		cvFolder = os.path.join(nameFolder, '%s_CV%d' % (fName, nFold))
+		
+		cvSplitExists = True
+		if os.path.exists(cvFolder):
+
+			# already exists! try to figure out the file
+			for i in range(nFold):
+				fnTst = os.path.join(cvFolder, 'fold%d_tst%s' % (i, fExt))
+				fnTrn = os.path.join(cvFolder, 'fold%d_trn%s' % (i, fExt))
+				if os.path.exists(fnTst) and os.path.exists(fnTrn):
+					nFoldDataList.append((fnTrn, fnTst))
+				else:
+					cvSplitExists = False
+					break
+
+		else:
+			cvSplitExists = False
+					
+
+		if cvSplitExists == True:
+			# if cv folder already exists, and pass the verification
+			# then directly return
+			print("Cross Validation files already exists under folder: %s" % cvFolder)
+			return nFoldDataList
+
+		# else, do the whole again!
+
+
+		self.__makeDir(cvFolder)
+
 		fr = open(libsvmFile, 'r')
 		dataList = fr.readlines() # TODO remember to .strip()! 
 		fr.close()
@@ -139,13 +174,8 @@ class CvSplitter:
 
 		nFoldIds = self.__splitIds(cids, nFold)
 
-		
-		(nameFolder, nameFile) = os.path.split(libsvmFile)
-		(fName, fExt) = os.path.splitext(nameFile)
-		cvFolder = os.path.join(nameFolder, '%s_CV%d' % (fName, nFold))
-		self.__makeDir(cvFolder)
-
 		lg = Log()
+
 
 		for i in range(nFold):
 			# Output test
@@ -166,25 +196,32 @@ class CvSplitter:
 			self.__writeLibSvmFile(fnTrn, outputData)
 			msg = "Fold %s train, %d data, output to %s" % (i, len(outputData), fnTst)
 			lg.PrintWriteLog(msg)
-		
+
+			nFoldDataList.append((fnTrn, fnTst))
+
+		return nFoldDataList
 
 	def Split(self, oriFileName, nFold):
 		"""
 		Split the input file
 		"""
 		(fName, fExt) = os.path.splitext(oriFileName)
+		rsltNFoldDataList = []
 		if fExt == ".libsvm" or \
 			 fExt == ".t" or \
 			 fExt == ".svm":
-			self.__splitLibSvmFile(oriFileName, nFold)
+			rsltNFoldDataList = self.__splitLibSvmFile(oriFileName, nFold)
 		else:
 			print("Current do not support this format: " + fExt)
+
+		return rsltNFoldDataList
 		
 
 def main():
 	cs = CvSplitter()
 	fn = '/home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM.libsvm'
-	cs.Split(fn, 4)
+	rslt = cs.Split(fn, 4)
+	print rslt
 
 if __name__ == '__main__':
 	main()
