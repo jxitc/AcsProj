@@ -48,7 +48,7 @@ class CvEvaluator:
 
 			if len(lSys) != 1:
 				print lSys
-				return # TODO
+				return
 
 			# Calc accuracy
 			statTotal += 1
@@ -115,7 +115,7 @@ class CvEvaluator:
 			# Output result
 			msg = "lable [%s]: tp=%d, fp=%d, fn=%d, tn=%d, total=%d\n" \
 						% (lbl, tp, fp, fn,tn, totalNum)
-			msg += "P=%.2f, R=%.2f, F1=%.2f\n" % (precision, recall, f1)
+			msg += "P=%.5f, R=%.5f, F1=%.5f\n" % (precision, recall, f1)
 
 
 			lg.PrintWriteLog(msg)
@@ -123,7 +123,7 @@ class CvEvaluator:
 		# output all result:
 		averageF1 = float(totalF1) / float(nLable)
 
-		msg = "Average F1 = %.2f\n" % averageF1
+		msg = "Average F1 = %.5f\n" % averageF1
 		msg += "Accuracy = %d/%d = %f" % \
 		       (statCorrect, statTotal, float(statCorrect) / float(statTotal)) 
 
@@ -171,16 +171,134 @@ class CvEvaluator:
 		
 		import re
 
+		lg = Log()
+		lg.PrintWriteLog("Calc P/R/F from weka output log: " + wekaOutputLog)
+
+		(dictPrecision, dictRecall, dictF1) = (None, None, None)
+
 		found = False
 		fr = open(wekaOutputLog, 'r')
 		line = fr.readline()
-		# TODO
+
+		# str = '  3960  1411  6733  3630  2834  4367  2220 |     e = it'
+		patLine = '(?P<NUMS>(\d+\s+)+)\|\s+(?P<CID>[a-zA-Z]+)\s+=\s+(?P<CSTR>[^\s=]+)'
+		rexLine = re.compile(patLine)
+
+		rexSplitNum = re.compile(r'\s+')
+
+		isInMatrx = False
+		numClass = 0
+		idxClass = 0
+		listClsStr = []
+
+		matrix = [] # final matrix
+
 		while line:
 			line = line.strip()
-			
+			m = rexLine.search(line)
+			if isInMatrx and m == None:
+				break
+			if m != None:
+				isInMatrx = True
+				numClass += 1
+
+				strNums = m.group("NUMS")
+				strCid = m.group("CID")		# a,b,c,d ...
+				strCStr = m.group("CSTR") # cn, fr, it ...
+
+				listClsStr.append(strCStr)
+				idxClass += 1
+		
+				strNums = strNums.strip()
+				spNums = rexSplitNum.split(strNums)
+				
+				rowVals = [int(v.strip()) for v in spNums] # strip and convert to int
+				matrix.append(rowVals)
+				
 			line = fr.readline()
 
+		# so finally we got the value presented numbers
+		
+		# Do validation! #col = #row !!
+		for row in matrix:
+			if len(row) != numClass:
+				print("Error when reading weka eval confusion matrix!")
+				print(matrix)
+				return (dictPrecision, dictRecall, dictF1) # (None, None, None)
+
+		# Do calculation!
+		dictPrecision = {}
+		dictRecall = {}
+		dictF1 = {}
+
+		dictTp = [0] * numClass
+		dictTn = [0] * numClass
+		dictFp = [0] * numClass
+		dictFn = [0] * numClass
+
+		for iRow in range(numClass):
+			# calculate tp, tn, fn, fp
+			for iCol in range(numClass):
+				val = matrix[iRow][iCol]
+
+				if iRow == iCol:
+					# correct! tp
+					dictTp[iRow] += val
+				else:
+					
+					# for this row, should be counted as recall
+
+					# fn, missing result
+					dictFn[iRow] += val
+
+					# fp, unexpected result
+					dictFp[iCol] += val
+
+				# tn, for all others
+				for iOther in range(numClass):
+					if iOther != iRow and iOther != iCol:
+						dictTn[iOther] += val
+
+		# calcuate precision recall
+		nInstance = 0
+		sumTp = 0
+		for iClass in range(numClass):
+			clsStr = listClsStr[iClass]
+			tp = dictTp[iClass]
+			fn = dictFn[iClass]
+			fp = dictFp[iClass]
+			tn = dictTn[iClass]
+
+			precision = float(tp) / float(tp + fp)
+			recall = float(tp) / float(tp + fn)
+			f1 = 2 * precision * recall / (precision + recall)
+			
+			dictPrecision[clsStr] = precision
+			dictRecall[clsStr] = recall
+			dictF1[clsStr] = f1
+
+			# Output result
+			totalNum = tp + fp + fn + tn
+			nInstance = totalNum
+			sumTp += tp
+
+			msg = "lable [%s]: tp=%d, fp=%d, fn=%d, tn=%d, total=%d\n" \
+						% (clsStr, tp, fp, fn,tn, totalNum)
+			msg += "P=%.5f, R=%.5f, F1=%.5f\n" % (precision, recall, f1)
+
+			lg.PrintWriteLog(msg)
+
+		accu = float(sumTp) / float(nInstance)
+		msg = "Weka Accuracy = %d/%d = %.5f" % (sumTp, nInstance, accu)
+		lg.PrintWriteLog(msg)
+
+		# final output!
+
+		return (dictPrecision, dictRecall, dictF1)
+
+
 	def Evaluate(self, testFile, predictFile):
+
 		(fFullName, fExt) = os.path.splitext(testFile)
 		(dictPrecision, dictRecall, dictF1) = (None, None, None)
 		if fExt == '.libsvm' or \
@@ -192,15 +310,39 @@ class CvEvaluator:
 
 		return (dictPrecision, dictRecall, dictF1)
 
+	def EvaluateLogFile(self, logFile):
+
+		(fFullName, fExt) = os.path.splitext(logFile)
+		(dictPrecision, dictRecall, dictF1) = (None, None, None)
+
+		# in case of weka:
+		if fExt == '.log' and fFullName.find('wekaEval') >= 0:
+			(dictPrecision, dictRecall, dictF1) = self.__evalWekaOutput(logFile)
+
+		return (dictPrecision, dictRecall, dictF1)
+
 def main():
-	cvFolder = '/home/xj229/data/3nat_lvl123_15K.bog_M10_L_STM_CV4'
-	testFile = cvFolder + '/fold1_tst.libsvm'
-	predictFile = testFile + ".output"
+	cvFolder = '/home/xj229/data/3nat_lvl123_15K.bog_M5_STM_CV4'
+	#cvFolder = '/home/xj229/data/3nat_lvl123_15K.bog_M5_L_CV4'
+	testFile = cvFolder + '/fold3_tst.libsvm'
+	predictFile = cvFolder + "/fold3_trn.libsvm.predict"
 
 	ce = CvEvaluator()
 	ce.Evaluate(testFile, predictFile)
 
+def main_wekaLogFile():
+	logFile = '/home/xj229/logs/3nat_lvl123_15K.bog_M5_L_STM.wekaEval_130305202553.log'
+	ce = CvEvaluator()
+	(ps, rs, fs) = ce.EvaluateLogFile(logFile)
+	sum = 0.0
+	for val in fs.values():
+		sum += val
+
+	lg = Log()
+	lg.PrintWriteLog("Final weka Avg. F1 = %.5f" % (float(sum) / len(fs)))
 	
+
 if __name__ == '__main__':
-	main()
+	#main()
+	main_wekaLogFile()
 	

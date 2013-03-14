@@ -1,8 +1,27 @@
 ## Read sentence data: senssel:
 # a
+import sys
+sys.path.append('.')
+sys.path.append('..')
+
 import re
+from Util.ConfigFile import *
 
 class SensData:
+	
+	__instance = None
+
+	@staticmethod
+	def GetInstace():
+		if SensData.__instance is None:
+			cf = ConfigFile()
+			sdPath = cf.GetConfig("SENSDATA")
+			SensData.__instance = SensData()
+			SensData.__instance.Read(sdPath)
+			print("SensData instance initilized!")
+
+		return SensData.__instance
+
 	def __init__(self):
 		self.__sens = {}
 		self.__fileName = ""
@@ -43,6 +62,7 @@ class SensData:
 		return sen
 
 	def Read(self, senFn):
+		print("Start reading SensData: " + senFn)
 		self.__fileName = senFn
 		fr = open(self.__fileName, 'r')
 		lines = fr.readlines()
@@ -95,3 +115,19 @@ class SensData:
 		# Format:
 		# {wrtId(int) : [sentens_list]}
 		return self.__sens
+
+def main():
+	s1 = SensData.GetInstace()
+	s2 = SensData.GetInstace()
+	
+	print("============")
+
+	print s1
+	print s2
+
+	print(id(s1))
+	print(id(s2))
+	
+if __name__ == '__main__':
+	main()
+

@@ -5,13 +5,38 @@
 #
 
 #from var import *
+
+import sys
+sys.path.append('.')
+sys.path.append('..')
+
 import operator
 
-class WritingData:
+from Util.ConfigFile import *
+
+
+class WritingData(object):
 	""" 
 	class to load writing metadata
 	"""
 
+	# Singleton Instance definition
+	__instance = None
+	__refCount = 0
+	
+	@staticmethod
+	def GetInstance():
+		# TODO need to forbit the using of constructing function
+		if WritingData.__instance is None:
+			# ok, first time use, initial new
+			cf = ConfigFile()
+			wdPath = cf.GetConfig("WRITINGDATA")
+			WritingData.__instance = WritingData()
+			WritingData.__instance.Read(wdPath)
+			print("WritingData instance initialized")
+
+		return WritingData.__instance
+	
 	def __init__(self):
 		self.__colName = {}
 		self.__data = {} # wid: [col1.. col2 ..]
@@ -117,57 +142,20 @@ class WritingData:
 		return sortedCnt
 			
 
-#def ShrinkFile(wrtFile, outFile = ""):
-#	f = open(wrtFile, 'r')
-#	
-#	if outFile == "":
-#		outFile = wrtFile + ".srk"
-#	
-#	fw = open(outFile, 'w')
-#	
-#	#assuming first line is
-#	firstLine = f.readline().strip()
-#	cols = firstLine.split('\t')
-#	print cols
-#
-#	print "Now Shrink to following columns:\n"
-#
-#	cIds = [0,1,3,4,6,8,9,10,11,13]
-#	print(cIds)
-#	outStr = ""
-#	for id in cIds:
-#		outStr =  outStr + str(cols[id]) + '\t'
-#	outStr = outStr.strip() + '\n'
-#	fw.write(outStr)
-#	
-#
-#	# initialize column names
-#	idx = 0
-#	for col in cols:
-#		colName[col] = idx
-#		idx += 1
-#	
-#	line = f.readline()
-#	times = 0
-#	while line:
-#		line = line.strip()
-#		vals = line.split('\t')
-#		outStr = ("%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n" % \
-#								(vals[0],vals[1],vals[3], vals[4], vals[6], \
-#								 vals[8],vals[9],vals[10],vals[11],vals[13]) \
-#						 )
-#		fw.write(outStr)
-#		line = f.readline()
-#
-#		times += 1
-#		if times % 100 == 0:
-#			fw.flush()
-#
-#	fw.flush()
-#	fw.close()
-#
-#	print("Shrink Done! %d lines shrinked to %s !\n" % (times, outFile))
+def main():
+	w1 = WritingData.GetInstance()
+	w2 = WritingData.GetInstance()
+	
+	print("============")
 
-#fn = "../../data/writing.dat"
-#ShrinkFile(fn)
-#ShrinkFile(WritingFile, HomeData + "/writing_all_shrinked.dat")
+	print w1
+	print w2
+
+	print(id(w1))
+	print(id(w2))
+	
+if __name__ == '__main__':
+	main()
+
+
+

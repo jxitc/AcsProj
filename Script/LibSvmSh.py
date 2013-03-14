@@ -94,7 +94,7 @@ class LibSvmSh:
 
 			# Step 1: get prediction on each data
 			fnModel = fnTrn + ".model"
-			fnPredict = fnTrn + ".predict"
+			fnPredict = fnTst + ".predict"
 
 			trnPara = "%s/train %s %s" % (svmRoot, fnTrn, fnModel)
 			trnCmdList = trnPara.split(' ')
@@ -111,7 +111,7 @@ class LibSvmSh:
 
 			allF1 = sum(dictF.values())
 			avgF1 = float(allF1) / float(len(dictF))
-			lg.PrintWriteLog("Got evaluation for current fold, Avg. F1 = %.2f" % avgF1)
+			lg.PrintWriteLog("Got evaluation for current fold, Avg. F1 = %.5f" % avgF1)
 
 			totalAvgF1 += avgF1
 			
@@ -120,7 +120,7 @@ class LibSvmSh:
 
 		# OK do statistics
 		AvgAvgF1 = totalAvgF1 / float(nFold)
-		lg.PrintWriteLog("Evaluation Done! Final after %d-fold Avg. F1 = %.2f" \
+		lg.PrintWriteLog("Evaluation Done! Final after %d-fold Avg. F1 = %.5f" \
 										 % (nFold, AvgAvgF1))
 
 		

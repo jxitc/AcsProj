@@ -139,26 +139,29 @@ class CvSplitter:
 		cvFolder = os.path.join(nameFolder, '%s_CV%d' % (fName, nFold))
 		
 		cvSplitExists = True
-		if os.path.exists(cvFolder):
+		#if os.path.exists(cvFolder):
+		#	# already exists! try to figure out the file
+		#	for i in range(nFold):
+		#		fnTst = os.path.join(cvFolder, 'fold%d_tst%s' % (i, fExt))
+		#		fnTrn = os.path.join(cvFolder, 'fold%d_trn%s' % (i, fExt))
+		#		if os.path.exists(fnTst) and os.path.exists(fnTrn):
+		#			nFoldDataList.append((fnTrn, fnTst))
+		#		else:
+		#			cvSplitExists = False
+		#			break
 
-			# already exists! try to figure out the file
-			for i in range(nFold):
-				fnTst = os.path.join(cvFolder, 'fold%d_tst%s' % (i, fExt))
-				fnTrn = os.path.join(cvFolder, 'fold%d_trn%s' % (i, fExt))
-				if os.path.exists(fnTst) and os.path.exists(fnTrn):
-					nFoldDataList.append((fnTrn, fnTst))
-				else:
-					cvSplitExists = False
-					break
-
-		else:
-			cvSplitExists = False
+		#else:
+		#	cvSplitExists = False
 					
+		cvSplitExists = False
 
+		lg = Log()
 		if cvSplitExists == True:
 			# if cv folder already exists, and pass the verification
 			# then directly return
-			print("Cross Validation files already exists under folder: %s" % cvFolder)
+			lg.PrintWriteLog("Cross Validation files already exists under folder: %s" % cvFolder)
+			lg.PrintWriteLog("Cross Validation files already exists under folder: %s" % cvFolder)
+			lg.PrintWriteLog("Cross Validation files already exists under folder: %s" % cvFolder)
 			return nFoldDataList
 
 		# else, do the whole again!

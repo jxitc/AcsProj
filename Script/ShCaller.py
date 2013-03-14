@@ -98,7 +98,7 @@ class ShCaller:
 		# Start monitor thread
 		monitorThread = Thread(target = self.__monitorAndPrint, \
 													 args = (rdFilePath, flagObj))
-		monitorThread.start()
+		#monitorThread.start() # TODO
 
 		# Execute command as usual
 		fw = open(rdFilePath, 'w')

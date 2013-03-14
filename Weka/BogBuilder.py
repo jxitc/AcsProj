@@ -45,7 +45,6 @@ class BogBuilder:
 		self.__ptStm = PorterStemmer()
 
 		# Bog words settings from config file
-
 		if cf.GetConfig("BOG_STEMMER") == 'TRUE':
 			self.__isUseStemmer = True
 		else:
@@ -82,16 +81,22 @@ class BogBuilder:
 		if self.__isToLower:
 			cfgStr += "_L"
 
-		if self.__isAlphaNumOnly:
-			cfgStr += "_ALPHANUM"
-
 		if self.__isUseStemmer:
 			cfgStr += "_STM"
+
+		if self.__isAlphaNumOnly:
+			cfgStr += "_ALPHANUM"
 
 		if self.__rmStopWords:
 			cfgStr += "_RMSTP"
 
 		return cfgStr
+
+	def GetConfigStr(self):
+		"""
+		Public method to get the config string according to current setting
+		"""
+		return self.__getConfigStr()
 
 	def SetConfigByStr(self, cfgStr):
 		"""
@@ -103,16 +108,16 @@ class BogBuilder:
 		pat = r'(_|^)M(?P<MINFREQ>\d{1,2})[_\.]'
 		rexMF = re.compile(pat)
 
-		pat = r'_L[_\.]'
+		pat = r'_L([_\.]|$)'
 		rexLower = re.compile(pat)
 
-		pat = r'_STM[_\.]'
+		pat = r'_STM([_\.]|$)'
 		rexStm = re.compile(pat)
 		
-		pat = r'_ALPHANUM[_\.]'
+		pat = r'_ALPHANUM([_\.]|$)'
 		rexAlphaNum = re.compile(pat)
 
-		pat = r'_RMSTP[_\.]'
+		pat = r'_RMSTP([_\.]|$)'
 		rexRmstp = re.compile(pat)
 
 		
@@ -145,6 +150,7 @@ class BogBuilder:
 		if not m is None:
 			self.__rmStopWords = True
 			self.__stopWordsVocab = Vocab()
+			cf = ConfigFile()
 			stopList = cf.GetConfig("STOPLIST")
 			self.__stopWordsVocab.Read(stopList)
 		else:
@@ -489,6 +495,23 @@ class BogBuilder:
 			ab.AddData(attrList)
 			
 		
+def main_cfgStr_validation():
+	cfgStrList = ['M5_L_STM', \
+								'M10_L_STM', \
+								'M5_STM', \
+								'M5_L', \
+								'M5_L_STM_ALPHANUM', \
+								'M5_L_STM_RMSTP']
+
+	bb = BogBuilder()
+	for cfg in cfgStrList:
+		bb.SetConfigByStr(cfg)
+		newCfg = bb.GetConfigStr()
+		print("'%s' vs '%s'" % (cfg, newCfg))
+		assert(cfg == newCfg)
+		
+
+
 def main_SetOfBogs():
 	
 	cfgStrList = ['M5_L_STM', \
@@ -498,17 +521,19 @@ def main_SetOfBogs():
 								'M5_L_STM_ALPHANUM', \
 								'M5_L_STM_RMSTP']
 
-	#iSenFile = '/home/xj229/data/3nat_lvl123_15K.sen'
+	#cfgStrList = ['M5_L_STM']
+	
+	iSenFile = '/home/xj229/data/3nat_lvl123_15K.sen'
 	#iSenFile = '/home/xj229/data/2nat_lvl123_42K.sen'
-	iSenFile = '/home/xj229/data/7nat_lvl123_6000each.sen'
+	#iSenFile = '/home/xj229/data/7nat_lvl123_6000each.sen'
 
 	ws = WekaSh()
 	lg = Log()
 
+	bb = BogBuilder()
 	for cfgStr in cfgStrList:
 		lg.PrintWriteLog("%s: Start constructing Bog" % cfgStr)
 		
-		bb = BogBuilder()
 		bb.SetConfigByStr(cfgStr)
 
 		# Set output arff path
@@ -554,6 +579,35 @@ def main_prevBog():
 	lg = Log()
 	lg.WriteLog(msg)
 
+def main_debug_samebog():
+	
+	cfgStrList = ['M5_STM', \
+								'M5_L', \
+								]
+
+	iSenFile = '/home/xj229/data/3nat_lvl123_15K.sen'
+	#iSenFile = '/home/xj229/data/2nat_lvl123_42K.sen'
+	#iSenFile = '/home/xj229/data/7nat_lvl123_6000each.sen'
+
+	ws = WekaSh()
+	lg = Log()
+
+	for cfgStr in cfgStrList:
+		lg.PrintWriteLog("%s: Start constructing Bog" % cfgStr)
+		
+		bb = BogBuilder()
+		bb.SetConfigByStr(cfgStr)
+
+		# Set output arff path
+		(fullNamePath, fExt) = os.path.splitext(iSenFile)
+		oArffFile = '%s.bog_%s.debug_same.arff' % (fullNamePath, cfgStr)
+		
+		# Get arff bog file for weka
+		bb.GetBog(iSenFile, oArffFile)
+
+
 if __name__ == '__main__':
 	main_SetOfBogs()
+	#main_debug_samebog()
+	#main_cfgStr_validation()
 

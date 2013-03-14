@@ -5,17 +5,15 @@ Created on 19 Feb 2013
 '''
 
 import sys,os
-sys.path.append(os.path.join(os.path.dirname(__file__), 'Corpus'))
-sys.path.append(os.path.join(os.path.dirname(__file__), 'Weka'))
-sys.path.append(os.path.join(os.path.dirname(__file__), 'Util'))
-sys.path.append(os.path.join(os.path.dirname(__file__), 'Script'))
-sys.path.append(os.path.dirname(__file__))
+sys.path.append('../')
+sys.path.append('./')
 
 from Util.Log import *
 from Util.ConfigFile import *
 from Util.Perfmon import *
 
 from ShCaller import *
+from CvEvaluator import *
 
 class WekaSh:
 	"""
@@ -98,6 +96,7 @@ class WekaSh:
   	-d
 		"""
 		
+		cvEval = CvEvaluator()
 
 		(folderName, fName) = os.path.split(testSetPath)
 		(fNameWoExt, ext) = os.path.splitext(testSetPath)
@@ -124,9 +123,20 @@ class WekaSh:
 		#cmdList = "java -cp /home/xj229/tools/weka/weka.jar weka.classifiers.bayes.NaiveBayes -v -c first -x 4 -t /home/xj229/data/7nat_lvl123_6000each.bog_M10_L_STM.arff".split(' ')
 		WekaSh.__shCaller.RedirectedCall(cmdList, rdFile)
 
-		getRslt = WekaSh.__shCaller.GetGrep('Classified', "/home/xj229/logs/" + rdFile)
+		logRdFileFull = "/home/xj229/logs/" + rdFile
+		getRslt = WekaSh.__shCaller.GetGrep('Classified', logRdFileFull)
 		print(getRslt)
-		WekaSh.__log.WriteLog(getRslt)
+		lg = Log()
+		lg.PrintWriteLog(getRslt)
+
+		
+		(dictPrecision, dictRecall, dictF1) =	cvEval.EvaluateLogFile(logRdFileFull)
+
+		sumF1 = 0.0
+		for f1 in dictF1.values():
+			sumF1 += f1
+
+		lg.PrintWriteLog("Final F1 = %.5f" % (sumF1 / len(dictF1)))
 
 
 if __name__ == '__main__':
@@ -141,7 +151,7 @@ if __name__ == '__main__':
 #
 #	ws.StringToWordVector(ipt,opt)
 
-	testSet = "/home/xj229/data/short_arfftest.arff"
+	testSet = "/home/xj229/data/7nat_lvl123_6000each.bog_M5_L.arff"
 	ws.RunEval(testSet)
 	
 	pfm.Stop()
