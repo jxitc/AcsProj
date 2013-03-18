@@ -10,6 +10,8 @@ from Util.PorterStemmer import *
 from Corpus.WritingData import *
 from Corpus.SensData import *
 
+from FeatureExtractorBase import *
+
 class NgramFeatureExtractor(FeatureExtractorBase):
 	"""
 	Extract ngram feature
@@ -19,7 +21,7 @@ class NgramFeatureExtractor(FeatureExtractorBase):
 
 	def __init__(self):
 		cf = ConfigFile()
-		self.__ngramN = cf.GetConfig("NGRAMFE_N")
+		self.__ngramN = int(cf.GetConfig("NGRAMFE_N"))
 		self.__lg = Log()
 		self.__lg.PrintWriteLog("Ngram Feature Extractor initialized, n = %d" \
 														 % self.__ngramN)
@@ -40,59 +42,19 @@ class NgramFeatureExtractor(FeatureExtractorBase):
 
 		self.__nGramMinFreq = int(cf.GetConfig("NGRAMFE_MINFREQ"))
 
-
 		self.__bogMinFreq = int(cf.GetConfig("BOG_MINFREQ"))
-
 
 		# Porter's stemmer
 		self.__ptStm = PorterStemmer()
 
-
-
-
-		super(NgramFeatureExtractor, self).__init__()
-		
-	def __processToken(self, tok):
-		"""
-		Process token, according to the configuration setting
-		i.e. lower? stemmer? etc.
-		"""
-
-		tok = tok.strip()
-		if tok == '':
-			return None
-
-		if self.isAllNonASCII(tok):
-			#print tok
-			return None
-
-		# substitution some char
-		
-		if tok.find("'") != -1:
-			tok = "'%s'" % tok.replace("'", r"\'")
-
-		if tok.find('%') != -1:
-			tok = "'%sp" % tok.replace("%", r"\%")
-
-		if self.__rmStopWords:
-			if self.__stopWordsVocab.IsVocabWord(tok):
-				#print("REMOVED: " + tok)
-				return None
-
-		if self.__isToLower:
-			tok = tok.lower()
-
-		if self.__isUseStemmer:
-			tok = self.__ptStm.stem(tok, 0, len(tok) - 1)
-
-		return tok
+		#super(NgramFeatureExtractor, self).__init__()
 
 	def __getNgramStr(self, listObjs):
 		"""
 		Concatenate all elements in list to a string
 		"""
 		l = list(listObjs)
-		strJoin = '\t'
+		strJoin = '|'
 		return strJoin.join([str(s) for s in l])
 
 	def __extractNgramPairs(self, toks, n):
@@ -131,7 +93,8 @@ class NgramFeatureExtractor(FeatureExtractorBase):
 		toks = []
 		# Process toks
 		for tok in oriToks:
-			tok = self.__processToken(tok)
+			tok = Tokenizer.ProcessToken(tok, isToLower		 = self.__isToLower,\
+																				isUseStemmer = self.__isUseStemmer)
 			if tok != None:
 				toks.append(tok)
 		
@@ -149,7 +112,7 @@ class NgramFeatureExtractor(FeatureExtractorBase):
 
 		return dictNgram
 
-	def ExtractFeature(self, sensList):
+	def ExtractFeature(self, sensDict):
 		"""
 		Extract Ngram feature from sentece list. Assume each element is a pure text
 		sentence
@@ -161,22 +124,30 @@ class NgramFeatureExtractor(FeatureExtractorBase):
 		lg.WriteLog(msg)
 
 		wd = WritingData.GetInstance()
-		sd = SensData.GetInstance()
-		sensDict = sd.GetSensDict()
+		#sd = SensData.GetInstance()
+		#sensDict = sd.GetSensDict()
 
 		# First pass, scan the whole, building vocabulary first
 		vocab = {}
 		classSet = set()
 		classColStr = "Nationality"
+		numWrt = 0
 		for wrtId in sensDict.keys():
 			# wrtId (int)
 			classVal = wd.GetValueByWid(wrtId, classColStr) # classId, i.e. nationality
 			classVal = classVal.lower()
 			classSet.add(classVal)
+			
+			numWrt += 1
+			if numWrt % 500 == 0:
+				print("Processing #writing = %d" % numWrt)
 
 			sensList = sensDict[wrtId]
 			for sen in sensList:
-				ngrams = self.__extractSingleSentence(sen)
+				ngramDict = self.__extractSingleSentence(sen).values()
+				ngrams = []
+				for ngramDictElem in ngramDict:
+					ngrams.extend(ngramDictElem)
 				
 				for ngram in ngrams:
 					# start adding to vocabulary
@@ -193,20 +164,24 @@ class NgramFeatureExtractor(FeatureExtractorBase):
 		lg.PrintWriteLog(msg)
 
 
-		# impose min word frequency cut-off
-		if self.__minFreq > 1:
+		# impose min ngram frequency cut-off, to eliminate those ngram whose
+		# frequency is lower than threshold
+		if self.__nGramMinFreq > 1:
 			for word in vocab.keys():
 				freq = vocab[word]
-				if freq < self.__minFreq:
+				if freq < self.__nGramMinFreq:
 					del vocab[word]
 
-		msg = "[NGramFE] " + "Applied minimum frequency cut-off (#attr) #vocab = %d" % len(vocab)
+		msg = "[NGramFE] " + \
+					"Applied minimum frequency cut-off (#attr) #vocab = %d" % len(vocab)
 		print(msg)
 		lg.WriteLog(msg)
 
 
 		import operator
-		sortedVocab = sorted(vocab.iteritems(), key = operator.itemgetter(1), reverse = True)
+		sortedVocab = sorted(vocab.iteritems(), \
+												 key = operator.itemgetter(1), \
+												 reverse = True)
 		
 		attrIdx = {} # Index for attributes, for later looking-up
 		idx = 0
@@ -216,12 +191,13 @@ class NgramFeatureExtractor(FeatureExtractorBase):
 
 		# 2nd Pass
 		# Start extracting feature
-		attrIdxOffset = 1 # because the first attribute is "CLASS_LABEL", so we need to add this offset
+		attrIdxOffset = 1 # Because the first attribute is "CLASS_LABEL", \
+											# so we need to add this offset
 		nSen = 0
 		featureList = []
 		for wrtId in sensDict.keys():
 			# wrtId (int)
-			classVal = wd.GetValueByWid(wrtId, classColStr) # classId, i.e. nationality
+			classVal = wd.GetValueByWid(wrtId, classColStr) # classId, nationality
 
 			if classVal is None:
 				continue
@@ -232,17 +208,23 @@ class NgramFeatureExtractor(FeatureExtractorBase):
 				attrList = []
 				attrList.append('%d %s' % (0, classVal)) # Add class id first
 
-				ngrams = self.__extractSingleSentence(sen)
+				ngramDict = self.__extractSingleSentence(sen).values()
+				ngrams = []
+				for ngramDictElem in ngramDict:
+					ngrams.extend(ngramDictElem)
 
 				attrUnsort = set()
 
-				for tok in toks:
-					tok = self.ProcessToken(tok)
-					
-					if not attrIdx.has_key(tok):
+				for ngram in ngrams:
+					# TODO not clear!
+
+					if ngram == None or ngram == '':
 						continue
 					
-					idx = bogAttrIdx[tok] + attrIdxOffset
+					if not attrIdx.has_key(ngram):
+						continue
+					
+					idx = attrIdx[ngram] + attrIdxOffset
 					attrUnsort.add(idx)
 				
 				if len(attrUnsort) <= 0:
@@ -255,6 +237,24 @@ class NgramFeatureExtractor(FeatureExtractorBase):
 					attrList.append('%d %d' % (idx, 1)) 
 
 				# Final step, adding to feautreList to return
-				feautreList.append(attrList)
+				featureList.append(attrList)
 
 		return (classSet, sortedVocab, featureList)
+
+def main_test():
+
+	sd = SensData.GetInstance()
+	sensDict = sd.GetSensDict()
+
+	nfe = NgramFeatureExtractor()
+	(clsSet, attrList, feList) = nfe.ExtractFeature(sensDict)
+
+	arffPath = '/home/xj229/test/nfeout_3gram.arff'
+	nfe.OutputArffFile(arffPath, clsSet, attrList, feList)
+
+	libsvmPath = arffPath + ".libsvm"
+	nfe.ConvertArff2Libsvm(arffPath, libsvmPath)
+	
+if __name__ == '__main__':
+	import cProfile
+	cProfile.run('main_test()')

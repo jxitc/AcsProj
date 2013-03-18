@@ -12,7 +12,7 @@ class SensData:
 	__instance = None
 
 	@staticmethod
-	def GetInstace():
+	def GetInstance():
 		if SensData.__instance is None:
 			cf = ConfigFile()
 			sdPath = cf.GetConfig("SENSDATA")

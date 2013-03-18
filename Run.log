@@ -6265,3 +6265,563 @@ ru_utime ->	3279.08893
 
 =========== ======== ============
 		
+
+
+======================================================
+*********************************************************
+Start logging 20130315105354
+ ../Util/Log.pyc
+
+
+
+======================================================
+*********************************************************
+Start logging 20130315105441
+ ../Util/Log.pyc
+
+[10.54.41]	Ngram Feature Extractor initialized, n = 2
+
+
+======================================================
+*********************************************************
+Start logging 20130315105504
+ ../Util/Log.pyc
+
+[10.55.04]	Ngram Feature Extractor initialized, n = 2
+[10.55.04]	Start extract ngram feature! n = 2
+
+
+======================================================
+*********************************************************
+Start logging 20130315105526
+ ../Util/Log.pyc
+
+[10.55.26]	Ngram Feature Extractor initialized, n = 2
+[10.55.26]	Start extract ngram feature! n = 2
+
+
+======================================================
+*********************************************************
+Start logging 20130315130717
+ ../Util/Log.pyc
+
+[13.07.17]	Ngram Feature Extractor initialized, n = 2
+[13.07.17]	Start extract ngram feature! n = 2
+
+
+======================================================
+*********************************************************
+Start logging 20130315130828
+ ../Util/Log.pyc
+
+[13.08.28]	Ngram Feature Extractor initialized, n = 2
+[13.08.28]	Start extract ngram feature! n = 2
+[13.08.30]	[NGramFE] First pass vocab scan, #vocab = 1
+
+
+======================================================
+*********************************************************
+Start logging 20130315131014
+ ../Util/Log.pyc
+
+[13.10.14]	Ngram Feature Extractor initialized, n = 2
+[13.10.14]	Start extract ngram feature! n = 2
+[13.10.15]	[NGramFE] First pass vocab scan, #vocab = 1
+[13.10.15]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 1
+
+
+======================================================
+*********************************************************
+Start logging 20130315133746
+ ../Util/Log.pyc
+
+[13.37.46]	Ngram Feature Extractor initialized, n = 2
+[13.37.46]	Start extract ngram feature! n = 2
+
+
+======================================================
+*********************************************************
+Start logging 20130317101404
+ ../Util/Log.pyc
+
+[10.14.04]	Ngram Feature Extractor initialized, n = 2
+[10.14.04]	Start extract ngram feature! n = 2
+
+
+======================================================
+*********************************************************
+Start logging 20130317101558
+ ../Util/Log.pyc
+
+[10.15.58]	Ngram Feature Extractor initialized, n = 2
+[10.15.58]	Start extract ngram feature! n = 2
+
+
+======================================================
+*********************************************************
+Start logging 20130317101709
+ ../Util/Log.pyc
+
+[10.17.09]	Ngram Feature Extractor initialized, n = 2
+[10.17.09]	Start extract ngram feature! n = 2
+
+
+======================================================
+*********************************************************
+Start logging 20130317101924
+ ../Util/Log.pyc
+
+[10.19.24]	Ngram Feature Extractor initialized, n = 2
+[10.19.24]	Start extract ngram feature! n = 2
+[10.19.25]	[NGramFE] First pass vocab scan, #vocab = 809
+[10.19.25]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 809
+
+
+======================================================
+*********************************************************
+Start logging 20130317102243
+ ../Util/Log.pyc
+
+[10.22.43]	Ngram Feature Extractor initialized, n = 2
+[10.22.43]	Start extract ngram feature! n = 2
+[10.22.44]	[NGramFE] First pass vocab scan, #vocab = 809
+[10.22.44]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 809
+
+
+======================================================
+*********************************************************
+Start logging 20130317102259
+ ../Util/Log.pyc
+
+[10.22.59]	Ngram Feature Extractor initialized, n = 2
+[10.22.59]	Start extract ngram feature! n = 2
+[10.23.01]	[NGramFE] First pass vocab scan, #vocab = 809
+[10.23.01]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 809
+
+
+======================================================
+*********************************************************
+Start logging 20130317102330
+ ../Util/Log.pyc
+
+[10.23.30]	Ngram Feature Extractor initialized, n = 2
+[10.23.30]	Start extract ngram feature! n = 2
+[10.23.31]	[NGramFE] First pass vocab scan, #vocab = 809
+[10.23.31]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 809
+
+
+======================================================
+*********************************************************
+Start logging 20130317102833
+ ../Util/Log.pyc
+
+[10.28.33]	Ngram Feature Extractor initialized, n = 2
+[10.28.33]	Start extract ngram feature! n = 2
+[10.28.34]	[NGramFE] First pass vocab scan, #vocab = 809
+[10.28.34]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 809
+
+
+======================================================
+*********************************************************
+Start logging 20130317102926
+ ../Util/Log.pyc
+
+[10.29.26]	Ngram Feature Extractor initialized, n = 2
+[10.29.26]	Start extract ngram feature! n = 2
+[10.29.28]	[NGramFE] First pass vocab scan, #vocab = 809
+[10.29.28]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 809
+
+
+======================================================
+*********************************************************
+Start logging 20130317103001
+ ../Util/Log.pyc
+
+[10.30.01]	Ngram Feature Extractor initialized, n = 2
+[10.30.01]	Start extract ngram feature! n = 2
+[10.30.02]	[NGramFE] First pass vocab scan, #vocab = 809
+[10.30.02]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 809
+[10.30.02]	Done! Number of instance wrote: 140
+
+
+======================================================
+*********************************************************
+Start logging 20130317103621
+ ../Util/Log.pyc
+
+[10.36.21]	Ngram Feature Extractor initialized, n = 2
+[10.36.21]	Start extract ngram feature! n = 2
+[10.36.22]	[NGramFE] First pass vocab scan, #vocab = 809
+[10.36.22]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 809
+[10.36.22]	Done! Number of instance wrote: 140
+
+
+======================================================
+*********************************************************
+Start logging 20130317104946
+ ../Util/Log.pyc
+
+[10.49.46]	Ngram Feature Extractor initialized, n = 2
+[10.49.46]	Start extract ngram feature! n = 2
+
+
+======================================================
+*********************************************************
+Start logging 20130317105528
+ ../Util/Log.pyc
+
+[10.55.28]	Ngram Feature Extractor initialized, n = 2
+[10.55.28]	Start extract ngram feature! n = 2
+[11.03.42]	[NGramFE] First pass vocab scan, #vocab = 1650638
+[11.03.42]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 1650638
+
+
+======================================================
+*********************************************************
+Start logging 20130317110511
+ ../Util/Log.pyc
+
+[11.05.11]	Ngram Feature Extractor initialized, n = 2
+[11.05.11]	Start extract ngram feature! n = 2
+[11.07.36]	[NGramFE] First pass vocab scan, #vocab = 2199040
+[11.07.36]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 2199040
+[11.11.09]	Done! Number of instance wrote: 2897755
+
+
+======================================================
+*********************************************************
+Start logging 20130317111806
+ ../Util/Log.pyc
+
+[11.18.06]	Ngram Feature Extractor initialized, n = 2
+[11.18.06]	Start extract ngram feature! n = 2
+[11.18.17]	[NGramFE] First pass vocab scan, #vocab = 186654
+[11.18.17]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 186654
+[11.18.31]	Done! Number of instance wrote: 240163
+
+
+======================================================
+*********************************************************
+Start logging 20130317112049
+ ../Util/Log.pyc
+
+[11.20.49]	Ngram Feature Extractor initialized, n = 2
+[11.20.49]	Start extract ngram feature! n = 2
+[11.21.20]	[NGramFE] First pass vocab scan, #vocab = 153879
+[11.21.20]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 153879
+[11.21.54]	Done! Number of instance wrote: 240163
+
+
+======================================================
+*********************************************************
+Start logging 20130317112620
+ ../Util/Log.pyc
+
+[11.26.20]	Ngram Feature Extractor initialized, n = 2
+[11.26.20]	Start extract ngram feature! n = 2
+[11.27.07]	[NGramFE] First pass vocab scan, #vocab = 153879
+[11.27.07]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 153879
+[11.27.59]	Done! Number of instance wrote: 240163
+
+
+======================================================
+*********************************************************
+Start logging 20130317113821
+ ../Util/Log.pyc
+
+[11.38.21]	Ngram Feature Extractor initialized, n = 2
+[11.38.21]	Start extract ngram feature! n = 2
+[11.38.46]	[NGramFE] First pass vocab scan, #vocab = 168280
+[11.38.46]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 168280
+[11.39.15]	Done! Number of instance wrote: 240163
+
+
+======================================================
+*********************************************************
+Start logging 20130317115542
+ ../Util/Log.pyc
+
+[11.55.42]	Ngram Feature Extractor initialized, n = 2
+[11.55.42]	Start extract ngram feature! n = 2
+
+
+======================================================
+*********************************************************
+Start logging 20130317121058
+ ../Util/Log.pyc
+
+[12.10.58]	Ngram Feature Extractor initialized, n = 2
+[12.10.58]	Start extract ngram feature! n = 2
+
+
+======================================================
+*********************************************************
+Start logging 20130317121123
+ ../Util/Log.pyc
+
+[12.11.23]	Ngram Feature Extractor initialized, n = 2
+[12.11.23]	Start extract ngram feature! n = 2
+[12.11.47]	[NGramFE] First pass vocab scan, #vocab = 168275
+[12.11.47]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 168275
+[12.12.15]	Done! Number of instance wrote: 240163
+
+
+======================================================
+*********************************************************
+Start logging 20130317121506
+ ../Util/Log.pyc
+
+[12.15.06]	Ngram Feature Extractor initialized, n = 2
+[12.15.06]	Start extract ngram feature! n = 2
+[12.15.30]	[NGramFE] First pass vocab scan, #vocab = 168275
+
+
+======================================================
+*********************************************************
+Start logging 20130317121637
+ ../Util/Log.pyc
+
+[12.16.37]	Ngram Feature Extractor initialized, n = 2
+[12.16.37]	Start extract ngram feature! n = 2
+[12.17.00]	[NGramFE] First pass vocab scan, #vocab = 168275
+[12.17.00]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 21313
+[12.17.26]	Done! Number of instance wrote: 238733
+
+
+======================================================
+*********************************************************
+Start logging 20130317152706
+ ../Util/Log.pyc
+
+[15.27.06]	Ngram Feature Extractor initialized, n = 2
+[15.27.06]	Start extract ngram feature! n = 2
+[15.27.30]	[NGramFE] First pass vocab scan, #vocab = 168275
+[15.27.31]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 21313
+[15.27.57]	Done! Number of instance wrote: 238733
+
+
+======================================================
+*********************************************************
+Start logging 20130317152849
+ ../Util/Log.pyc
+
+[15.28.49]	Ngram Feature Extractor initialized, n = 2
+[15.28.49]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/test/nfeout.arff
+to: /home/xj229/test/nfeout.arff.libsvm
+
+
+======================================================
+*********************************************************
+Start logging 20130317152923
+ ../Util/Log.pyc
+
+[15.29.23]	Ngram Feature Extractor initialized, n = 2
+[15.29.23]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/test/nfeout.arff
+to: /home/xj229/test/nfeout.arff.libsvm
+[15.29.23]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/test/nfeout.arff -o /home/xj229/test/nfeout.arff.libsvm
+
+
+======================================================
+*********************************************************
+Start logging 20130317153718
+ ../Util/Log.pyc
+
+[15.37.18]	Ngram Feature Extractor initialized, n = 3
+[15.37.18]	Start extract ngram feature! n = 3
+[15.37.42]	[NGramFE] First pass vocab scan, #vocab = 336268
+[15.37.42]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 24845
+[15.38.08]	Done! Number of instance wrote: 222955
+[15.38.08]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/test/nfeout_3gram.arff
+to: /home/xj229/test/nfeout_3gram.arff.libsvm
+[15.38.08]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/test/nfeout_3gram.arff -o /home/xj229/test/nfeout_3gram.arff.libsvm
+
+
+======================================================
+*********************************************************
+Start logging 20130318182130
+ ../Util/Log.pyc
+
+[18.21.31]	
+
+Processing cn
+[18.21.31]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
+[18.21.31]	
+
+Processing br
+[18.21.31]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
+[18.21.31]	
+
+Processing ru
+[18.21.31]	Read 14362 wid from file /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
+[18.21.31]	Output 3 nat lvl 123 each treedata to /home/xj229/workspace/AcsProj/data/3nat_lvl123_42K.tree
+
+
+======================================================
+*********************************************************
+Start logging 20130318182230
+ ../Util/Log.pyc
+
+[18.22.31]	
+
+Processing cn
+[18.22.31]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
+[18.22.31]	
+
+Processing br
+[18.22.31]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
+[18.22.31]	
+
+Processing ru
+[18.22.31]	Read 14362 wid from file /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
+[18.22.31]	Output 3 nat lvl 123 each treedata to /home/xj229/workspace/AcsProj/data/3nat_lvl123_42K.tree
+
+
+======================================================
+*********************************************************
+Start logging 20130318182313
+ ../Util/Log.pyc
+
+[18.23.15]	
+
+Processing cn
+[18.23.15]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
+[18.23.15]	
+
+Processing br
+[18.23.15]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
+[18.23.15]	
+
+Processing ru
+[18.23.15]	Read 14362 wid from file /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
+[18.23.15]	Output 3 nat lvl 123 each treedata to /home/xj229/workspace/AcsProj/data/3nat_lvl123_42K.tree
+
+
+======================================================
+*********************************************************
+Start logging 20130318182436
+ ../Util/Log.pyc
+
+[18.24.37]	
+
+Processing cn
+[18.24.37]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
+[18.24.37]	
+
+Processing br
+[18.24.37]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
+[18.24.37]	
+
+Processing ru
+[18.24.37]	Read 14362 wid from file /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
+[18.24.37]	Output 3 nat lvl 123 each treedata to /home/xj229/workspace/AcsProj/data/3nat_lvl123_42K.tree
+[18.24.51]	516334 sentences has been wrote to /home/xj229/workspace/AcsProj/data/3nat_lvl123_42K.tree
+
+
+======================================================
+*********************************************************
+Start logging 20130318182556
+ ../Util/Log.pyc
+
+[18.25.58]	
+
+Processing cn
+[18.25.58]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
+[18.25.58]	
+
+Processing br
+[18.25.58]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
+[18.25.58]	
+
+Processing ru
+[18.25.58]	Read 14362 wid from file /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
+[18.25.58]	Output 3 nat lvl 123 each treedata to /home/xj229/workspace/AcsProj/data/3nat_lvl123_42K.tree
+[18.26.11]	516334 sentences has been wrote to /home/xj229/workspace/AcsProj/data/3nat_lvl123_42K.tree
+
+
+======================================================
+*********************************************************
+Start logging 20130318182733
+ ../Util/Log.pyc
+
+[18.27.34]	
+
+Processing cn
+[18.27.34]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
+[18.27.34]	
+
+Processing br
+[18.27.34]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
+[18.27.34]	
+
+Processing ru
+[18.27.34]	Read 14362 wid from file /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
+[18.27.34]	Output 3 nat lvl 123 each treedata to /home/xj229/workspace/AcsProj/data/3nat_lvl123_42K.tree
+[18.27.56]	516334 sentences has been wrote to /home/xj229/workspace/AcsProj/data/3nat_lvl123_42K.tree
+
+
+======================================================
+*********************************************************
+Start logging 20130318201911
+ ../Util/Log.pyc
+
+[20.19.13]	
+
+Processing cn
+[20.19.13]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
+[20.19.13]	
+
+Processing br
+[20.19.13]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
+[20.19.13]	
+
+Processing ru
+[20.19.13]	Read 14362 wid from file /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
+[20.19.13]	Output 3 nat lvl 123 each treedata to /home/xj229/workspace/AcsProj/data/3nat_lvl123_42K.tree
+[20.19.38]	516334 sentences has been wrote to /home/xj229/workspace/AcsProj/data/3nat_lvl123_42K.tree
+
+
+======================================================
+*********************************************************
+Start logging 20130318202042
+ ../Util/Log.pyc
+
+[20.20.44]	
+
+Processing cn
+[20.20.44]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
+[20.20.44]	
+
+Processing br
+[20.20.44]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
+[20.20.44]	
+
+Processing ru
+[20.20.44]	Read 14362 wid from file /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
+[20.20.44]	Output 3 nat lvl 123 each treedata to /home/xj229/workspace/AcsProj/data/3nat_lvl123_42K.tree
+[20.21.00]	516334 sentences has been wrote to /home/xj229/workspace/AcsProj/data/3nat_lvl123_42K.tree.
+[20.21.00]	1225 writings missed!
+
+
+======================================================
+*********************************************************
+Start logging 20130318202457
+ ../Util/Log.pyc
+
+[20.24.58]	
+
+Processing cn
+[20.24.58]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
+[20.24.58]	
+
+Processing br
+[20.24.58]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
+[20.24.58]	
+
+Processing ru
+[20.24.58]	Read 14362 wid from file /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
+[20.24.58]	Output 3 nat lvl 123 each treedata to /home/xj229/workspace/AcsProj/data/3nat_lvl123_15K.tree
+[20.25.14]	240168 sentences has been wrote to /home/xj229/workspace/AcsProj/data/3nat_lvl123_15K.tree.
+[20.25.14]	655 writings missed!
