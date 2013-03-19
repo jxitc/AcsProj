@@ -68,6 +68,9 @@ class FeatureExtractorBase:
 		print(msg)
 		lg.WriteLog(msg)
 
+	def __processToken(self, tok):
+		return tok
+
 	def __init__(self):
 		print("[%s] initialized!")
 

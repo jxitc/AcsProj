@@ -18,18 +18,22 @@ class SenTreeData:
 			cf = ConfigFile()
 			senTreeFilePath = cf.GetConfig('TREEDATA')
 
+		print("GetInstance() treeFilePath = " + senTreeFilePath)
+
 		if SenTreeData.__existingSenTreeObjs.has_key(senTreeFilePath):
 			# if already exists:
+			print("Already Exists!")
 			return SenTreeData.__existingSenTreeObjs[senTreeFilePath]
 		else:
 			# initialize new
+			print("Initialize New!")
 			newSenTreeData = SenTreeData()
 			newSenTreeData.__read(senTreeFilePath)
 			SenTreeData.__existingSenTreeObjs[senTreeFilePath] = newSenTreeData
 			return newSenTreeData
 	
 	def __init__(self):
-		self.__sens = {}
+		self.__trees = {}
 		self.__fileName = ""
 
 	def __read(self, treeFn):
@@ -50,21 +54,21 @@ class SenTreeData:
 			senId = int(tags[1])
 	
 			senList = []
-			if self.__sens.has_key(wrtId):
-				senList = self.__sens[wrtId]
+			if self.__trees.has_key(wrtId):
+				senList = self.__trees[wrtId]
 			
 			allSens += 1
 			
 			senList.append(sen)
-			self.__sens[wrtId] = senList
+			self.__trees[wrtId] = senList
 
 			if(0):#len(senList) != senId):
-				print("%d, %d ==> %d" % (len(senList), senId, len(self.__sens)))
+				print("%d, %d ==> %d" % (len(senList), senId, len(self.__trees)))
 
 		print("Sentence Data load complted! #Sentences=%d" % allSens)
 
-	def GetSensDict(self):
-			return self.__sens
+	def GetTreeDict(self):
+			return self.__trees
 
 		
 

@@ -204,6 +204,33 @@ class SenTreeReader:
 		# terminal node
 		return (lastTn, terminalNodeList) 
 
+
+
+	def __destroy(self, rootTn):
+		"""
+		Recursively destroy the tree, and return the number of tree node destroyed
+		"""
+
+		childList = rootTn.GetChildList()
+
+		# Del all child first
+		nChild = 0
+		for childNode in childList:
+			nChild += self.__destroy(childNode)
+			
+		# and delete self
+		del rootTn
+		return nChild + 1
+		
+	def Destroy(self, rootTn):
+		"""
+		Recursively destroy the tree
+		"""
+		
+		totalDestroyed = self.__destroy(rootTn)
+		return totalDestroyed
+
+
 		
 
 def main():
@@ -233,6 +260,11 @@ def main():
 		if nLine % 1000 == 0:
 			print("Processed %d lines" % nLine)
 
+		numDestroyed = stReader.Destroy(rt)
+		#numDestroyed = 1
+		print("Destroyed: #node = %d" % numDestroyed)
+
+		print([t.GetContent() for t in terminals])
 		raw_input('Pause ... ')
 
 	stReader.Scan(s)
