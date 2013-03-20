@@ -13,6 +13,7 @@ from Corpus.WritingData import *
 from Corpus.SensData import *
 from Corpus.SubSetCriteria import *
 from Corpus.SenTreeData import *
+from Corpus.DependData import *
 from Util.Log import *
 from Util.ConfigFile import *
 
@@ -113,6 +114,47 @@ class SubsetGetter:
 		lg.WriteLog("%d sentences has been wrote to %s" % (allWrt, outputFn))
 
 		
+	def __outputDependFormat(self, widList, outputFn):
+		"""
+		Output the subset in tree data format
+		"""
+
+		fw = open(outputFn, 'w')
+		
+		if self.SdObj is None:
+			cf = ConfigFile()
+			self.SdObj = SensData()
+			self.SdObj.Read(cf.GetConfig("SENSDATA"))
+
+		dd = DependData.GetInstance()
+		sensDataDict = dd.GetDict()
+		print(len(sensDataDict.keys()))
+		a = raw_input('pause..')
+
+	
+		lg = Log()
+		allSens = 0
+		missing = 0
+		for wid in widList:
+			wid = int(wid)
+			if not sensDataDict.has_key(wid):
+				#print("Key not found: %d" % wid)
+				missing += 1
+				continue
+
+			senList = sensDataDict[wid]
+			senId = 1
+			for sen in senList:
+				fw.write("%d:%d\t%s\n" % (wid, senId, sen))
+				senId += 1
+				allSens += 1
+
+		fw.flush()
+		fw.close()
+
+		lg.PrintWriteLog("%d sentences has been wrote to %s." % (allSens, outputFn))
+		lg.PrintWriteLog("%d writings missed!" % missing)
+
 	def __outputTreeFormat(self, widList, outputFn):
 		"""
 		Output the subset in tree data format
@@ -199,6 +241,8 @@ class SubsetGetter:
 			self.__outputSdFormat(widList, outputPath)
 		elif outFormat == "TREEDATA":
 			self.__outputTreeFormat(widList, outputPath)
+		elif outFormat == "DEPDDATA":
+			self.__outputDependFormat(widList, outputPath)
 		else:
 			print("Wrong outFormat")
 			assert(False)
@@ -284,7 +328,7 @@ def main_Combine7natlvl123SubsetWid():
 		widListAll.extend(widList)
 	
 	#outputPath = cf.GetConfig("DATAFOLDER") + "/2nat_lvl123_42K.sen"
-	outputPath = cf.GetConfig("DATAFOLDER") + "/3nat_lvl123_15K.tree"
+	outputPath = cf.GetConfig("DATAFOLDER") + "/3nat_lvl123_15K.depd"
 	#lg.WriteLog("Output 2 nat lvl 123 42000 each sensdata to " + outputPath)
 	lg.WriteLog("Output 3 nat lvl 123 each treedata to " + outputPath)
 	sg.OutputSubset(widListAll, outputPath)

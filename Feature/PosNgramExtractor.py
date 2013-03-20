@@ -32,6 +32,9 @@ class PosNgramExtractor(FeatureExtractorBase):
 
 		self.__treeReader = SenTreeReader()
 
+	def SetNgramN(self, n):
+		self.__ngramN = n
+
 
 
 	def __getNgramStr(self, listObjs):
@@ -91,7 +94,7 @@ class PosNgramExtractor(FeatureExtractorBase):
 
 		(posSeq, wordSeq) = tr.GetPosWordsSequence(terminalNodes)
 		
-		for n in range(self.__ngramN, 1, -1): # Bog words is special one! so, n to 2
+		for n in range(self.__ngramN, 0, -1): # Bog words is special one! so, n to 2
 			"""
 			Store all ngram, -2, -1, etc
 			"""
@@ -212,6 +215,8 @@ class PosNgramExtractor(FeatureExtractorBase):
 					attrUnsort.add(idx)
 				
 				if len(attrUnsort) <= 0:
+					print("Extract 0 features for data: " + treeStr)
+					featureList.append(attrList) # Only has one attr, i.e. the class id
 					continue
 				
 				# Sort the attribute list, as required for Sparse Data format in Weka

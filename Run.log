@@ -7205,3 +7205,578 @@ Start logging 20130319114128
 from: /home/xj229/test/prodRule_bog.arff
 to: /home/xj229/test/prodRule_bog.arff.libsvm
 [11.43.34]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/test/prodRule_bog.arff -o /home/xj229/test/prodRule_bog.arff.libsvm
+
+
+======================================================
+*********************************************************
+Start logging 20130319154252
+ ../Util/Log.pyc
+
+[15.42.53]	
+
+Processing cn
+[15.42.53]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
+[15.42.53]	
+
+Processing br
+[15.42.53]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
+[15.42.53]	
+
+Processing ru
+[15.42.53]	Read 14362 wid from file /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
+[15.42.53]	Output 3 nat lvl 123 each treedata to /home/xj229/workspace/AcsProj/data/3nat_lvl123_15K.depd
+
+
+======================================================
+*********************************************************
+Start logging 20130319154359
+ ../Util/Log.pyc
+
+[15.44.00]	
+
+Processing cn
+[15.44.00]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
+[15.44.00]	
+
+Processing br
+[15.44.00]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
+[15.44.00]	
+
+Processing ru
+[15.44.00]	Read 14362 wid from file /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
+[15.44.00]	Output 3 nat lvl 123 each treedata to /home/xj229/workspace/AcsProj/data/3nat_lvl123_15K.depd
+[15.44.05]	240168 sentences has been wrote to /home/xj229/workspace/AcsProj/data/3nat_lvl123_15K.depd.
+[15.44.05]	655 writings missed!
+
+
+======================================================
+*********************************************************
+Start logging 20130319154757
+ ../Util/Log.pyc
+
+[15.47.58]	
+
+Processing cn
+[15.47.58]	Read 63795 wid from file /home/xj229/workspace/AcsProj/data/cn_lvl123.widlist
+[15.47.58]	
+
+Processing br
+[15.47.58]	Read 41969 wid from file /home/xj229/workspace/AcsProj/data/br_lvl123.widlist
+[15.47.58]	
+
+Processing ru
+[15.47.58]	Read 14362 wid from file /home/xj229/workspace/AcsProj/data/ru_lvl123.widlist
+[15.47.58]	Output 3 nat lvl 123 each treedata to /home/xj229/workspace/AcsProj/data/3nat_lvl123_15K.depd
+[15.48.24]	240168 sentences has been wrote to /home/xj229/workspace/AcsProj/data/3nat_lvl123_15K.depd.
+[15.48.24]	655 writings missed!
+
+
+======================================================
+*********************************************************
+Start logging 20130319195601
+ ../Util/Log.pyc
+
+
+
+======================================================
+*********************************************************
+Start logging 20130319195708
+ ../Util/Log.pyc
+
+[19.57.08]	Depedancy extractor initlized!
+
+
+======================================================
+*********************************************************
+Start logging 20130319195731
+ ../Util/Log.pyc
+
+[19.57.31]	Depedancy extractor initlized!
+
+
+======================================================
+*********************************************************
+Start logging 20130319195807
+ ../Util/Log.pyc
+
+[19.58.07]	Depedancy extractor initlized!
+
+
+======================================================
+*********************************************************
+Start logging 20130319200040
+ ../Util/Log.pyc
+
+[20.00.40]	Depedancy extractor initlized!
+
+
+======================================================
+*********************************************************
+Start logging 20130319200200
+ ../Util/Log.pyc
+
+[20.02.00]	Depedancy extractor initlized!
+
+
+======================================================
+*********************************************************
+Start logging 20130319200213
+ ../Util/Log.pyc
+
+[20.02.13]	Depedancy extractor initlized!
+[20.02.20]	[DepdExtractor] First pass vocab scan, #vocab = 363
+[20.02.20]	[DepdExtractor] Applied minimum frequency cut-off (#attr) #vocab = 152
+
+
+======================================================
+*********************************************************
+Start logging 20130319200244
+ ../Util/Log.pyc
+
+[20.02.44]	Depedancy extractor initlized!
+[20.02.50]	[DepdExtractor] First pass vocab scan, #vocab = 363
+[20.02.50]	[DepdExtractor] Applied minimum frequency cut-off (#attr) #vocab = 152
+
+
+======================================================
+*********************************************************
+Start logging 20130319200345
+ ../Util/Log.pyc
+
+[20.03.45]	Depedancy extractor initlized!
+[20.03.52]	[DepdExtractor] First pass vocab scan, #vocab = 363
+[20.03.52]	[DepdExtractor] Applied minimum frequency cut-off (#attr) #vocab = 152
+
+
+======================================================
+*********************************************************
+Start logging 20130319200452
+ ../Util/Log.pyc
+
+[20.04.52]	Depedancy extractor initlized!
+[20.04.58]	[DepdExtractor] First pass vocab scan, #vocab = 363
+[20.04.58]	[DepdExtractor] Applied minimum frequency cut-off (#attr) #vocab = 152
+
+
+======================================================
+*********************************************************
+Start logging 20130319200551
+ ../Util/Log.pyc
+
+[20.05.51]	Depedancy extractor initlized!
+[20.05.57]	[DepdExtractor] First pass vocab scan, #vocab = 363
+[20.05.57]	[DepdExtractor] Applied minimum frequency cut-off (#attr) #vocab = 152
+
+
+======================================================
+*********************************************************
+Start logging 20130319200645
+ ../Util/Log.pyc
+
+[20.06.45]	Depedancy extractor initlized!
+[20.06.51]	[DepdExtractor] First pass vocab scan, #vocab = 363
+[20.06.51]	[DepdExtractor] Applied minimum frequency cut-off (#attr) #vocab = 152
+
+
+======================================================
+*********************************************************
+Start logging 20130319200727
+ ../Util/Log.pyc
+
+[20.07.27]	Depedancy extractor initlized!
+[20.07.33]	[DepdExtractor] First pass vocab scan, #vocab = 363
+[20.07.33]	[DepdExtractor] Applied minimum frequency cut-off (#attr) #vocab = 152
+
+
+======================================================
+*********************************************************
+Start logging 20130319202254
+ ../Util/Log.pyc
+
+[20.22.54]	Depedancy extractor initlized!
+[20.23.00]	[DepdExtractor] First pass vocab scan, #vocab = 363
+[20.23.00]	[DepdExtractor] Applied minimum frequency cut-off (#attr) #vocab = 152
+[20.23.11]	Done! Number of instance wrote: 240166
+[20.23.11]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/test/prodRule_bog.arff
+to: /home/xj229/test/prodRule_bog.arff.libsvm
+[20.23.11]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/test/prodRule_bog.arff -o /home/xj229/test/prodRule_bog.arff.libsvm
+
+
+======================================================
+*********************************************************
+Start logging 20130319222923
+ ../Util/Log.pyc
+
+[22.29.23]	Ngram Feature Extractor initialized, n = 3
+[22.29.23]	Start extract ngram feature! n = 1
+[22.29.40]	[NGramFE] First pass vocab scan, #vocab = 0
+[22.29.40]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 0
+[22.29.58]	Done! Number of instance wrote: 240168
+[22.29.58]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/test/nfeout_1gram.arff
+to: /home/xj229/test/nfeout_1gram.arff.libsvm
+[22.29.58]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/test/nfeout_1gram.arff -o /home/xj229/test/nfeout_1gram.arff.libsvm
+
+
+======================================================
+*********************************************************
+Start logging 20130319223343
+ ../Util/Log.pyc
+
+[22.33.43]	Ngram Feature Extractor initialized, n = 3
+[22.33.43]	Start extract ngram feature! n = 1
+[22.34.00]	[NGramFE] First pass vocab scan, #vocab = 0
+[22.34.00]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 0
+
+
+======================================================
+*********************************************************
+Start logging 20130319223557
+ /home/xj229/workspace/AcsProj/Util/Log.py
+
+[22.35.57]	Ngram Feature Extractor initialized, n = 3
+[22.35.57]	Start extract ngram feature! n = 1
+
+
+======================================================
+*********************************************************
+Start logging 20130319223819
+ ../Util/Log.py
+
+[22.38.19]	Ngram Feature Extractor initialized, n = 3
+[22.38.19]	Start extract ngram feature! n = 1
+[22.38.42]	[NGramFE] First pass vocab scan, #vocab = 31044
+[22.38.42]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 31044
+
+
+======================================================
+*********************************************************
+Start logging 20130319224546
+ ../Util/Log.pyc
+
+[22.45.46]	Ngram Feature Extractor initialized, n = 3
+[22.45.46]	Ngram Feature Extractor initialized, n = 3
+[22.45.46]	Start extract ngram feature! n = 1
+
+
+======================================================
+*********************************************************
+Start logging 20130319224556
+ ../Util/Log.pyc
+
+[22.45.56]	Ngram Feature Extractor initialized, n = 3
+[22.45.56]	Ngram Feature Extractor initialized, n = 3
+[22.45.56]	Start extract ngram feature! n = 1
+
+
+======================================================
+*********************************************************
+Start logging 20130319224629
+ ../Util/Log.pyc
+
+[22.46.29]	Ngram Feature Extractor initialized, n = 3
+[22.46.29]	Ngram Feature Extractor initialized, n = 3
+[22.46.29]	Start extract ngram feature! n = 1
+[22.46.44]	[NGramFE] First pass vocab scan, #vocab = 31044
+[22.46.44]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 6591
+[22.47.05]	Start extract ngram feature! n = 2
+[22.47.20]	[NGramFE] First pass vocab scan, #vocab = 168275
+[22.47.20]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 21313
+
+
+======================================================
+*********************************************************
+Start logging 20130319225135
+ ../Util/Log.pyc
+
+[22.51.35]	Ngram Feature Extractor initialized, n = 3
+[22.51.35]	Ngram Feature Extractor initialized, n = 3
+[22.51.35]	Start extract ngram feature! n = 1
+[22.51.50]	[NGramFE] First pass vocab scan, #vocab = 31044
+[22.51.50]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 6591
+[22.52.10]	Start extract ngram feature! n = 2
+[22.52.25]	[NGramFE] First pass vocab scan, #vocab = 168275
+[22.52.25]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 21313
+[22.53.06]	Done! Number of instance wrote: 1561156
+[22.53.06]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/test/12gram.arff
+to: /home/xj229/test/12gram.arff.libsvm
+[22.53.06]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/test/12gram.arff -o /home/xj229/test/12gram.arff.libsvm
+
+
+======================================================
+*********************************************************
+Start logging 20130319225659
+ /home/xj229/workspace/AcsProj/Util/Log.py
+
+[22.56.59]	Ngram Feature Extractor initialized, n = 3
+[22.56.59]	Ngram Feature Extractor initialized, n = 3
+[22.56.59]	Start extract ngram feature! n = 1
+
+
+======================================================
+*********************************************************
+Start logging 20130319225729
+ /home/xj229/workspace/AcsProj/Util/Log.pyc
+
+[22.57.29]	Ngram Feature Extractor initialized, n = 3
+[22.57.29]	Ngram Feature Extractor initialized, n = 3
+[22.57.29]	Start extract ngram feature! n = 1
+[22.57.30]	[NGramFE] First pass vocab scan, #vocab = 817
+[22.57.30]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 190
+[22.57.34]	Start extract ngram feature! n = 2
+[22.57.34]	[NGramFE] First pass vocab scan, #vocab = 2000
+[22.57.34]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 249
+
+
+======================================================
+*********************************************************
+Start logging 20130319230326
+ ../Util/Log.py
+
+[23.03.26]	Ngram Feature Extractor initialized, n = 3
+[23.03.26]	Ngram Feature Extractor initialized, n = 3
+[23.03.26]	Start extract ngram feature! n = 1
+[23.03.42]	[NGramFE] First pass vocab scan, #vocab = 31044
+[23.03.42]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 6591
+[23.04.01]	Start extract ngram feature! n = 2
+[23.04.16]	[NGramFE] First pass vocab scan, #vocab = 168275
+[23.04.16]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 21313
+[23.04.46]	Done! Number of instance wrote: 240154
+[23.04.46]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/test/12gram.arff
+to: /home/xj229/test/12gram.arff.libsvm
+[23.04.46]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/test/12gram.arff -o /home/xj229/test/12gram.arff.libsvm
+
+
+======================================================
+*********************************************************
+Start logging 20130320003431
+ ../Util/Log.pyc
+
+[00.34.31]	Ngram Feature Extractor initialized, n = 3
+[00.34.31]	Ngram Feature Extractor initialized, n = 3
+[00.34.31]	Start extract ngram feature! n = 1
+[00.34.46]	[NGramFE] First pass vocab scan, #vocab = 31044
+[00.34.46]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 6591
+[00.35.05]	POS Ngram Feature Extractor initialized, n = 2
+[00.35.43]	[PosNGramFE] First pass vocab scan, #vocab = 1344
+[00.35.43]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 1117
+
+
+======================================================
+*********************************************************
+Start logging 20130320003849
+ ../Util/Log.pyc
+
+[00.38.49]	Ngram Feature Extractor initialized, n = 3
+[00.38.49]	Ngram Feature Extractor initialized, n = 3
+[00.38.49]	Start extract ngram feature! n = 1
+[00.39.05]	[NGramFE] First pass vocab scan, #vocab = 31044
+[00.39.05]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 6591
+[00.39.23]	POS Ngram Feature Extractor initialized, n = 2
+[00.40.01]	[PosNGramFE] First pass vocab scan, #vocab = 1344
+[00.40.01]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 1117
+
+
+======================================================
+*********************************************************
+Start logging 20130320004128
+ ../Util/Log.pyc
+
+[00.41.28]	Ngram Feature Extractor initialized, n = 3
+[00.41.28]	Ngram Feature Extractor initialized, n = 3
+[00.41.29]	POS Ngram Feature Extractor initialized, n = 2
+[00.42.09]	[PosNGramFE] First pass vocab scan, #vocab = 1344
+[00.42.09]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 1117
+
+
+======================================================
+*********************************************************
+Start logging 20130320004605
+ ../Util/Log.pyc
+
+[00.46.05]	Ngram Feature Extractor initialized, n = 3
+[00.46.05]	Ngram Feature Extractor initialized, n = 3
+[00.46.06]	ProdRule Feature Extractor initialized, n = 2
+[00.46.46]	[ProdRuleFe] First pass vocab scan, #vocab = 9362
+[00.46.46]	[ProdRuleFe] Applied minimum frequency cut-off (#attr) #vocab = 3001
+
+
+======================================================
+*********************************************************
+Start logging 20130320005040
+ ../Util/Log.pyc
+
+[00.50.40]	Ngram Feature Extractor initialized, n = 3
+[00.50.40]	Ngram Feature Extractor initialized, n = 3
+[00.50.40]	Start extract ngram feature! n = 1
+[00.50.55]	[NGramFE] First pass vocab scan, #vocab = 31044
+[00.50.55]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 6591
+[00.51.12]	Start extract ngram feature! n = 2
+[00.51.27]	[NGramFE] First pass vocab scan, #vocab = 168275
+[00.51.27]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 21313
+[00.51.46]	Done! Number of instance wrote: 240154
+[00.51.46]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/data/3nat_lvl123_15K.1gram.arff
+to: /home/xj229/data/3nat_lvl123_15K.1gram.arff.libsvm
+[00.51.46]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.1gram.arff -o /home/xj229/data/3nat_lvl123_15K.1gram.arff.libsvm
+[00.51.58]	Done! Number of instance wrote: 238733
+[00.51.58]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/data/3nat_lvl123_15K.2gram.arff
+to: /home/xj229/data/3nat_lvl123_15K.2gram.arff.libsvm
+[00.51.58]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.2gram.arff -o /home/xj229/data/3nat_lvl123_15K.2gram.arff.libsvm
+[00.52.38]	Done! Number of instance wrote: 240154
+[00.52.38]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/data/3nat_lvl123_15K.12gram.arff
+to: /home/xj229/data/3nat_lvl123_15K.12gram.arff.libsvm
+[00.52.38]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.12gram.arff -o /home/xj229/data/3nat_lvl123_15K.12gram.arff.libsvm
+[00.53.37]	POS Ngram Feature Extractor initialized, n = 2
+[00.54.16]	[PosNGramFE] First pass vocab scan, #vocab = 1344
+[00.54.16]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 1117
+[00.54.59]	Done! Number of instance wrote: 240168
+[00.54.59]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/data/3nat_lvl123_15K.POS.arff
+to: /home/xj229/data/3nat_lvl123_15K.POS.arff.libsvm
+[00.54.59]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.POS.arff -o /home/xj229/data/3nat_lvl123_15K.POS.arff.libsvm
+[00.55.08]	Done! Number of instance wrote: 240168
+[00.55.08]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/data/3nat_lvl123_15K.1gram_POS.arff
+to: /home/xj229/data/3nat_lvl123_15K.1gram_POS.arff.libsvm
+[00.55.08]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.1gram_POS.arff -o /home/xj229/data/3nat_lvl123_15K.1gram_POS.arff.libsvm
+[00.56.09]	ProdRule Feature Extractor initialized, n = 2
+[00.56.48]	[ProdRuleFe] First pass vocab scan, #vocab = 9362
+[00.56.48]	[ProdRuleFe] Applied minimum frequency cut-off (#attr) #vocab = 4178
+[00.57.31]	Done! Number of instance wrote: 240006
+[00.57.31]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/data/3nat_lvl123_15K.Pr.arff
+to: /home/xj229/data/3nat_lvl123_15K.Pr.arff.libsvm
+[00.57.31]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.Pr.arff -o /home/xj229/data/3nat_lvl123_15K.Pr.arff.libsvm
+[00.57.42]	Done! Number of instance wrote: 240167
+[00.57.42]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/data/3nat_lvl123_15K.1gram_Pr.arff
+to: /home/xj229/data/3nat_lvl123_15K.1gram_Pr.arff.libsvm
+[00.57.42]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.1gram_Pr.arff -o /home/xj229/data/3nat_lvl123_15K.1gram_Pr.arff.libsvm
+
+
+======================================================
+*********************************************************
+Start logging 20130320112301
+ ../Util/Log.pyc
+
+[11.23.01]	POS Ngram Feature Extractor initialized, n = 2
+[11.23.34]	[PosNGramFE] First pass vocab scan, #vocab = 0
+[11.23.34]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 0
+[11.24.09]	Done! Number of instance wrote: 0
+[11.24.09]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/data/3nat_lvl123_15K.POS1.arff
+to: /home/xj229/data/3nat_lvl123_15K.POS1.arff.libsvm
+[11.24.09]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.POS1.arff -o /home/xj229/data/3nat_lvl123_15K.POS1.arff.libsvm
+
+
+======================================================
+*********************************************************
+Start logging 20130320112441
+ ../Util/Log.pyc
+
+[11.24.41]	POS Ngram Feature Extractor initialized, n = 2
+[11.25.19]	[PosNGramFE] First pass vocab scan, #vocab = 46
+[11.25.19]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 46
+[11.26.01]	Done! Number of instance wrote: 240168
+[11.26.01]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/data/3nat_lvl123_15K.POS1.arff
+to: /home/xj229/data/3nat_lvl123_15K.POS1.arff.libsvm
+[11.26.01]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.POS1.arff -o /home/xj229/data/3nat_lvl123_15K.POS1.arff.libsvm
+
+
+======================================================
+*********************************************************
+Start logging 20130320112650
+ ../Util/Log.pyc
+
+[11.26.50]	Ngram Feature Extractor initialized, n = 3
+
+
+======================================================
+*********************************************************
+Start logging 20130320112719
+ ../Util/Log.pyc
+
+[11.27.19]	Ngram Feature Extractor initialized, n = 3
+[11.27.19]	Start extract ngram feature! n = 1
+[11.27.34]	[NGramFE] First pass vocab scan, #vocab = 31044
+[11.27.34]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 6591
+[11.27.52]	POS Ngram Feature Extractor initialized, n = 2
+[11.28.28]	[PosNGramFE] First pass vocab scan, #vocab = 46
+[11.28.28]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 46
+[11.29.10]	Done! Number of instance wrote: 240168
+[11.29.10]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/data/3nat_lvl123_15K.POS1.arff
+to: /home/xj229/data/3nat_lvl123_15K.POS1.arff.libsvm
+[11.29.10]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.POS1.arff -o /home/xj229/data/3nat_lvl123_15K.POS1.arff.libsvm
+[11.29.17]	Done! Number of instance wrote: 240168
+[11.29.17]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/data/3nat_lvl123_15K.1gram_POS1.arff
+to: /home/xj229/data/3nat_lvl123_15K.1gram_POS1.arff.libsvm
+[11.29.17]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.1gram_POS1.arff -o /home/xj229/data/3nat_lvl123_15K.1gram_POS1.arff.libsvm
+[11.29.18]	POS Ngram Feature Extractor initialized, n = 2
+[11.29.56]	[PosNGramFE] First pass vocab scan, #vocab = 1344
+[11.29.56]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 1117
+[11.30.40]	Done! Number of instance wrote: 240168
+[11.30.40]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/data/3nat_lvl123_15K.POS2.arff
+to: /home/xj229/data/3nat_lvl123_15K.POS2.arff.libsvm
+[11.30.40]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.POS2.arff -o /home/xj229/data/3nat_lvl123_15K.POS2.arff.libsvm
+[11.30.49]	Done! Number of instance wrote: 240168
+[11.30.49]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/data/3nat_lvl123_15K.1gram_POS2.arff
+to: /home/xj229/data/3nat_lvl123_15K.1gram_POS2.arff.libsvm
+[11.30.49]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.1gram_POS2.arff -o /home/xj229/data/3nat_lvl123_15K.1gram_POS2.arff.libsvm
+[11.30.55]	Done! Number of instance wrote: 240168
+[11.30.55]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/data/3nat_lvl123_15K.POS12.arff
+to: /home/xj229/data/3nat_lvl123_15K.POS12.arff.libsvm
+[11.30.55]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.POS12.arff -o /home/xj229/data/3nat_lvl123_15K.POS12.arff.libsvm
+
+
+======================================================
+*********************************************************
+Start logging 20130320115211
+ ../Util/Log.pyc
+
+[11.52.11]	Ngram Feature Extractor initialized, n = 3
+[11.52.11]	Start extract ngram feature! n = 1
+[11.52.27]	[NGramFE] First pass vocab scan, #vocab = 31044
+[11.52.27]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 6591
+[11.52.44]	POS Ngram Feature Extractor initialized, n = 2
+[11.53.21]	[PosNGramFE] First pass vocab scan, #vocab = 46
+[11.53.21]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 46
+[11.54.03]	Done! Number of instance wrote: 240168
+[11.54.03]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/data/3nat_lvl123_15K.POS1.arff
+to: /home/xj229/data/3nat_lvl123_15K.POS1.arff.libsvm
+[11.54.03]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.POS1.arff -o /home/xj229/data/3nat_lvl123_15K.POS1.arff.libsvm
+[11.54.10]	Done! Number of instance wrote: 240168
+[11.54.10]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/data/3nat_lvl123_15K.1gram_POS1.arff
+to: /home/xj229/data/3nat_lvl123_15K.1gram_POS1.arff.libsvm
+[11.54.10]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.1gram_POS1.arff -o /home/xj229/data/3nat_lvl123_15K.1gram_POS1.arff.libsvm
+[11.54.28]	POS Ngram Feature Extractor initialized, n = 2
+[11.55.07]	[PosNGramFE] First pass vocab scan, #vocab = 1344
+[11.55.07]	[NGramFE] Applied minimum frequency cut-off (#attr) #vocab = 1117
+[11.55.50]	Done! Number of instance wrote: 240168
+[11.55.50]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/data/3nat_lvl123_15K.POS2.arff
+to: /home/xj229/data/3nat_lvl123_15K.POS2.arff.libsvm
+[11.55.50]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.POS2.arff -o /home/xj229/data/3nat_lvl123_15K.POS2.arff.libsvm
+[11.55.59]	Done! Number of instance wrote: 240168
+[11.55.59]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/data/3nat_lvl123_15K.1gram_POS2.arff
+to: /home/xj229/data/3nat_lvl123_15K.1gram_POS2.arff.libsvm
+[11.55.59]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.1gram_POS2.arff -o /home/xj229/data/3nat_lvl123_15K.1gram_POS2.arff.libsvm
+[11.56.25]	Done! Number of instance wrote: 240168
+[11.56.25]	Start converting from ARFF to LIBSVM format:
+from: /home/xj229/data/3nat_lvl123_15K.POS12.arff
+to: /home/xj229/data/3nat_lvl123_15K.POS12.arff.libsvm
+[11.56.25]	java -Xmx5000M -cp /home/xj229/tools/weka/weka.jar weka.core.converters.LibSVMSaver -c first -i /home/xj229/data/3nat_lvl123_15K.POS12.arff -o /home/xj229/data/3nat_lvl123_15K.POS12.arff.libsvm

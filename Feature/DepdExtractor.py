@@ -3,70 +3,45 @@ sys.path.append('..')
 
 from FeatureExtractorBase import *
 
-from Corpus.SenTreeReader import *
-from Corpus.SenTreeData import *
+from Corpus.DependData import *
 from Corpus.WritingData import *
 
 from Util.ConfigFile import *
 from Util.Log import *
 
-class ProdRuleExtractor(FeatureExtractorBase):
+class DepdExtractor(FeatureExtractorBase):
 	"""
-	Extract bag-of-production-rule fature
+	Extract bag-of-dependency fature
 	"""
 
-	Description = "ProdRuleExtractor"
+	Description = "DepdExtractor"
 
 	
 	def __init__(self):
 		cf = ConfigFile()
-		self.__ngramN = int(cf.GetConfig("PRODRULE_N"))
 
 		lg = Log()
-		lg.PrintWriteLog("ProdRule Feature Extractor initialized, n = %d" \
-											% self.__ngramN)
+		lg.PrintWriteLog("Depedancy extractor initlized!")
 
-		self.__nGramMinFreq = int(cf.GetConfig("PRODRULE_MINFREQ"))
+		self.__minFreq = int(cf.GetConfig("DEPDFE_MINFREQ"))
 
-		self.__useExactNgram = True # Extract only exact the N ngram
-																# will not continue extract N-1, N-2 ... etc
+		self.__depdData = None
 
-		self.__treeReader = SenTreeReader()
+	def SetDependDataObj(self, dd):
+		self.__depdData = dd
 
-		
-	def __getNgramStr(self, listObjs):
+	
+	def __processSingleInstance(self, dataStr):
 		"""
-		Concatenate all elements in list to a string
-		"""
-		l = list(listObjs)
-		strJoin = '|'
-		return strJoin.join([str(s) for s in l])
-
-	def __processToken(self, tok):
-		"""
-		Processing token, for example, substitute , with _COMMA_
-		"""
-		
-		tok = tok.replace(',', '_COMMA_')
-		tok = tok.replace("''", '_QUOTE*2_')
-
-		return tok
-		
-	def __processSingleInstance(self, treeStr):
-		"""
-		Extract ngram feature for single treeStr
+		Extract ngram feature for single dataStr
 		"""
 
-		tr = self.__treeReader
-		(rootNode, terminalNodes) = tr.Scan(treeStr)
-		rsltProdRuleList = [self.__processToken(r) \
-												for r in tr.GetProdRuleList(rootNode)]
+		rsltList = [self.__depdData.GetDependName(d) \
+							  for d in self.__depdData.SplitDenpStr(dataStr)]
 
-		tr.Destroy(rootNode)
+		return rsltList
 
-		return rsltProdRuleList
-
-	def ExtractFeatureOnCorpus(self, treeDict):
+	def ExtractFeatureOnCorpus(self, dataDict):
 		"""
 		Extract POS ngram feature from tree dict
 		"""
@@ -78,7 +53,7 @@ class ProdRuleExtractor(FeatureExtractorBase):
 		classSet = set()
 		classColStr = "Nationality"
 		numWrt = 0
-		for wrtId in treeDict.keys():
+		for wrtId in dataDict.keys():
 			# wrtId (int)
 			classVal = wd.GetValueByWid(wrtId, classColStr) # classId, i.e. nationality
 			classVal = classVal.lower()
@@ -88,10 +63,10 @@ class ProdRuleExtractor(FeatureExtractorBase):
 			if numWrt % 500 == 0:
 				print("Processed num writing = %d" % numWrt)
 
-			treeList = treeDict[wrtId]
+			dataList = dataDict[wrtId]
 
-			for treeStr in treeList:
-				fes = self.__processSingleInstance(treeStr) # features from this tree
+			for dataStr in dataList:
+				fes = self.__processSingleInstance(dataStr) # features from this tree
 
 				for fe in fes:
 					if vocab.has_key(fe):
@@ -101,19 +76,19 @@ class ProdRuleExtractor(FeatureExtractorBase):
 
 
 		lg = Log()
-		msg = "[ProdRuleFe] " + "First pass vocab scan, #vocab = %d" % len(vocab)
+		msg = "[DepdExtractor] " + "First pass vocab scan, #vocab = %d" % len(vocab)
 		lg.PrintWriteLog(msg)
 
 
 		# Step 2. Sort vocab, and doing min frequency cut-off
 
-		if self.__nGramMinFreq > 1:
+		if self.__minFreq > 1:
 			for key in vocab.keys():
 				freq = vocab[key]
-				if freq < self.__nGramMinFreq:
+				if freq < self.__minFreq:
 					del vocab[key]
 
-		msg = "[ProdRuleFe] " + \
+		msg = "[DepdExtractor] " + \
 					"Applied minimum frequency cut-off (#attr) #vocab = %d" % len(vocab)
 		print(msg)
 		lg.WriteLog(msg)
@@ -135,43 +110,47 @@ class ProdRuleExtractor(FeatureExtractorBase):
 		nSen = 0
 		featureList = []
 
-		for wrtId in treeDict.keys():
+		for wrtId in dataDict.keys():
 			# wrtId (int)
 			classVal = wd.GetValueByWid(wrtId, classColStr) # classId, nationality
 
 			if classVal is None:
 				continue
 
-			treeList = treeDict[wrtId]
-			for treeStr in treeList:
+			dataList = dataDict[wrtId]
+			for dataStr in dataList:
 				# process each sentence
 
 				attrList = []
 				attrList.append('%d %s' % (0, classVal)) # Add class id first
 
-				fes = self.__processSingleInstance(treeStr) # features from this tree
+				fes = self.__processSingleInstance(dataStr) # features from this tree
 
-				attrUnsort = set() # Nominal feature!!!
+				# TODO This is numeric version!!
+				feDict = {}
 				
 				for fe in fes:
 					if not attrIdx.has_key(fe):
 						continue
 
 					idx = attrIdx[fe] + attrIdxOffset
-					attrUnsort.add(idx)
-				
-				if len(attrUnsort) <= 0: # TODO maybe reserve empty instace for combination
-					print("Extract 0 features for data: " + treeStr)
+					if feDict.has_key(idx):
+						feDict[idx] += 1.0
+					else:
+						feDict[idx] = 1.0
+
+				if len(feDict) <= 0: # TODO maybe reserve empty instace for combination
+					print("Extract 0 features for data: " + dataStr)
 					featureList.append(attrList) # Only has one attr, i.e. the class id
 					continue
 				
 				# Sort the attribute list, as required for Sparse Data format in Weka
-				attrSort = list(attrUnsort)
-				attrSort.sort()
+				sortedFeDict = sorted(feDict.iteritems(), key = operator.itemgetter(0))
+				
 				
 				# Write up atrribute list
-				for idx in attrSort:
-					attrList.append('%d %d' % (idx, 1))  # 1, means 'norminal'
+				for (idx,freq) in sortedFeDict:
+					attrList.append('%d %.1f' % (idx, freq))  # 1, means 'norminal'
 
 				# Final step, adding to feautreList to return
 				featureList.append(attrList)
@@ -180,15 +159,19 @@ class ProdRuleExtractor(FeatureExtractorBase):
 
 def main_test():
 
-	td = SenTreeData.GetInstance()
+	td = DependData.GetInstance()
 	#td = SenTreeData.GetInstance('/home/xj229/data/test_1000line.tree')
-	treeDict = td.GetTreeDict()
+	treeDict = td.GetDict()
 
-	nfe = ProdRuleExtractor()
+	nfe = DepdExtractor()
+	nfe.SetDependDataObj(td)
 	(clsSet, attrList, feList) = nfe.ExtractFeatureOnCorpus(treeDict)
 
+	print attrList[1:10]
+	print feList[1:10]
+
 	arffPath = '/home/xj229/test/prodRule_bog.arff'
-	nfe.OutputArffFile(arffPath, clsSet, attrList, feList)
+	nfe.OutputArffFile(arffPath, clsSet, attrList, feList, feType = 'numeric')
 
 	libsvmPath = arffPath + ".libsvm"
 	nfe.ConvertArff2Libsvm(arffPath, libsvmPath)

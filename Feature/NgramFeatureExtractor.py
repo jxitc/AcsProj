@@ -48,6 +48,9 @@ class NgramFeatureExtractor(FeatureExtractorBase):
 
 		#super(NgramFeatureExtractor, self).__init__()
 
+	def SetNgramN(self, n):
+		self.__ngramN = n
+
 	def __getNgramStr(self, listObjs):
 		"""
 		Concatenate all elements in list to a string
@@ -98,7 +101,7 @@ class NgramFeatureExtractor(FeatureExtractorBase):
 				toks.append(tok)
 		
 		dictNgram = {}
-		for n in range(self.__ngramN, 1, -1): # Bog words is special one! so, n to 2
+		for n in range(self.__ngramN, 0, -1): 
 			"""
 			Store all ngram, -2, -1, etc
 			"""
@@ -184,6 +187,13 @@ class NgramFeatureExtractor(FeatureExtractorBase):
 		
 		attrIdx = {} # Index for attributes, for later looking-up
 		idx = 0
+		
+		
+	#	iVocab = 0
+	#	
+	#	while iVocab < len(sortedVocab):
+	#		(word, freq) = sortedVocab[iVocab]
+	#		sortedVocabp
 		for (word, freq) in sortedVocab:
 			attrIdx[word] = idx
 			idx += 1
@@ -227,6 +237,8 @@ class NgramFeatureExtractor(FeatureExtractorBase):
 					attrUnsort.add(idx)
 				
 				if len(attrUnsort) <= 0:
+					print("Extract 0 features for data: " + sen)
+					featureList.append(attrList) # Only has one attr, i.e. the class id
 					continue
 				
 				attrSort = list(attrUnsort)
@@ -246,9 +258,10 @@ def main_test():
 	sensDict = sd.GetSensDict()
 
 	nfe = NgramFeatureExtractor()
+	nfe.SetNgramN(1)
 	(clsSet, attrList, feList) = nfe.ExtractFeature(sensDict)
 
-	arffPath = '/home/xj229/test/nfeout_3gram.arff'
+	arffPath = '/home/xj229/test/nfeout_1gram.arff'
 	nfe.OutputArffFile(arffPath, clsSet, attrList, feList)
 
 	libsvmPath = arffPath + ".libsvm"

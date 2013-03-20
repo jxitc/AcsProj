@@ -47,7 +47,6 @@ class ArffBuilder():
 		self.__outFw = open(outFileName, 'w')
 		print("Start writing .arff file to %s" % outFileName)
 
-
 	def __isValidType(self, type):
 		return self.__isListContain(self.__validTypes, type)
 
@@ -105,8 +104,6 @@ class ArffBuilder():
 		outStr = outStr[0:-2]
 		self.__outFw.write(outStr + "}\n")
 
-
-		
 
 	def WriteArffHeader(self):
 		assert(self.__attrbiutes != [] and self.__classes != [])
